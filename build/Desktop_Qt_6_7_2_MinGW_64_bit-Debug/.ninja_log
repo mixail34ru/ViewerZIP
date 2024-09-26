@@ -1,0 +1,19 @@
+# ninja log v6
+39	920	7489975774039996	C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/ViewerZIP_autogen/timestamp	c81d9ff34756be42
+39	920	7489975774039996	ViewerZIP_autogen/mocs_compilation.cpp	c81d9ff34756be42
+39	920	7489975774039996	ViewerZIP_autogen/timestamp	c81d9ff34756be42
+4180	4459	7489975807585193	ViewerZIP.exe	d5b3e4cf79339be9
+39	920	7489975774039996	C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/ViewerZIP_autogen/mocs_compilation.cpp	c81d9ff34756be42
+929	4180	7489975775079403	CMakeFiles/ViewerZIP.dir/mainwindow.cpp.obj	4087772b724c4f1e
+922	4090	7489975774999444	CMakeFiles/ViewerZIP.dir/ViewerZIP_autogen/mocs_compilation.cpp.obj	88e3dec49bdc6bbf
+925	4071	7489975775029447	CMakeFiles/ViewerZIP.dir/main.cpp.obj	42fcb6a362e66fe9
+822	3444	7489974995201112	CMakeFiles/ViewerZIP.dir/Model.cpp.obj	79a7e8b99d62b00e
+60	1245	7490740610569619	ViewerZIP_autogen/timestamp	c81d9ff34756be42
+60	1245	7490740610569619	ViewerZIP_autogen/mocs_compilation.cpp	c81d9ff34756be42
+60	1245	7490740610569619	C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/ViewerZIP_autogen/timestamp	c81d9ff34756be42
+60	1245	7490740610569619	C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/ViewerZIP_autogen/mocs_compilation.cpp	c81d9ff34756be42
+1251	5099	7490740611728975	CMakeFiles/ViewerZIP.dir/source/main.cpp.obj	103ce9aedee4774d
+1256	5101	7490740611778935	CMakeFiles/ViewerZIP.dir/source/MainWindow.cpp.obj	93f09220d75dd42
+1247	5118	7490740611688994	CMakeFiles/ViewerZIP.dir/ViewerZIP_autogen/mocs_compilation.cpp.obj	88e3dec49bdc6bbf
+1261	5146	7490740611838889	CMakeFiles/ViewerZIP.dir/source/Model.cpp.obj	3e570887a7d658db
+5146	5735	7490740650676481	ViewerZIP.exe	d359791d04c31a1b
