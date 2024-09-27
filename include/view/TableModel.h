@@ -1,16 +1,18 @@
-#ifndef MODEL_H
-#define MODEL_H
+#ifndef TABLEMODEL_H
+#define TABLEMODEL_H
 
 #include <QAbstractTableModel>
 
-class Model : public QAbstractTableModel
+#include "../model/ZipInfoStorageViewDelegate.h"
+
+class TableModel : public QAbstractTableModel
 {
     Q_OBJECT
 
 public:
 
-    Model(QObject *parent);
-    ~Model();
+    TableModel(ZipInfoStorageViewDelegate* storage, QObject *parent);
+    ~TableModel();
 
     bool hasIndex(
         int row,
@@ -47,12 +49,6 @@ public:
         const QModelIndex &index
     ) const override;
 
-    virtual bool setData(
-        const QModelIndex &index,
-        const QVariant &value,
-        int role
-    ) override;
-
     bool insertRow(int row, const QModelIndex &parent = QModelIndex());
 
     virtual bool insertRows(
@@ -68,12 +64,15 @@ public:
     ) override;
 
 protected:
-
     std::vector<QString> _headers;
-    std::vector<std::vector<QVariant>> _data;
+    ZipInfoStorageViewDelegate* _storage;
 
     void _headerFormer();
-    void _dataFormer();
-};
 
-#endif // MODEL_H
+private slots:
+    void update_data();
+
+}; //class TableModel
+//-------------------------------------------------------------------
+
+#endif // TABLEMODEL_H

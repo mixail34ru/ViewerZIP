@@ -24,8 +24,10 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         ${PROJECT_SOURCES}
 
 
-        include/MainWindow.h include/Model.h
-        source/main.cpp source/MainWindow.cpp source/Model.cpp
+
+        source/main.cpp
+        include/model/ZipInfoStorage.h include/model/ZipInfoStorageViewDelegate.h include/view/CentralWidget.h include/view/MainWindow.h include/view/TableModel.h include/view/TableView.h
+        source/model/ZipInfoStorage.cpp source/model/ZipInfoStorageViewDelegate.cpp source/view/CentralWidget.cpp source/view/MainWindow.cpp source/view/TableModel.cpp source/view/TableView.cpp
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET ViewerZIP APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

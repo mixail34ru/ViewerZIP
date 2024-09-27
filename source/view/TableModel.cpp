@@ -1,17 +1,16 @@
-#include "../include/Model.h"
+#include "../../include/view/TableModel.h"
 
-Model::Model(QObject *parent)
-    : QAbstractTableModel(parent)
+TableModel::TableModel(ZipInfoStorageViewDelegate* storage, QObject *parent)
+    : _storage(storage), QAbstractTableModel(parent)
 {
     _headerFormer();
-    _dataFormer();
 }
 
-Model::~Model()
+TableModel::~TableModel()
 {
 }
 
-bool Model::hasIndex(
+bool TableModel::hasIndex(
     int row, int column, const QModelIndex & parent) const
 {
     if (row < 0 || column < 0) return false;
@@ -19,16 +18,16 @@ bool Model::hasIndex(
     return row < rowCount(parent) && column < columnCount(parent);
 }
 
-int Model::columnCount(const QModelIndex & parent) const {
+int TableModel::columnCount(const QModelIndex & parent) const {
     Q_UNUSED(parent);
-    return _headers.size();
+    return _storage->size();
 }
 
-int Model::rowCount(const QModelIndex & parent) const {
-    return _data.size();
+int TableModel::rowCount(const QModelIndex & parent) const {
+    return _storage->size();
 }
 
-QVariant Model::data(const QModelIndex & index, int role) const {
+QVariant TableModel::data(const QModelIndex & index, int role) const {
     if (role == Qt::DisplayRole) {
         int row = index.row();
         int col = index.column();
@@ -37,12 +36,17 @@ QVariant Model::data(const QModelIndex & index, int role) const {
             return QVariant();
         }
 
-        return _data.at(row).at(col);
+        switch(col) {
+        case 0: return _storage->get_absolute_path(col);
+        case 1: return _storage->get_decompress_size(col);
+        case 2: return _storage->get_compressed_size(col);
+        default: return QVariant();
+        }
     }
     return QVariant();
 }
 
-QVariant Model::headerData
+QVariant TableModel::headerData
     (int section, Qt::Orientation orientation, int role) const
 {
     if ((section < 0)
@@ -63,68 +67,46 @@ QVariant Model::headerData
     return QAbstractTableModel::headerData(section, orientation, role);
 }
 
-QModelIndex Model::index(
+QModelIndex TableModel::index(
     int row, int column, const QModelIndex & parent) const
 {
     return hasIndex(row, column, parent) ? createIndex(row, column) : QModelIndex();
 }
 
-QModelIndex Model::parent(const QModelIndex & index) const
+QModelIndex TableModel::parent(const QModelIndex & index) const
 {
     Q_UNUSED(index);
     return QModelIndex();
 }
 
-bool Model::setData(
-    const QModelIndex & index, const QVariant & value, int role)
-{
-    int row = index.row();
-    int col = index.column();
-
-    if (row < 0 || row >= rowCount() || col < 0 || col >= columnCount()) {
-        return false;
-    }
-
-    if (role == Qt::DisplayRole) {
-        _data.at(row).at(col) = value;
-        return true;
-    }
-
-    return false;
-}
-
-bool Model::insertRow(int row, const QModelIndex &parent) {
+bool TableModel::insertRow(int row, const QModelIndex &parent) {
     return insertRows(row, 1, parent);
 }
 
-bool Model::insertRows(
+bool TableModel::insertRows(
     int row, int count, const QModelIndex &parent)
 {
     if (row < 0 || row > rowCount() || count < 0) return false;
 
     beginInsertRows(parent, row, row + count - 1);
-    for (int i = 0; i < count; ++i) {
-        _data.push_back(std::vector<QVariant>({ tr(""), tr(""), tr("") }));
-    }
     endInsertRows();
 
     return true;
 }
 
-bool Model::removeRow(int row, const QModelIndex &parent) {
+bool TableModel::removeRow(int row, const QModelIndex &parent) {
     return removeRows(row, 1, parent);
 }
 
-bool Model::removeRows(
+bool TableModel::removeRows(
     int row, int count, const QModelIndex &parent)
 {
     if (row < 0 || row > rowCount() || count < 0) return false;
 
-    if ((row + count) >= _data.size())
-        count = _data.size();
+    if ((row + count) >= _storage->size())
+         count = _storage->size();
 
     beginRemoveRows(QModelIndex(), row, row + count - 1);
-    _data.erase(_data.begin() + row, _data.begin() + row + count - 1);
     endRemoveRows();
 
     return true;
@@ -132,25 +114,11 @@ bool Model::removeRows(
 
 /* protected: */
 
-void Model::_headerFormer() {
+void TableModel::_headerFormer() {
     _headers =
     {
         tr("Полный путь"),
         tr("Расжатый размер"),
         tr("Сжатый размер")
     };
-}
-
-void Model::_dataFormer() {
-    std::vector<QVariant> list1{
-        tr("absolute_path_1"),
-        tr("full_size_1"),
-        tr("compressed_size_1")
-    }; _data.push_back(list1);
-
-    std::vector<QVariant> list2{
-        tr("absolute_path_2"),
-        tr("full_size_2"),
-        tr("compressed_size_2")
-    }; _data.push_back(list2);
 }

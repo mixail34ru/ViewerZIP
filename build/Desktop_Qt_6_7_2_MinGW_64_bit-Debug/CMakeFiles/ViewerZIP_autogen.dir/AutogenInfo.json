@@ -297,15 +297,39 @@
 	"HEADERS" : 
 	[
 		[
-			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/include/MainWindow.h",
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/include/model/ZipInfoStorage.h",
 			"MU",
-			"6YEA5652QU/moc_MainWindow.cpp",
+			"Q6AU6LSD6J/moc_ZipInfoStorage.cpp",
 			null
 		],
 		[
-			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/include/Model.h",
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/include/model/ZipInfoStorageViewDelegate.h",
 			"MU",
-			"6YEA5652QU/moc_Model.cpp",
+			"Q6AU6LSD6J/moc_ZipInfoStorageViewDelegate.cpp",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/include/view/CentralWidget.h",
+			"MU",
+			"75UR3EJMK3/moc_CentralWidget.cpp",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/include/view/MainWindow.h",
+			"MU",
+			"75UR3EJMK3/moc_MainWindow.cpp",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/include/view/TableModel.h",
+			"MU",
+			"75UR3EJMK3/moc_TableModel.cpp",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/include/view/TableView.h",
+			"MU",
+			"75UR3EJMK3/moc_TableView.cpp",
 			null
 		]
 	],
@@ -381,17 +405,37 @@
 	"SOURCES" : 
 	[
 		[
-			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/source/MainWindow.cpp",
-			"MU",
-			null
-		],
-		[
-			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/source/Model.cpp",
-			"MU",
-			null
-		],
-		[
 			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/source/main.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/source/model/ZipInfoStorage.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/source/model/ZipInfoStorageViewDelegate.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/source/view/CentralWidget.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/source/view/MainWindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/source/view/TableModel.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/source/view/TableView.cpp",
 			"MU",
 			null
 		]
