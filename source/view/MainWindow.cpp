@@ -4,15 +4,20 @@ MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
 {
     /* backend */
-    _storage = new ZipInfoStorage();
-    ZipInfoStorageViewDelegate* delegate = new ZipInfoStorageViewDelegate(_storage);
+    _storage = new ZipInfoStorage(this);
+    ZipInfoStorageViewInterface* delegate
+        = new ZipInfoStorageViewInterface(_storage, this);
 
     /* frontend */
     _central_wgt = new CentralWidget(delegate, this);
-    connect(_central_wgt, SIGNAL(searchStarted()), this, SLOT(search_zip()));
+    connect(_central_wgt, SIGNAL(searchStarted()),
+            this, SLOT(search_zip()));
+
+    connect(_central_wgt, SIGNAL(cleanTableStarted()),
+            this, SLOT(clean_zip()));
 
     this->setMinimumSize(320, 240);
-    setCentralWidget(_central_wgt /*_treeView*/);
+    setCentralWidget(_central_wgt);
 
 
 
@@ -56,6 +61,8 @@ void MainWindow::search_zip() {
             _storage->size() + 1
         }
     );
+}
 
-    //_central_wgt->update();
+void MainWindow::clean_zip() {
+    _storage->clear();
 }

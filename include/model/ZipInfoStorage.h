@@ -17,7 +17,7 @@ class ZipInfoStorage : public QObject
     Q_OBJECT
 
 public:
-    ZipInfoStorage();
+    ZipInfoStorage(QObject* parent = nullptr);
     ~ZipInfoStorage();
 
     void push_back(ZIPInfo info);
@@ -35,7 +35,8 @@ private:
     void _create_data();
 
 signals:
-    void storage_data_updated();
+    void storage_data_added();
+    void storage_data_cleared();
 
 }; //class ZipInfoStorage
 //-------------------------------------------------------------------

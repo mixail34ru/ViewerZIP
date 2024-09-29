@@ -1,6 +1,8 @@
 #include "../../include/model/ZipInfoStorage.h"
 
-ZipInfoStorage::ZipInfoStorage() {
+ZipInfoStorage::ZipInfoStorage(QObject* parent)
+    : QObject(parent)
+{
     _create_data();
 }
 
@@ -8,12 +10,12 @@ ZipInfoStorage::~ZipInfoStorage() {}
 
 void ZipInfoStorage::push_back(ZIPInfo info) {
     _vec_info.push_back(info);
-    emit storage_data_updated();
+    emit storage_data_added();
 }
 
 void ZipInfoStorage::clear() {
     _vec_info.clear();
-    emit storage_data_updated();
+    emit storage_data_cleared();
 }
 
 int ZipInfoStorage::size() const {
@@ -44,4 +46,5 @@ void ZipInfoStorage::_create_data() {
     push_back(ZIPInfo { "absolute_path_1", 1, 1 } );
     push_back(ZIPInfo { "absolute_path_2", 2, 2 } );
     push_back(ZIPInfo { "absolute_path_3", 3, 3 } );
+    push_back(ZIPInfo { "absolute_path_4", 4, 4 } );
 }

@@ -303,9 +303,9 @@
 			null
 		],
 		[
-			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/include/model/ZipInfoStorageViewDelegate.h",
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/include/model/ZipInfoStorageViewInterface.h",
 			"MU",
-			"Q6AU6LSD6J/moc_ZipInfoStorageViewDelegate.cpp",
+			"Q6AU6LSD6J/moc_ZipInfoStorageViewInterface.cpp",
 			null
 		],
 		[
@@ -415,7 +415,7 @@
 			null
 		],
 		[
-			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/source/model/ZipInfoStorageViewDelegate.cpp",
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/source/model/ZipInfoStorageViewInterface.cpp",
 			"MU",
 			null
 		],

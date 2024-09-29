@@ -1,10 +1,7 @@
 C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/ViewerZIP_autogen/75UR3EJMK3/moc_TableModel.cpp: C:/Users/Michael/Documents/QtProjects/ViewerZIP/include/view/TableModel.h \
   C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/ViewerZIP_autogen/moc_predefs.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/QAbstractTableModel \
-  C:/Qt/6.7.2/mingw_64/include/QtCore/QObject \
   C:/Qt/6.7.2/mingw_64/include/QtCore/QString \
-  C:/Qt/6.7.2/mingw_64/include/QtCore/QVariant \
-  C:/Qt/6.7.2/mingw_64/include/QtCore/QVector \
   C:/Qt/6.7.2/mingw_64/include/QtCore/q20functional.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/q20memory.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/q20type_traits.h \
@@ -114,7 +111,6 @@ C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_
   C:/Qt/6.7.2/mingw_64/include/QtCore/qutf8stringview.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/qvariant.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/qvarlengtharray.h \
-  C:/Qt/6.7.2/mingw_64/include/QtCore/qvector.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/qversiontagging.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/qxptype_traits.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/qyieldcpu.h \
@@ -317,5 +313,4 @@ C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/time.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
-  C:/Users/Michael/Documents/QtProjects/ViewerZIP/include/model/ZipInfoStorage.h \
-  C:/Users/Michael/Documents/QtProjects/ViewerZIP/include/model/ZipInfoStorageViewDelegate.h
+  C:/Users/Michael/Documents/QtProjects/ViewerZIP/include/model/ZipInfoStorageViewInterface.h

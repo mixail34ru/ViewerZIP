@@ -377,6 +377,6 @@ C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
   C:/Users/Michael/Documents/QtProjects/ViewerZIP/include/model/ZipInfoStorage.h \
-  C:/Users/Michael/Documents/QtProjects/ViewerZIP/include/model/ZipInfoStorageViewDelegate.h \
+  C:/Users/Michael/Documents/QtProjects/ViewerZIP/include/model/ZipInfoStorageViewInterface.h \
   C:/Users/Michael/Documents/QtProjects/ViewerZIP/include/view/CentralWidget.h \
   C:/Users/Michael/Documents/QtProjects/ViewerZIP/include/view/TableView.h

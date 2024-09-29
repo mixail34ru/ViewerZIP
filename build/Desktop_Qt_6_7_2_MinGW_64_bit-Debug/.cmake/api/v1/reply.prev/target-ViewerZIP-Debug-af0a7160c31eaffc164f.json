@@ -549,7 +549,7 @@
 		},
 		{
 			"backtrace" : 4,
-			"path" : "include/model/ZipInfoStorageViewDelegate.h",
+			"path" : "include/model/ZipInfoStorageViewInterface.h",
 			"sourceGroupIndex" : 1
 		},
 		{

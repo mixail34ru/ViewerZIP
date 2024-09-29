@@ -24,6 +24,7 @@ public:
 
 public slots:
     void search_zip();
+    void clean_zip();
 
 }; //class MainWindow
 //-------------------------------------------------------------------

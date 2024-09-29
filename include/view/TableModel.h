@@ -3,7 +3,7 @@
 
 #include <QAbstractTableModel>
 
-#include "../model/ZipInfoStorageViewDelegate.h"
+#include "../model/ZipInfoStorageViewInterface.h"
 
 class TableModel : public QAbstractTableModel
 {
@@ -11,7 +11,7 @@ class TableModel : public QAbstractTableModel
 
 public:
 
-    TableModel(ZipInfoStorageViewDelegate* storage, QObject *parent);
+    TableModel(ZipInfoStorageViewInterface* storage, QObject *parent);
     ~TableModel();
 
     bool hasIndex(
@@ -49,28 +49,31 @@ public:
         const QModelIndex &index
     ) const override;
 
-    bool insertRow(int row, const QModelIndex &parent = QModelIndex());
+    // bool insertRow(int row, const QModelIndex &parent = QModelIndex());
 
-    virtual bool insertRows(
-        int row,
-        int count,
-        const QModelIndex &parent = QModelIndex()
-    ) override;
+    // virtual bool insertRows(
+    //     int row,
+    //     int count,
+    //     const QModelIndex &parent = QModelIndex()
+    // ) override;
 
-    bool removeRow(int row, const QModelIndex &parent = QModelIndex());
+    // bool removeRow(int row, const QModelIndex &parent = QModelIndex());
 
-    virtual bool removeRows(
-        int row, int count, const QModelIndex &parent = QModelIndex()
-    ) override;
+    // virtual bool removeRows(
+    //     int row, int count, const QModelIndex &parent = QModelIndex()
+    // ) override;
 
 protected:
     std::vector<QString> _headers;
-    ZipInfoStorageViewDelegate* _storage;
+    ZipInfoStorageViewInterface* _storage;
 
     void _headerFormer();
 
 private slots:
-    void update_data();
+    //void update_data_table();
+
+    void add_data_row();
+    void clear_table();
 
 }; //class TableModel
 //-------------------------------------------------------------------

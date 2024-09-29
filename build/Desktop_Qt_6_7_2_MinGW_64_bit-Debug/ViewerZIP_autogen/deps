@@ -582,14 +582,14 @@ ViewerZIP_autogen/timestamp: \
 	C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/3.29.3/CMakeSystem.cmake \
 	C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/ViewerZIP_autogen/moc_predefs.h \
 	C:/Users/Michael/Documents/QtProjects/ViewerZIP/include/model/ZipInfoStorage.h \
-	C:/Users/Michael/Documents/QtProjects/ViewerZIP/include/model/ZipInfoStorageViewDelegate.h \
+	C:/Users/Michael/Documents/QtProjects/ViewerZIP/include/model/ZipInfoStorageViewInterface.h \
 	C:/Users/Michael/Documents/QtProjects/ViewerZIP/include/view/CentralWidget.h \
 	C:/Users/Michael/Documents/QtProjects/ViewerZIP/include/view/MainWindow.h \
 	C:/Users/Michael/Documents/QtProjects/ViewerZIP/include/view/TableModel.h \
 	C:/Users/Michael/Documents/QtProjects/ViewerZIP/include/view/TableView.h \
 	C:/Users/Michael/Documents/QtProjects/ViewerZIP/source/main.cpp \
 	C:/Users/Michael/Documents/QtProjects/ViewerZIP/source/model/ZipInfoStorage.cpp \
-	C:/Users/Michael/Documents/QtProjects/ViewerZIP/source/model/ZipInfoStorageViewDelegate.cpp \
+	C:/Users/Michael/Documents/QtProjects/ViewerZIP/source/model/ZipInfoStorageViewInterface.cpp \
 	C:/Users/Michael/Documents/QtProjects/ViewerZIP/source/view/CentralWidget.cpp \
 	C:/Users/Michael/Documents/QtProjects/ViewerZIP/source/view/MainWindow.cpp \
 	C:/Users/Michael/Documents/QtProjects/ViewerZIP/source/view/TableModel.cpp \

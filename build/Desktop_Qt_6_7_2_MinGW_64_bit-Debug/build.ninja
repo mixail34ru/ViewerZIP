@@ -73,9 +73,9 @@ build CMakeFiles/ViewerZIP.dir/source/model/ZipInfoStorage.cpp.obj: CXX_COMPILER
   OBJECT_DIR = CMakeFiles\ViewerZIP.dir
   OBJECT_FILE_DIR = CMakeFiles\ViewerZIP.dir\source\model
 
-build CMakeFiles/ViewerZIP.dir/source/model/ZipInfoStorageViewDelegate.cpp.obj: CXX_COMPILER__ViewerZIP_unscanned_Debug C$:/Users/Michael/Documents/QtProjects/ViewerZIP/source/model/ZipInfoStorageViewDelegate.cpp || cmake_object_order_depends_target_ViewerZIP
+build CMakeFiles/ViewerZIP.dir/source/model/ZipInfoStorageViewInterface.cpp.obj: CXX_COMPILER__ViewerZIP_unscanned_Debug C$:/Users/Michael/Documents/QtProjects/ViewerZIP/source/model/ZipInfoStorageViewInterface.cpp || cmake_object_order_depends_target_ViewerZIP
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
-  DEP_FILE = CMakeFiles\ViewerZIP.dir\source\model\ZipInfoStorageViewDelegate.cpp.obj.d
+  DEP_FILE = CMakeFiles\ViewerZIP.dir\source\model\ZipInfoStorageViewInterface.cpp.obj.d
   FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
   INCLUDES = -IC:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/ViewerZIP_autogen/include -isystem C:/Qt/6.7.2/mingw_64/include/QtCore -isystem C:/Qt/6.7.2/mingw_64/include -isystem C:/Qt/6.7.2/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.7.2/mingw_64/include/QtWidgets -isystem C:/Qt/6.7.2/mingw_64/include/QtGui
   OBJECT_DIR = CMakeFiles\ViewerZIP.dir
@@ -121,7 +121,7 @@ build CMakeFiles/ViewerZIP.dir/source/view/TableView.cpp.obj: CXX_COMPILER__View
 #############################################
 # Link the executable ViewerZIP.exe
 
-build ViewerZIP.exe: CXX_EXECUTABLE_LINKER__ViewerZIP_Debug CMakeFiles/ViewerZIP.dir/ViewerZIP_autogen/mocs_compilation.cpp.obj CMakeFiles/ViewerZIP.dir/source/main.cpp.obj CMakeFiles/ViewerZIP.dir/source/model/ZipInfoStorage.cpp.obj CMakeFiles/ViewerZIP.dir/source/model/ZipInfoStorageViewDelegate.cpp.obj CMakeFiles/ViewerZIP.dir/source/view/CentralWidget.cpp.obj CMakeFiles/ViewerZIP.dir/source/view/MainWindow.cpp.obj CMakeFiles/ViewerZIP.dir/source/view/TableModel.cpp.obj CMakeFiles/ViewerZIP.dir/source/view/TableView.cpp.obj | C$:/Qt/6.7.2/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.7.2/mingw_64/lib/libQt6Gui.a C$:/Qt/6.7.2/mingw_64/lib/libQt6Core.a C$:/Qt/6.7.2/mingw_64/lib/libQt6EntryPoint.a || ViewerZIP_autogen ViewerZIP_autogen_timestamp_deps
+build ViewerZIP.exe: CXX_EXECUTABLE_LINKER__ViewerZIP_Debug CMakeFiles/ViewerZIP.dir/ViewerZIP_autogen/mocs_compilation.cpp.obj CMakeFiles/ViewerZIP.dir/source/main.cpp.obj CMakeFiles/ViewerZIP.dir/source/model/ZipInfoStorage.cpp.obj CMakeFiles/ViewerZIP.dir/source/model/ZipInfoStorageViewInterface.cpp.obj CMakeFiles/ViewerZIP.dir/source/view/CentralWidget.cpp.obj CMakeFiles/ViewerZIP.dir/source/view/MainWindow.cpp.obj CMakeFiles/ViewerZIP.dir/source/view/TableModel.cpp.obj CMakeFiles/ViewerZIP.dir/source/view/TableView.cpp.obj | C$:/Qt/6.7.2/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.7.2/mingw_64/lib/libQt6Gui.a C$:/Qt/6.7.2/mingw_64/lib/libQt6Core.a C$:/Qt/6.7.2/mingw_64/lib/libQt6EntryPoint.a || ViewerZIP_autogen ViewerZIP_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG -g
   LINK_FLAGS = -mwindows
   LINK_LIBRARIES = C:/Qt/6.7.2/mingw_64/lib/libQt6Widgets.a  C:/Qt/6.7.2/mingw_64/lib/libQt6Gui.a  C:/Qt/6.7.2/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lmingw32  C:/Qt/6.7.2/mingw_64/lib/libQt6EntryPoint.a  -lshell32  -ld3d11  -ldxgi  -ldxguid  -ld3d12  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32

@@ -6,7 +6,7 @@
 #include <QPushButton>
 
 CentralWidget::CentralWidget(
-    ZipInfoStorageViewDelegate* storage, QWidget* parent)
+    ZipInfoStorageViewInterface* storage, QWidget* parent)
 {
     /* backend */
     TableModel* tableModel = new TableModel(storage, this);
@@ -15,10 +15,14 @@ CentralWidget::CentralWidget(
     _tableView = new TableView(tableModel, this);
 
     _search_btn = new QPushButton(tr("Выполнить поиск"));
-    connect(_search_btn, SIGNAL(clicked(bool)), this, SLOT(on_search_btn_clicked()));
+    connect(_search_btn, SIGNAL(clicked(bool)), this, SIGNAL(searchStarted()));
+
+    _clean_btn = new QPushButton(tr("Очистить список"));
+    connect(_clean_btn, SIGNAL(clicked(bool)), this, SIGNAL(cleanTableStarted()));
 
     QVBoxLayout* v_layout = new QVBoxLayout();
     v_layout->addWidget(_search_btn);
+    v_layout->addWidget(_clean_btn);
 
     QBoxLayout* layout = new QBoxLayout(QBoxLayout::Direction());
     //layout->addStretch();
@@ -36,6 +40,6 @@ CentralWidget::~CentralWidget()
 }
 
 /* private slots */
-void CentralWidget::on_search_btn_clicked() {
-    emit searchStarted();
-}
+// void CentralWidget::on_search_btn_clicked() {
+//     emit searchStarted();
+// }
