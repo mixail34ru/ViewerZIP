@@ -297,6 +297,12 @@
 	"HEADERS" : 
 	[
 		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/include/model/ZipFilesViewer.h",
+			"MU",
+			"Q6AU6LSD6J/moc_ZipFilesViewer.cpp",
+			null
+		],
+		[
 			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/include/model/ZipInfoStorage.h",
 			"MU",
 			"Q6AU6LSD6J/moc_ZipInfoStorage.cpp",
@@ -406,6 +412,11 @@
 	[
 		[
 			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/source/main.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/source/model/ZipFilesViewer.cpp",
 			"MU",
 			null
 		],

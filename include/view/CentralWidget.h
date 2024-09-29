@@ -2,6 +2,10 @@
 #define CENTRALWIDGET_H
 
 #include <QWidget>
+
+//#include <QLabel>
+#include <QTextEdit>
+
 #include <QPushButton>
 
 #include "TableView.h"
@@ -11,6 +15,7 @@ class CentralWidget : public QWidget
 {
     Q_OBJECT
 
+    QTextEdit* _textEdit;
     QPushButton* _search_btn;
     QPushButton*_clean_btn;
     TableView* _tableView;
@@ -22,10 +27,10 @@ public:
     ~CentralWidget();
 
 private slots:
-    //void on_search_btn_clicked();
+    void on_search_btn_clicked();
 
 signals:
-    void searchStarted();
+    void searchStarted(QString dir_path);
     void cleanTableStarted();
 };
 

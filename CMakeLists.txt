@@ -13,8 +13,7 @@ find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
 
 set(PROJECT_SOURCES
-
-
+    "${CMAKE_CURRENT_SOURCE_DIR}/resources/resources.rc"
 
 )
 
@@ -28,6 +27,8 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         source/main.cpp
         include/model/ZipInfoStorage.h include/model/ZipInfoStorageViewInterface.h include/view/CentralWidget.h include/view/MainWindow.h include/view/TableModel.h include/view/TableView.h
         source/model/ZipInfoStorage.cpp source/model/ZipInfoStorageViewInterface.cpp source/view/CentralWidget.cpp source/view/MainWindow.cpp source/view/TableModel.cpp source/view/TableView.cpp
+        include/model/ZipFilesViewer.h
+        source/model/ZipFilesViewer.cpp
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET ViewerZIP APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

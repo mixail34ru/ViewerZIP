@@ -2,9 +2,10 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-
-#include "../../include/model/ZipInfoStorage.h"
 #include "CentralWidget.h"
+
+class ZipInfoStorage;
+class ZipFilesViewer;
 
 class MainWindow : public QMainWindow
 {
@@ -13,6 +14,7 @@ class MainWindow : public QMainWindow
     /* backend */
 
     ZipInfoStorage* _storage;
+    ZipFilesViewer* _zipViewer;
 
     /* frontend */
 
@@ -23,8 +25,10 @@ public:
     ~MainWindow();
 
 public slots:
-    void search_zip();
+    void search_zip(QString dir_path);
     void clean_zip();
+
+    void about_program();
 
 }; //class MainWindow
 //-------------------------------------------------------------------

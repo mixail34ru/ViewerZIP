@@ -3,10 +3,11 @@
 ZipInfoStorage::ZipInfoStorage(QObject* parent)
     : QObject(parent)
 {
-    _create_data();
 }
 
-ZipInfoStorage::~ZipInfoStorage() {}
+ZipInfoStorage::~ZipInfoStorage()
+{
+}
 
 void ZipInfoStorage::push_back(ZIPInfo info) {
     _vec_info.push_back(info);
@@ -40,11 +41,4 @@ int ZipInfoStorage::get_compressed_size(int index) const {
 
 int ZipInfoStorage::get_decompress_size(int index) const {
     return at(index).decompress_size;
-}
-
-void ZipInfoStorage::_create_data() {
-    push_back(ZIPInfo { "absolute_path_1", 1, 1 } );
-    push_back(ZIPInfo { "absolute_path_2", 2, 2 } );
-    push_back(ZIPInfo { "absolute_path_3", 3, 3 } );
-    push_back(ZIPInfo { "absolute_path_4", 4, 4 } );
 }

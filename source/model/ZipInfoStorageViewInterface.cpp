@@ -14,7 +14,6 @@ ZipInfoStorageViewInterface::ZipInfoStorageViewInterface(
 
 ZipInfoStorageViewInterface::~ZipInfoStorageViewInterface()
 {
-
 }
 
 int ZipInfoStorageViewInterface::size() const {

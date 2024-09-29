@@ -11,7 +11,8 @@ class TableModel : public QAbstractTableModel
 
 public:
 
-    TableModel(ZipInfoStorageViewInterface* storage, QObject *parent);
+    explicit TableModel(
+        ZipInfoStorageViewInterface* storage, QObject *parent);
     ~TableModel();
 
     bool hasIndex(
