@@ -28,8 +28,6 @@ public slots:
     void search_zip(QString dir_path);
     void clean_zip();
 
-    void about_program();
-
 }; //class MainWindow
 //-------------------------------------------------------------------
 

@@ -327,6 +327,12 @@
 			null
 		],
 		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/include/view/MenuBar.h",
+			"MU",
+			"75UR3EJMK3/moc_MenuBar.cpp",
+			null
+		],
+		[
 			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/include/view/TableModel.h",
 			"MU",
 			"75UR3EJMK3/moc_TableModel.cpp",
@@ -336,6 +342,114 @@
 			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/include/view/TableView.h",
 			"MU",
 			"75UR3EJMK3/moc_TableView.cpp",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz.h",
+			"MU",
+			"YATGDGSOWV/moc_mz.cpp",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_compat.h",
+			"MU",
+			"YATGDGSOWV/moc_mz_compat.cpp",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_crypt.h",
+			"MU",
+			"YATGDGSOWV/moc_mz_crypt.cpp",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_os.h",
+			"MU",
+			"YATGDGSOWV/moc_mz_os.cpp",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm.h",
+			"MU",
+			"YATGDGSOWV/moc_mz_strm.cpp",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm_buf.h",
+			"MU",
+			"YATGDGSOWV/moc_mz_strm_buf.cpp",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm_bzip.h",
+			"MU",
+			"YATGDGSOWV/moc_mz_strm_bzip.cpp",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm_libcomp.h",
+			"MU",
+			"YATGDGSOWV/moc_mz_strm_libcomp.cpp",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm_lzma.h",
+			"MU",
+			"YATGDGSOWV/moc_mz_strm_lzma.cpp",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm_mem.h",
+			"MU",
+			"YATGDGSOWV/moc_mz_strm_mem.cpp",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm_os.h",
+			"MU",
+			"YATGDGSOWV/moc_mz_strm_os.cpp",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm_pkcrypt.h",
+			"MU",
+			"YATGDGSOWV/moc_mz_strm_pkcrypt.cpp",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm_split.h",
+			"MU",
+			"YATGDGSOWV/moc_mz_strm_split.cpp",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm_wzaes.h",
+			"MU",
+			"YATGDGSOWV/moc_mz_strm_wzaes.cpp",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm_zlib.h",
+			"MU",
+			"YATGDGSOWV/moc_mz_strm_zlib.cpp",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm_zstd.h",
+			"MU",
+			"YATGDGSOWV/moc_mz_strm_zstd.cpp",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_zip.h",
+			"MU",
+			"YATGDGSOWV/moc_mz_zip.cpp",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_zip_rw.h",
+			"MU",
+			"YATGDGSOWV/moc_mz_zip_rw.cpp",
 			null
 		]
 	],
@@ -399,7 +513,10 @@
 	],
 	"MOC_PREDEFS_FILE" : "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/ViewerZIP_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
-	"MOC_SKIP" : [],
+	"MOC_SKIP" : 
+	[
+		"C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/minizip-ng_autogen/mocs_compilation.cpp"
+	],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 4,
 	"PARSE_CACHE_FILE" : "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/ViewerZIP_autogen.dir/ParseCache.txt",
@@ -410,6 +527,136 @@
 	"SETTINGS_FILE" : "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/ViewerZIP_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/minigzip.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/minizip.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_compat.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_crypt.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_crypt_apple.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_crypt_openssl.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_crypt_winvista.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_crypt_winxp.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_os.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_os_posix.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_os_win32.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm_buf.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm_bzip.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm_libcomp.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm_lzma.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm_mem.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm_os_posix.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm_os_win32.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm_pkcrypt.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm_split.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm_wzaes.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm_zlib.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm_zstd.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_zip.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_zip_rw.c",
+			"MU",
+			null
+		],
 		[
 			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/source/main.cpp",
 			"MU",
@@ -441,6 +688,11 @@
 			null
 		],
 		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/source/view/MenuBar.cpp",
+			"MU",
+			null
+		],
+		[
 			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/source/view/TableModel.cpp",
 			"MU",
 			null
@@ -453,7 +705,10 @@
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],
-	"UIC_SKIP" : [],
+	"UIC_SKIP" : 
+	[
+		"C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/minizip-ng_autogen/mocs_compilation.cpp"
+	],
 	"UIC_UI_FILES" : [],
 	"USE_BETTER_GRAPH" : false,
 	"VERBOSITY" : 0

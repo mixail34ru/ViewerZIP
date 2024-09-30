@@ -5,7 +5,6 @@
 
 //#include <QLabel>
 #include <QTextEdit>
-
 #include <QPushButton>
 
 #include "TableView.h"

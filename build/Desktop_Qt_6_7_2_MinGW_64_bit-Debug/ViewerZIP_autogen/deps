@@ -159,6 +159,7 @@ ViewerZIP_autogen/timestamp: \
 	C:/Qt/6.7.2/mingw_64/include/QtGui/qwindowdefs.h \
 	C:/Qt/6.7.2/mingw_64/include/QtGui/qwindowdefs_win.h \
 	C:/Qt/6.7.2/mingw_64/include/QtWidgets/QMainWindow \
+	C:/Qt/6.7.2/mingw_64/include/QtWidgets/QMenuBar \
 	C:/Qt/6.7.2/mingw_64/include/QtWidgets/QPushButton \
 	C:/Qt/6.7.2/mingw_64/include/QtWidgets/QTableView \
 	C:/Qt/6.7.2/mingw_64/include/QtWidgets/QTextEdit \
@@ -171,6 +172,8 @@ ViewerZIP_autogen/timestamp: \
 	C:/Qt/6.7.2/mingw_64/include/QtWidgets/qabstractspinbox.h \
 	C:/Qt/6.7.2/mingw_64/include/QtWidgets/qframe.h \
 	C:/Qt/6.7.2/mingw_64/include/QtWidgets/qmainwindow.h \
+	C:/Qt/6.7.2/mingw_64/include/QtWidgets/qmenu.h \
+	C:/Qt/6.7.2/mingw_64/include/QtWidgets/qmenubar.h \
 	C:/Qt/6.7.2/mingw_64/include/QtWidgets/qpushbutton.h \
 	C:/Qt/6.7.2/mingw_64/include/QtWidgets/qrubberband.h \
 	C:/Qt/6.7.2/mingw_64/include/QtWidgets/qsizepolicy.h \
@@ -594,14 +597,60 @@ ViewerZIP_autogen/timestamp: \
 	C:/Users/Michael/Documents/QtProjects/ViewerZIP/include/model/ZipInfoStorageViewInterface.h \
 	C:/Users/Michael/Documents/QtProjects/ViewerZIP/include/view/CentralWidget.h \
 	C:/Users/Michael/Documents/QtProjects/ViewerZIP/include/view/MainWindow.h \
+	C:/Users/Michael/Documents/QtProjects/ViewerZIP/include/view/MenuBar.h \
 	C:/Users/Michael/Documents/QtProjects/ViewerZIP/include/view/TableModel.h \
 	C:/Users/Michael/Documents/QtProjects/ViewerZIP/include/view/TableView.h \
+	C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/minigzip.c \
+	C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/minizip.c \
+	C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz.h \
+	C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_compat.c \
+	C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_compat.h \
+	C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_crypt.c \
+	C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_crypt.h \
+	C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_crypt_apple.c \
+	C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_crypt_openssl.c \
+	C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_crypt_winvista.c \
+	C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_crypt_winxp.c \
+	C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_os.c \
+	C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_os.h \
+	C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_os_posix.c \
+	C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_os_win32.c \
+	C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm.c \
+	C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm.h \
+	C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm_buf.c \
+	C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm_buf.h \
+	C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm_bzip.c \
+	C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm_bzip.h \
+	C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm_libcomp.c \
+	C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm_libcomp.h \
+	C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm_lzma.c \
+	C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm_lzma.h \
+	C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm_mem.c \
+	C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm_mem.h \
+	C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm_os.h \
+	C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm_os_posix.c \
+	C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm_os_win32.c \
+	C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm_pkcrypt.c \
+	C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm_pkcrypt.h \
+	C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm_split.c \
+	C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm_split.h \
+	C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm_wzaes.c \
+	C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm_wzaes.h \
+	C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm_zlib.c \
+	C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm_zlib.h \
+	C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm_zstd.c \
+	C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm_zstd.h \
+	C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_zip.c \
+	C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_zip.h \
+	C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_zip_rw.c \
+	C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_zip_rw.h \
 	C:/Users/Michael/Documents/QtProjects/ViewerZIP/source/main.cpp \
 	C:/Users/Michael/Documents/QtProjects/ViewerZIP/source/model/ZipFilesViewer.cpp \
 	C:/Users/Michael/Documents/QtProjects/ViewerZIP/source/model/ZipInfoStorage.cpp \
 	C:/Users/Michael/Documents/QtProjects/ViewerZIP/source/model/ZipInfoStorageViewInterface.cpp \
 	C:/Users/Michael/Documents/QtProjects/ViewerZIP/source/view/CentralWidget.cpp \
 	C:/Users/Michael/Documents/QtProjects/ViewerZIP/source/view/MainWindow.cpp \
+	C:/Users/Michael/Documents/QtProjects/ViewerZIP/source/view/MenuBar.cpp \
 	C:/Users/Michael/Documents/QtProjects/ViewerZIP/source/view/TableModel.cpp \
 	C:/Users/Michael/Documents/QtProjects/ViewerZIP/source/view/TableView.cpp \
 	C:/Qt/Tools/CMake_64/bin/cmake.exe

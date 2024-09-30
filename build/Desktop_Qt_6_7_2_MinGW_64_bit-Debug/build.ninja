@@ -41,6 +41,38 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/
 # =============================================================================
+# Object build statements for STATIC_LIBRARY target minizip-ng
+
+
+#############################################
+# Order-only phony target for minizip-ng
+
+build cmake_object_order_depends_target_minizip-ng: phony || minizip-ng_autogen minizip-ng_autogen/mocs_compilation.cpp minizip-ng_autogen/timestamp minizip-ng_autogen_timestamp_deps
+
+build CMakeFiles/minizip-ng.dir/minizip-ng_autogen/mocs_compilation.cpp.obj: CXX_COMPILER__minizip-ng_unscanned_Debug C$:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/minizip-ng_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_minizip-ng
+  DEP_FILE = CMakeFiles\minizip-ng.dir\minizip-ng_autogen\mocs_compilation.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/minizip-ng_autogen/include -IC:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng
+  OBJECT_DIR = CMakeFiles\minizip-ng.dir
+  OBJECT_FILE_DIR = CMakeFiles\minizip-ng.dir\minizip-ng_autogen
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target minizip-ng
+
+
+#############################################
+# Link the static library libminizip-ng.a
+
+build libminizip-ng.a: CXX_STATIC_LIBRARY_LINKER__minizip-ng_Debug CMakeFiles/minizip-ng.dir/minizip-ng_autogen/mocs_compilation.cpp.obj || minizip-ng_autogen minizip-ng_autogen_timestamp_deps
+  LANGUAGE_COMPILE_FLAGS = -DQT_QML_DEBUG -g
+  OBJECT_DIR = CMakeFiles\minizip-ng.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = libminizip-ng.a
+  TARGET_PDB = minizip-ng.a.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target ViewerZIP
 
 
@@ -128,6 +160,14 @@ build CMakeFiles/ViewerZIP.dir/source/model/ZipFilesViewer.cpp.obj: CXX_COMPILER
   OBJECT_DIR = CMakeFiles\ViewerZIP.dir
   OBJECT_FILE_DIR = CMakeFiles\ViewerZIP.dir\source\model
 
+build CMakeFiles/ViewerZIP.dir/source/view/MenuBar.cpp.obj: CXX_COMPILER__ViewerZIP_unscanned_Debug C$:/Users/Michael/Documents/QtProjects/ViewerZIP/source/view/MenuBar.cpp || cmake_object_order_depends_target_ViewerZIP
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\ViewerZIP.dir\source\view\MenuBar.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/ViewerZIP_autogen/include -isystem C:/Qt/6.7.2/mingw_64/include/QtCore -isystem C:/Qt/6.7.2/mingw_64/include -isystem C:/Qt/6.7.2/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.7.2/mingw_64/include/QtWidgets -isystem C:/Qt/6.7.2/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\ViewerZIP.dir
+  OBJECT_FILE_DIR = CMakeFiles\ViewerZIP.dir\source\view
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target ViewerZIP
@@ -136,7 +176,7 @@ build CMakeFiles/ViewerZIP.dir/source/model/ZipFilesViewer.cpp.obj: CXX_COMPILER
 #############################################
 # Link the executable ViewerZIP.exe
 
-build ViewerZIP.exe: CXX_EXECUTABLE_LINKER__ViewerZIP_Debug CMakeFiles/ViewerZIP.dir/ViewerZIP_autogen/mocs_compilation.cpp.obj CMakeFiles/ViewerZIP.dir/resources/resources.rc.obj CMakeFiles/ViewerZIP.dir/source/main.cpp.obj CMakeFiles/ViewerZIP.dir/source/model/ZipInfoStorage.cpp.obj CMakeFiles/ViewerZIP.dir/source/model/ZipInfoStorageViewInterface.cpp.obj CMakeFiles/ViewerZIP.dir/source/view/CentralWidget.cpp.obj CMakeFiles/ViewerZIP.dir/source/view/MainWindow.cpp.obj CMakeFiles/ViewerZIP.dir/source/view/TableModel.cpp.obj CMakeFiles/ViewerZIP.dir/source/view/TableView.cpp.obj CMakeFiles/ViewerZIP.dir/source/model/ZipFilesViewer.cpp.obj | C$:/Qt/6.7.2/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.7.2/mingw_64/lib/libQt6Gui.a C$:/Qt/6.7.2/mingw_64/lib/libQt6Core.a C$:/Qt/6.7.2/mingw_64/lib/libQt6EntryPoint.a || ViewerZIP_autogen ViewerZIP_autogen_timestamp_deps
+build ViewerZIP.exe: CXX_EXECUTABLE_LINKER__ViewerZIP_Debug CMakeFiles/ViewerZIP.dir/ViewerZIP_autogen/mocs_compilation.cpp.obj CMakeFiles/ViewerZIP.dir/resources/resources.rc.obj CMakeFiles/ViewerZIP.dir/source/main.cpp.obj CMakeFiles/ViewerZIP.dir/source/model/ZipInfoStorage.cpp.obj CMakeFiles/ViewerZIP.dir/source/model/ZipInfoStorageViewInterface.cpp.obj CMakeFiles/ViewerZIP.dir/source/view/CentralWidget.cpp.obj CMakeFiles/ViewerZIP.dir/source/view/MainWindow.cpp.obj CMakeFiles/ViewerZIP.dir/source/view/TableModel.cpp.obj CMakeFiles/ViewerZIP.dir/source/view/TableView.cpp.obj CMakeFiles/ViewerZIP.dir/source/model/ZipFilesViewer.cpp.obj CMakeFiles/ViewerZIP.dir/source/view/MenuBar.cpp.obj | C$:/Qt/6.7.2/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.7.2/mingw_64/lib/libQt6Gui.a C$:/Qt/6.7.2/mingw_64/lib/libQt6Core.a C$:/Qt/6.7.2/mingw_64/lib/libQt6EntryPoint.a || ViewerZIP_autogen ViewerZIP_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG -g
   LINK_FLAGS = -mwindows
   LINK_LIBRARIES = C:/Qt/6.7.2/mingw_64/lib/libQt6Widgets.a  C:/Qt/6.7.2/mingw_64/lib/libQt6Gui.a  C:/Qt/6.7.2/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lmingw32  C:/Qt/6.7.2/mingw_64/lib/libQt6EntryPoint.a  -lshell32  -ld3d11  -ldxgi  -ldxguid  -ld3d12  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
@@ -215,6 +255,18 @@ build install/strip: phony CMakeFiles/install/strip.util
 
 
 #############################################
+# Utility command for minizip-ng_autogen_timestamp_deps
+
+build minizip-ng_autogen_timestamp_deps: phony
+
+
+#############################################
+# Utility command for minizip-ng_autogen
+
+build minizip-ng_autogen: phony CMakeFiles/minizip-ng_autogen minizip-ng_autogen/timestamp minizip-ng_autogen/mocs_compilation.cpp minizip-ng_autogen_timestamp_deps
+
+
+#############################################
 # Utility command for ViewerZIP_autogen_timestamp_deps
 
 build ViewerZIP_autogen_timestamp_deps: phony
@@ -224,6 +276,17 @@ build ViewerZIP_autogen_timestamp_deps: phony
 # Utility command for ViewerZIP_autogen
 
 build ViewerZIP_autogen: phony CMakeFiles/ViewerZIP_autogen ViewerZIP_autogen/timestamp ViewerZIP_autogen/mocs_compilation.cpp ViewerZIP_autogen_timestamp_deps
+
+
+#############################################
+# Custom command for minizip-ng_autogen\timestamp
+
+build minizip-ng_autogen/timestamp minizip-ng_autogen/mocs_compilation.cpp | ${cmake_ninja_workdir}minizip-ng_autogen/timestamp ${cmake_ninja_workdir}minizip-ng_autogen/mocs_compilation.cpp: CUSTOM_COMMAND C$:/Qt/6.7.2/mingw_64/./bin/moc.exe C$:/Qt/6.7.2/mingw_64/./bin/uic.exe || minizip-ng_autogen_timestamp_deps
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\Michael\Documents\QtProjects\ViewerZIP\build\Desktop_Qt_6_7_2_MinGW_64_bit-Debug && C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_autogen C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/minizip-ng_autogen.dir/AutogenInfo.json Debug && C:\Qt\Tools\CMake_64\bin\cmake.exe -E touch C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/minizip-ng_autogen/timestamp && C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_transform_depfile Ninja gccdepfile C:/Users/Michael/Documents/QtProjects/ViewerZIP C:/Users/Michael/Documents/QtProjects/ViewerZIP C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/minizip-ng_autogen/deps C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/d/6a6d7ce569507a9891945a957f6d7149fc241f466aaaadc49d1ebd80dc59803e.d"
+  DESC = Automatic MOC and UIC for target minizip-ng
+  depfile = CMakeFiles\d\6a6d7ce569507a9891945a957f6d7149fc241f466aaaadc49d1ebd80dc59803e.d
+  deps = gcc
+  restat = 1
 
 
 #############################################
@@ -238,6 +301,12 @@ build ViewerZIP_autogen/timestamp ViewerZIP_autogen/mocs_compilation.cpp | ${cma
 
 
 #############################################
+# Phony custom command for CMakeFiles\minizip-ng_autogen
+
+build CMakeFiles/minizip-ng_autogen | ${cmake_ninja_workdir}CMakeFiles/minizip-ng_autogen: phony minizip-ng_autogen/timestamp || minizip-ng_autogen_timestamp_deps
+
+
+#############################################
 # Phony custom command for CMakeFiles\ViewerZIP_autogen
 
 build CMakeFiles/ViewerZIP_autogen | ${cmake_ninja_workdir}CMakeFiles/ViewerZIP_autogen: phony ViewerZIP_autogen/timestamp || ViewerZIP_autogen_timestamp_deps
@@ -247,6 +316,8 @@ build CMakeFiles/ViewerZIP_autogen | ${cmake_ninja_workdir}CMakeFiles/ViewerZIP_
 
 build ViewerZIP: phony ViewerZIP.exe
 
+build minizip-ng: phony libminizip-ng.a
+
 # =============================================================================
 # Folder targets.
 
@@ -255,7 +326,7 @@ build ViewerZIP: phony ViewerZIP.exe
 #############################################
 # Folder: C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug
 
-build all: phony ViewerZIP.exe
+build all: phony libminizip-ng.a ViewerZIP.exe
 
 # =============================================================================
 # Built-in targets

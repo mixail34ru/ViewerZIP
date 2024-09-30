@@ -18,8 +18,7 @@ private:
     ZipInfoStorage* _storage;
 
     void _create_data();
-
-    ZIPInfo read_zip_info();
+    ZIPInfo _read_zip_info(QString dir_path);
 
 
 }; //class ZipFilesViewer
