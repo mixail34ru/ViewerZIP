@@ -14,11 +14,41 @@
 # EXTERNAL cache entries
 ########################
 
+//Build liblzma as a shared library instead of static
+BUILD_SHARED_LIBS:BOOL=OFF
+
+//Build the testing tree.
+BUILD_TESTING:BOOL=OFF
+
+//Path to a file.
+BZIP2_INCLUDE_DIR:PATH=BZIP2_INCLUDE_DIR-NOTFOUND
+
+//Path to a library.
+BZIP2_LIBRARY_DEBUG:FILEPATH=BZIP2_LIBRARY_DEBUG-NOTFOUND
+
+//Path to a library.
+BZIP2_LIBRARY_RELEASE:FILEPATH=BZIP2_LIBRARY_RELEASE-NOTFOUND
+
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=C:/Qt/Tools/mingw1120_64/bin/addr2line.exe
 
 //Path to a program.
 CMAKE_AR:FILEPATH=C:/Qt/Tools/mingw1120_64/bin/ar.exe
+
+//Flags used by the ASM compiler during all build types.
+CMAKE_ASM_FLAGS:STRING=
+
+//Flags used by the ASM compiler during DEBUG builds.
+CMAKE_ASM_FLAGS_DEBUG:STRING=-g
+
+//Flags used by the ASM compiler during MINSIZEREL builds.
+CMAKE_ASM_FLAGS_MINSIZEREL:STRING=-Os -DNDEBUG
+
+//Flags used by the ASM compiler during RELEASE builds.
+CMAKE_ASM_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
+
+//Flags used by the ASM compiler during RELWITHDEBINFO builds.
+CMAKE_ASM_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 
 //No help, variable specified on the command line.
 CMAKE_BUILD_TYPE:STRING=Debug
@@ -63,7 +93,25 @@ CMAKE_CXX_STANDARD_LIBRARIES:STRING=-lkernel32 -luser32 -lgdi32 -lwinspool -lshe
 //No help, variable specified on the command line.
 CMAKE_C_COMPILER:FILEPATH=C:/Qt/Tools/mingw1120_64/bin/gcc.exe
 
-CMAKE_C_OUTPUT_EXTENSION:STRING=
+//Flags used by the C compiler during all build types.
+CMAKE_C_FLAGS:STRING=
+
+//Flags used by the C compiler during DEBUG builds.
+CMAKE_C_FLAGS_DEBUG:STRING=-g
+
+//Flags used by the C compiler during MINSIZEREL builds.
+CMAKE_C_FLAGS_MINSIZEREL:STRING=-Os -DNDEBUG
+
+//Flags used by the C compiler during RELEASE builds.
+CMAKE_C_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
+
+//Flags used by the C compiler during RELWITHDEBINFO builds.
+CMAKE_C_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
+
+CMAKE_C_OUTPUT_EXTENSION:STRING=.obj
+
+//Libraries linked by default with all C applications.
+CMAKE_C_STANDARD_LIBRARIES:STRING=-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
 
 //Path to a program.
 CMAKE_DLLTOOL:FILEPATH=C:/Qt/Tools/mingw1120_64/bin/dlltool.exe
@@ -294,6 +342,143 @@ CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
+//Directory under which to collect all populated content
+FETCHCONTENT_BASE_DIR:PATH=C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps
+
+//Disables all attempts to download or update content and assumes
+// source dirs already exist
+FETCHCONTENT_FULLY_DISCONNECTED:BOOL=OFF
+
+//Enables QUIET option for all content population
+FETCHCONTENT_QUIET:BOOL=ON
+
+//When not empty, overrides where to find pre-populated content
+// for bzip2
+FETCHCONTENT_SOURCE_DIR_BZIP2:PATH=
+
+//When not empty, overrides where to find pre-populated content
+// for liblzma
+FETCHCONTENT_SOURCE_DIR_LIBLZMA:PATH=
+
+//When not empty, overrides where to find pre-populated content
+// for zlib
+FETCHCONTENT_SOURCE_DIR_ZLIB:PATH=
+
+//When not empty, overrides where to find pre-populated content
+// for zstd
+FETCHCONTENT_SOURCE_DIR_ZSTD:PATH=
+
+//Enables UPDATE_DISCONNECTED behavior for all content population
+FETCHCONTENT_UPDATES_DISCONNECTED:BOOL=OFF
+
+//Enables UPDATE_DISCONNECTED behavior just for population of bzip2
+FETCHCONTENT_UPDATES_DISCONNECTED_BZIP2:BOOL=OFF
+
+//Enables UPDATE_DISCONNECTED behavior just for population of liblzma
+FETCHCONTENT_UPDATES_DISCONNECTED_LIBLZMA:BOOL=OFF
+
+//Enables UPDATE_DISCONNECTED behavior just for population of zlib
+FETCHCONTENT_UPDATES_DISCONNECTED_ZLIB:BOOL=OFF
+
+//Enables UPDATE_DISCONNECTED behavior just for population of zstd
+FETCHCONTENT_UPDATES_DISCONNECTED_ZSTD:BOOL=OFF
+
+//Path to a program.
+GETTEXT_MSGFMT_EXECUTABLE:FILEPATH=GETTEXT_MSGFMT_EXECUTABLE-NOTFOUND
+
+//Path to a program.
+GETTEXT_MSGMERGE_EXECUTABLE:FILEPATH=GETTEXT_MSGMERGE_EXECUTABLE-NOTFOUND
+
+//Git command line client
+GIT_EXECUTABLE:FILEPATH=C:/Program Files/Git/cmd/git.exe
+
+//Copy minigzip and minideflate during install
+INSTALL_UTILS:BOOL=OFF
+
+//libintl include directory
+Intl_INCLUDE_DIR:PATH=Intl_INCLUDE_DIR-NOTFOUND
+
+//libintl libraries (if not in the C library)
+Intl_LIBRARY:FILEPATH=Intl_LIBRARY-NOTFOUND
+
+//Use -D_FILE_OFFSET_BITS=64 to support files larger than 2 GiB.
+LARGE_FILE_SUPPORT:BOOL=ON
+
+//Path to a file.
+LIBLZMA_INCLUDE_DIR:PATH=LIBLZMA_INCLUDE_DIR-NOTFOUND
+
+//Path to a library.
+LIBLZMA_LIBRARY_DEBUG:FILEPATH=LIBLZMA_LIBRARY_DEBUG-NOTFOUND
+
+//Path to a library.
+LIBLZMA_LIBRARY_RELEASE:FILEPATH=LIBLZMA_LIBRARY_RELEASE-NOTFOUND
+
+//Builds minizip fuzzer executables
+MZ_BUILD_FUZZ_TESTS:BOOL=OFF
+
+//Builds minizip test executable
+MZ_BUILD_TESTS:BOOL=OFF
+
+//Builds minizip unit test project
+MZ_BUILD_UNIT_TESTS:BOOL=OFF
+
+//Enables BZIP2 compression
+MZ_BZIP2:BOOL=ON
+
+//Builds with code coverage flags
+MZ_CODE_COVERAGE:BOOL=OFF
+
+//Enables compatibility layer
+MZ_COMPAT:BOOL=ON
+
+//Only support compression
+MZ_COMPRESS_ONLY:BOOL=OFF
+
+//Only support decompression
+MZ_DECOMPRESS_ONLY:BOOL=OFF
+
+//Enables fetching third-party libraries if not found
+MZ_FETCH_LIBS:BOOL=ON
+
+//Builds using posix 32-bit file api
+MZ_FILE32_API:BOOL=OFF
+
+//Enables fetching third-party libraries always
+MZ_FORCE_FETCH_LIBS:BOOL=OFF
+
+//Enables iconv for string encoding conversion
+MZ_ICONV:BOOL=ON
+
+//Library name suffix for package managers
+MZ_LIB_SUFFIX:STRING=
+
+//Enables LZMA & XZ compression
+MZ_LZMA:BOOL=ON
+
+//Enables PKWARE traditional encryption
+MZ_PKCRYPT:BOOL=ON
+
+//Enable sanitizer support
+MZ_SANITIZER:STRING=AUTO
+
+//Enables WinZIP AES encryption
+MZ_WZAES:BOOL=ON
+
+//Enables ZLIB compression
+MZ_ZLIB:BOOL=ON
+
+//Enables ZSTD compression
+MZ_ZSTD:BOOL=ON
+
+//Installation directory for pkgconfig (.pc) files
+PKGCONFIG_INSTALL_DIR:PATH=lib/pkgconfig
+
+//Arguments to supply to pkg-config
+PKG_CONFIG_ARGN:STRING=
+
+//pkg-config executable
+PKG_CONFIG_EXECUTABLE:FILEPATH=PKG_CONFIG_EXECUTABLE-NOTFOUND
+
 //Additional directories where find(Qt6 ...) host Qt components
 // are searched
 QT_ADDITIONAL_HOST_PACKAGES_PREFIX_PATH:STRING=
@@ -337,6 +522,16 @@ Qt6ZlibPrivate_DIR:PATH=C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6ZlibPrivate
 //The directory containing a CMake configuration file for Qt6.
 Qt6_DIR:PATH=C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6
 
+//Enable if the system supports *fast* unaligned memory access
+// with 16-bit, 32-bit, and 64-bit integers.
+TUKLIB_FAST_UNALIGNED_ACCESS:BOOL=ON
+
+//This introduces strict aliasing violations and may result in
+// broken code. However, this might improve performance in some
+// cases, especially with old compilers (e.g. GCC 3 and early 4.x
+// on x86, GCC < 6 on ARMv6 and ARMv7).
+TUKLIB_USE_UNSAFE_TYPE_PUNNING:BOOL=OFF
+
 //Value Computed by CMake
 ViewerZIP_BINARY_DIR:STATIC=C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug
 
@@ -361,15 +556,313 @@ Vulkan_LIBRARY:FILEPATH=Vulkan_LIBRARY-NOTFOUND
 //Path to a program.
 WINDEPLOYQT_EXECUTABLE:FILEPATH=C:/Qt/6.7.2/mingw_64/bin/windeployqt.exe
 
+//Build with AVX2
+WITH_AVX2:BOOL=ON
+
+//Build with AVX512
+WITH_AVX512:BOOL=ON
+
+//Build with AVX512 VNNI extensions
+WITH_AVX512VNNI:BOOL=ON
+
+//Build test/benchmarks
+WITH_BENCHMARKS:BOOL=OFF
+
+//Build application benchmarks
+WITH_BENCHMARK_APPS:BOOL=OFF
+
+//Enable code coverage reporting
+WITH_CODE_COVERAGE:BOOL=OFF
+
+//Build test/fuzz
+WITH_FUZZERS:BOOL=OFF
+
+//Build gtest_zlib
+WITH_GTEST:BOOL=ON
+
+//Compile with support for gzFile related functions
+WITH_GZFILEOP:BOOL=ON
+
+//Build with zero fill for inflate invalid distances
+WITH_INFLATE_ALLOW_INVALID_DIST:BOOL=OFF
+
+//Build with strict inflate distance checking
+WITH_INFLATE_STRICT:BOOL=OFF
+
+//Build with project maintainer warnings
+WITH_MAINTAINER_WARNINGS:BOOL=OFF
+
+//Instruct the compiler to use the full instruction set on this
+// host (gcc/clang -march=native)
+WITH_NATIVE_INSTRUCTIONS:BOOL=OFF
+
+//Use new strategies
+WITH_NEW_STRATEGIES:BOOL=ON
+
+//Build with optimisation
+WITH_OPTIM:BOOL=ON
+
+//Build with PCLMULQDQ
+WITH_PCLMULQDQ:BOOL=ON
+
+//Reduced memory usage for special cases (reduces performance)
+WITH_REDUCED_MEM:BOOL=OFF
+
+//Build with runtime detection of CPU architecture
+WITH_RUNTIME_CPU_DETECTION:BOOL=ON
+
+//Enable sanitizer support
+WITH_SANITIZER:STRING=AUTO
+
+//Build with SSE2
+WITH_SSE2:BOOL=ON
+
+//Build with SSE42
+WITH_SSE42:BOOL=ON
+
+//Build with SSSE3
+WITH_SSSE3:BOOL=ON
+
+//Support unaligned reads on platforms that support it
+WITH_UNALIGNED:BOOL=ON
+
+//Build with VPCLMULQDQ
+WITH_VPCLMULQDQ:BOOL=ON
+
+//Use ARM64 CRC32 instructions (with runtime detection) if supported
+// by the compiler
+XZ_ARM64_CRC32:BOOL=ON
+
+//Enable 32-bit x86 assembly code
+XZ_ASM_I386:BOOL=OFF
+
+//Assume that the system has this many MiB of RAM if xz cannot
+// determine the amount at runtime
+XZ_ASSUME_RAM:STRING=128
+
+//Check types to support (crc32 is always built)
+XZ_CHECKS:STRING=crc32;crc64;sha256
+
+//Use carryless multiplication for CRC calculation (with runtime
+// detection) if supported by the compiler
+XZ_CLMUL_CRC:BOOL=ON
+
+//Decoders to support
+XZ_DECODERS:STRING=lzma1;lzma2;delta;x86;arm;armthumb;arm64;powerpc;ia64;sparc;riscv
+
+//Install basic documentation, examples, and license files
+XZ_DOC:BOOL=ON
+
+//Encoders to support
+XZ_ENCODERS:STRING=lzma1;lzma2;delta;x86;arm;armthumb;arm64;powerpc;ia64;sparc;riscv
+
+//Use SHA-256 code from the operating system if possible. See INSTALL
+// for possible subtle problems.
+XZ_EXTERNAL_SHA256:BOOL=OFF
+
+//Path to liblzma's .cmake files
+XZ_INSTALL_CMAKEDIR:STRING=lib/cmake/liblzma
+
+//Use LoongArch CRC32 instructions if supported by the compiler
+XZ_LOONGARCH_CRC32:BOOL=ON
+
+//Support lzip decoder
+XZ_LZIP_DECODER:BOOL=ON
+
+//Match finders to support (at least one is required for LZMA1
+// or LZMA2)
+XZ_MATCH_FINDERS:STRING=hc3;hc4;bt2;bt3;bt4
+
+//MicroLZMA decoder (needed by specific applications only)
+XZ_MICROLZMA_DECODER:BOOL=ON
+
+//MicroLZMA encoder (needed by specific applications only)
+XZ_MICROLZMA_ENCODER:BOOL=ON
+
+//Native Language Support (translated messages and man pages)
+XZ_NLS:BOOL=OFF
+
+//Sandboxing method to use in 'xz', 'xzdec', and 'lzmadec'
+XZ_SANDBOX:STRING=auto
+
+//Reduce code size at expense of speed. This may be useful together
+// with CMAKE_BUILD_TYPE=MinSizeRel.
+XZ_SMALL:BOOL=OFF
+
+//Threading method: 'yes' to autodetect, 'no' to disable, 'posix'
+// (pthreads), 'win95' (WinXP compatible), 'vista' (needs Windows
+// Vista or later)
+XZ_THREADS:STRING=yes
+
+//Build and install the lzmadec command line tool
+XZ_TOOL_LZMADEC:BOOL=ON
+
+//Build and install the lzmainfo command line tool
+XZ_TOOL_LZMAINFO:BOOL=ON
+
+//Build and install the xz command line tool
+XZ_TOOL_XZ:BOOL=ON
+
+//Build and install the xzdec command line tool
+XZ_TOOL_XZDEC:BOOL=ON
+
+//Visibility for ZDICTLIB_STATIC_API API
+ZDICTLIB_STATIC_API:STRING=
+
+//Visibility for ZDICTLIB_VISIBLE API
+ZDICTLIB_VISIBLE:STRING=
+
+//Test zlib-ng specific API
+ZLIBNG_ENABLE_TESTS:BOOL=ON
+
+//Path to a file.
+ZLIBNG_INCLUDE_DIRS:PATH=ZLIBNG_INCLUDE_DIRS-NOTFOUND
+
+//Path to a library.
+ZLIBNG_LIBRARY:FILEPATH=ZLIBNG_LIBRARY-NOTFOUND
+
+//Compile with zlib compatible API
+ZLIB_COMPAT:BOOL=OFF
+
+//Build test binaries
+ZLIB_ENABLE_TESTS:BOOL=OFF
+
+//Path to a file.
+ZLIB_INCLUDE_DIR:PATH=ZLIB_INCLUDE_DIR-NOTFOUND
+
+//Path to a library.
+ZLIB_LIBRARY_DEBUG:FILEPATH=ZLIB_LIBRARY_DEBUG-NOTFOUND
+
+//Path to a library.
+ZLIB_LIBRARY_RELEASE:FILEPATH=ZLIB_LIBRARY_RELEASE-NOTFOUND
+
+//Give this prefix to all publicly exported symbols.
+//\nUseful when embedding into a larger library.
+//\nDefault is no prefix (empty prefix).
+ZLIB_SYMBOL_PREFIX:STRING=
+
+//Visibility for ZSTDERRORLIB_VISIBLE API
+ZSTDERRORLIB_VISIBLE:STRING=
+
+//Visibility for ZSTDLIB_STATIC_API API
+ZSTDLIB_STATIC_API:STRING=
+
+//Visibility for ZSTDLIB API
+ZSTDLIB_VISIBLE:STRING=
+
+//BUILD COMPRESSION MODULE
+ZSTD_BUILD_COMPRESSION:BOOL=ON
+
+//BUILD CONTRIB
+ZSTD_BUILD_CONTRIB:BOOL=OFF
+
+//BUILD DECOMPRESSION MODULE
+ZSTD_BUILD_DECOMPRESSION:BOOL=ON
+
+//BUILD DEPRECATED MODULE
+ZSTD_BUILD_DEPRECATED:BOOL=OFF
+
+//BUILD DICTBUILDER MODULE
+ZSTD_BUILD_DICTBUILDER:BOOL=ON
+
+//BUILD PROGRAMS
+ZSTD_BUILD_PROGRAMS:BOOL=OFF
+
+//BUILD SHARED LIBRARIES
+ZSTD_BUILD_SHARED:BOOL=ON
+
+//BUILD STATIC LIBRARIES
+ZSTD_BUILD_STATIC:BOOL=ON
+
+//BUILD TESTS
+ZSTD_BUILD_TESTS:BOOL=OFF
+
+//The directory containing a CMake configuration file for ZSTD.
+ZSTD_DIR:PATH=ZSTD_DIR-NOTFOUND
+
+ZSTD_LEGACY_LEVEL:STRING=5
+
+//LEGACY SUPPORT
+ZSTD_LEGACY_SUPPORT:BOOL=ON
+
+//MULTITHREADING SUPPORT
+ZSTD_MULTITHREAD_SUPPORT:BOOL=ON
+
+//PROGRAMS LINK SHARED
+ZSTD_PROGRAMS_LINK_SHARED:BOOL=OFF
+
+//Value Computed by CMake
+libzstd_BINARY_DIR:STATIC=C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/zstd-build/lib
+
+//Value Computed by CMake
+libzstd_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+libzstd_SOURCE_DIR:STATIC=C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/third_party/zstd/build/cmake/lib
+
+//Value Computed by CMake
+minizip-ng_BINARY_DIR:STATIC=C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/minizip-ng
+
+//Value Computed by CMake
+minizip-ng_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+minizip-ng_SOURCE_DIR:STATIC=C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng
+
+//Value Computed by CMake
+xz_BINARY_DIR:STATIC=C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/liblzma-build
+
+//Value Computed by CMake
+xz_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+xz_SOURCE_DIR:STATIC=C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/third_party/liblzma
+
+//Value Computed by CMake
+zlib_BINARY_DIR:STATIC=C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/zlib-build
+
+//Value Computed by CMake
+zlib_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+zlib_SOURCE_DIR:STATIC=C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/third_party/zlib
+
+//Value Computed by CMake
+zstd_BINARY_DIR:STATIC=C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/zstd-build
+
+//Value Computed by CMake
+zstd_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+zstd_SOURCE_DIR:STATIC=C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/third_party/zstd/build/cmake
+
 
 ########################
 # INTERNAL cache entries
 ########################
 
+//Have symbol __i386__
+ASM_I386_DEFAULT:INTERNAL=
+//ADVANCED property for variable: BZIP2_INCLUDE_DIR
+BZIP2_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: BZIP2_LIBRARY_DEBUG
+BZIP2_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: BZIP2_LIBRARY_RELEASE
+BZIP2_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_ADDR2LINE
 CMAKE_ADDR2LINE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_AR
 CMAKE_AR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_ASM_FLAGS
+CMAKE_ASM_FLAGS-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_ASM_FLAGS_DEBUG
+CMAKE_ASM_FLAGS_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_ASM_FLAGS_MINSIZEREL
+CMAKE_ASM_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_ASM_FLAGS_RELEASE
+CMAKE_ASM_FLAGS_RELEASE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_ASM_FLAGS_RELWITHDEBINFO
+CMAKE_ASM_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //This is the directory where this CMakeCache.txt was created
 CMAKE_CACHEFILE_DIR:INTERNAL=c:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug
 //Major version of cmake used to create the current loaded cache
@@ -402,6 +895,18 @@ CMAKE_CXX_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 CMAKE_CXX_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_CXX_STANDARD_LIBRARIES
 CMAKE_CXX_STANDARD_LIBRARIES-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_C_FLAGS
+CMAKE_C_FLAGS-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_C_FLAGS_DEBUG
+CMAKE_C_FLAGS_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_C_FLAGS_MINSIZEREL
+CMAKE_C_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_C_FLAGS_RELEASE
+CMAKE_C_FLAGS_RELEASE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_C_FLAGS_RELWITHDEBINFO
+CMAKE_C_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_C_STANDARD_LIBRARIES
+CMAKE_C_STANDARD_LIBRARIES-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_DLLTOOL
 CMAKE_DLLTOOL-ADVANCED:INTERNAL=1
 //Path to cache edit program executable.
@@ -480,7 +985,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -536,12 +1041,290 @@ CMAKE_STRIP-ADVANCED:INTERNAL=1
 CMAKE_TAPI-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Test CXX_FLAG_DDEBUGLEVEL_1
+CXX_FLAG_DDEBUGLEVEL_1:INTERNAL=1
+//Test CXX_FLAG_QUNUSED_ARGUMENTS
+CXX_FLAG_QUNUSED_ARGUMENTS:INTERNAL=
+//Test CXX_FLAG_WALL
+CXX_FLAG_WALL:INTERNAL=1
+//Test CXX_FLAG_WA_NOEXECSTACK
+CXX_FLAG_WA_NOEXECSTACK:INTERNAL=
+//Test CXX_FLAG_WCAST_ALIGN
+CXX_FLAG_WCAST_ALIGN:INTERNAL=1
+//Test CXX_FLAG_WCAST_QUAL
+CXX_FLAG_WCAST_QUAL:INTERNAL=1
+//Test CXX_FLAG_WEXTRA
+CXX_FLAG_WEXTRA:INTERNAL=1
+//Test CXX_FLAG_WSHADOW
+CXX_FLAG_WSHADOW:INTERNAL=1
+//Test CXX_FLAG_WUNDEF
+CXX_FLAG_WUNDEF:INTERNAL=1
+//Test C_FLAG_DDEBUGLEVEL_1
+C_FLAG_DDEBUGLEVEL_1:INTERNAL=1
+//Test C_FLAG_QUNUSED_ARGUMENTS
+C_FLAG_QUNUSED_ARGUMENTS:INTERNAL=
+//Test C_FLAG_WALL
+C_FLAG_WALL:INTERNAL=1
+//Test C_FLAG_WA_NOEXECSTACK
+C_FLAG_WA_NOEXECSTACK:INTERNAL=
+//Test C_FLAG_WCAST_ALIGN
+C_FLAG_WCAST_ALIGN:INTERNAL=1
+//Test C_FLAG_WCAST_QUAL
+C_FLAG_WCAST_QUAL:INTERNAL=1
+//Test C_FLAG_WEXTRA
+C_FLAG_WEXTRA:INTERNAL=1
+//Test C_FLAG_WSHADOW
+C_FLAG_WSHADOW:INTERNAL=1
+//Test C_FLAG_WSTRICT_PROTOTYPES
+C_FLAG_WSTRICT_PROTOTYPES:INTERNAL=1
+//Test C_FLAG_WUNDEF
+C_FLAG_WUNDEF:INTERNAL=1
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 //Details about finding WrapAtomic
 FIND_PACKAGE_MESSAGE_DETAILS_WrapAtomic:INTERNAL=[1][v()]
+//Test FNO_LTO_AVAILABLE
+FNO_LTO_AVAILABLE:INTERNAL=1
+//ADVANCED property for variable: GIT_EXECUTABLE
+GIT_EXECUTABLE-ADVANCED:INTERNAL=1
+//Have symbol aligned_alloc
+HAVE_ALIGNED_ALLOC:INTERNAL=
+//Test HAVE_ARM64_CRC32
+HAVE_ARM64_CRC32:INTERNAL=
+//Have include arm_acle.h
+HAVE_ARM_ACLE_H:INTERNAL=
+//Test HAVE_ATTRIBUTE_ALIGNED
+HAVE_ATTRIBUTE_ALIGNED:INTERNAL=1
+//Test HAVE_ATTRIBUTE_VISIBILITY_HIDDEN
+HAVE_ATTRIBUTE_VISIBILITY_HIDDEN:INTERNAL=
+//Test HAVE_ATTRIBUTE_VISIBILITY_INTERNAL
+HAVE_ATTRIBUTE_VISIBILITY_INTERNAL:INTERNAL=
+//Test HAVE_AVX2_INTRIN
+HAVE_AVX2_INTRIN:INTERNAL=1
+//Test HAVE_AVX512VNNI_INTRIN
+HAVE_AVX512VNNI_INTRIN:INTERNAL=1
+//Test HAVE_AVX512_INTRIN
+HAVE_AVX512_INTRIN:INTERNAL=1
+//Have symbol BCryptGenRandom
+HAVE_BCRYPT:INTERNAL=1
+//Test HAVE_BUILTIN_ASSUME_ALIGNED
+HAVE_BUILTIN_ASSUME_ALIGNED:INTERNAL=1
+//Test HAVE_BUILTIN_CTZ
+HAVE_BUILTIN_CTZ:INTERNAL=1
+//Test HAVE_BUILTIN_CTZLL
+HAVE_BUILTIN_CTZLL:INTERNAL=1
+//Have symbol cap_rights_limit
+HAVE_CAP_RIGHTS_LIMIT:INTERNAL=
+//Test HAVE_CASCADE_LAKE
+HAVE_CASCADE_LAKE:INTERNAL=1
+//Have symbol clock_gettime
+HAVE_CLOCK_GETTIME:INTERNAL=1
+//Have symbol CLOCK_MONOTONIC
+HAVE_CLOCK_MONOTONIC:INTERNAL=1
+//Test HAVE_COMPILER_OPTION_-Waggregate-return
+HAVE_COMPILER_OPTION_-Waggregate-return:INTERNAL=1
+//Test HAVE_COMPILER_OPTION_-Wall
+HAVE_COMPILER_OPTION_-Wall:INTERNAL=1
+//Test HAVE_COMPILER_OPTION_-Walloc-zero
+HAVE_COMPILER_OPTION_-Walloc-zero:INTERNAL=1
+//Test HAVE_COMPILER_OPTION_-Warray-bounds-pointer-arithmetic
+HAVE_COMPILER_OPTION_-Warray-bounds-pointer-arithmetic:INTERNAL=
+//Test HAVE_COMPILER_OPTION_-Wassign-enum
+HAVE_COMPILER_OPTION_-Wassign-enum:INTERNAL=
+//Test HAVE_COMPILER_OPTION_-Wbad-function-cast
+HAVE_COMPILER_OPTION_-Wbad-function-cast:INTERNAL=1
+//Test HAVE_COMPILER_OPTION_-Wc11-extensions
+HAVE_COMPILER_OPTION_-Wc11-extensions:INTERNAL=
+//Test HAVE_COMPILER_OPTION_-Wc2x-compat
+HAVE_COMPILER_OPTION_-Wc2x-compat:INTERNAL=
+//Test HAVE_COMPILER_OPTION_-Wc2x-extensions
+HAVE_COMPILER_OPTION_-Wc2x-extensions:INTERNAL=
+//Test HAVE_COMPILER_OPTION_-Wc99-compat
+HAVE_COMPILER_OPTION_-Wc99-compat:INTERNAL=
+//Test HAVE_COMPILER_OPTION_-Wconditional-uninitialized
+HAVE_COMPILER_OPTION_-Wconditional-uninitialized:INTERNAL=
+//Test HAVE_COMPILER_OPTION_-Wdate-time
+HAVE_COMPILER_OPTION_-Wdate-time:INTERNAL=1
+//Test HAVE_COMPILER_OPTION_-Wdocumentation
+HAVE_COMPILER_OPTION_-Wdocumentation:INTERNAL=
+//Test HAVE_COMPILER_OPTION_-Wduplicate-enum
+HAVE_COMPILER_OPTION_-Wduplicate-enum:INTERNAL=
+//Test HAVE_COMPILER_OPTION_-Wduplicated-cond
+HAVE_COMPILER_OPTION_-Wduplicated-cond:INTERNAL=1
+//Test HAVE_COMPILER_OPTION_-Wempty-translation-unit
+HAVE_COMPILER_OPTION_-Wempty-translation-unit:INTERNAL=
+//Test HAVE_COMPILER_OPTION_-Wextra
+HAVE_COMPILER_OPTION_-Wextra:INTERNAL=1
+//Test HAVE_COMPILER_OPTION_-Wflexible-array-extensions
+HAVE_COMPILER_OPTION_-Wflexible-array-extensions:INTERNAL=
+//Test HAVE_COMPILER_OPTION_-Wfloat-conversion
+HAVE_COMPILER_OPTION_-Wfloat-conversion:INTERNAL=1
+//Test HAVE_COMPILER_OPTION_-Wfloat-equal
+HAVE_COMPILER_OPTION_-Wfloat-equal:INTERNAL=1
+//Test HAVE_COMPILER_OPTION_-Wformat_2
+HAVE_COMPILER_OPTION_-Wformat_2:INTERNAL=1
+//Test HAVE_COMPILER_OPTION_-Winit-self
+HAVE_COMPILER_OPTION_-Winit-self:INTERNAL=1
+//Test HAVE_COMPILER_OPTION_-Wlogical-op
+HAVE_COMPILER_OPTION_-Wlogical-op:INTERNAL=1
+//Test HAVE_COMPILER_OPTION_-Wmissing-declarations
+HAVE_COMPILER_OPTION_-Wmissing-declarations:INTERNAL=1
+//Test HAVE_COMPILER_OPTION_-Wmissing-include-dirs
+HAVE_COMPILER_OPTION_-Wmissing-include-dirs:INTERNAL=1
+//Test HAVE_COMPILER_OPTION_-Wmissing-prototypes
+HAVE_COMPILER_OPTION_-Wmissing-prototypes:INTERNAL=1
+//Test HAVE_COMPILER_OPTION_-Wmissing-variable-declarations
+HAVE_COMPILER_OPTION_-Wmissing-variable-declarations:INTERNAL=
+//Test HAVE_COMPILER_OPTION_-Wnewline-eof
+HAVE_COMPILER_OPTION_-Wnewline-eof:INTERNAL=
+//Test HAVE_COMPILER_OPTION_-Wold-style-definition
+HAVE_COMPILER_OPTION_-Wold-style-definition:INTERNAL=1
+//Test HAVE_COMPILER_OPTION_-Wpointer-arith
+HAVE_COMPILER_OPTION_-Wpointer-arith:INTERNAL=1
+//Test HAVE_COMPILER_OPTION_-Wpre-c2x-compat
+HAVE_COMPILER_OPTION_-Wpre-c2x-compat:INTERNAL=
+//Test HAVE_COMPILER_OPTION_-Wredundant-decls
+HAVE_COMPILER_OPTION_-Wredundant-decls:INTERNAL=1
+//Test HAVE_COMPILER_OPTION_-Wshadow
+HAVE_COMPILER_OPTION_-Wshadow:INTERNAL=1
+//Test HAVE_COMPILER_OPTION_-Wshift-overflow_2
+HAVE_COMPILER_OPTION_-Wshift-overflow_2:INTERNAL=1
+//Test HAVE_COMPILER_OPTION_-Wshift-sign-overflow
+HAVE_COMPILER_OPTION_-Wshift-sign-overflow:INTERNAL=
+//Test HAVE_COMPILER_OPTION_-Wsign-conversion
+HAVE_COMPILER_OPTION_-Wsign-conversion:INTERNAL=1
+//Test HAVE_COMPILER_OPTION_-Wstrict-overflow_3
+HAVE_COMPILER_OPTION_-Wstrict-overflow_3:INTERNAL=1
+//Test HAVE_COMPILER_OPTION_-Wstrict-prototypes
+HAVE_COMPILER_OPTION_-Wstrict-prototypes:INTERNAL=1
+//Test HAVE_COMPILER_OPTION_-Wstring-conversion
+HAVE_COMPILER_OPTION_-Wstring-conversion:INTERNAL=
+//Test HAVE_COMPILER_OPTION_-Wundef
+HAVE_COMPILER_OPTION_-Wundef:INTERNAL=1
+//Test HAVE_COMPILER_OPTION_-Wvla
+HAVE_COMPILER_OPTION_-Wvla:INTERNAL=1
+//Test HAVE_COMPILER_OPTION_-Wwrite-strings
+HAVE_COMPILER_OPTION_-Wwrite-strings:INTERNAL=1
+//Have include cpuid.h
+HAVE_CPUID_H:INTERNAL=1
+//Have function fseeko
+HAVE_FSEEKO:INTERNAL=1
+//Test HAVE_FUNC_ATTRIBUTE_CONSTRUCTOR
+HAVE_FUNC_ATTRIBUTE_CONSTRUCTOR:INTERNAL=1
+//Have symbol futimens
+HAVE_FUTIMENS:INTERNAL=
+//Have symbol futimes
+HAVE_FUTIMES:INTERNAL=
+//Have symbol futimesat
+HAVE_FUTIMESAT:INTERNAL=
+//Have symbol getopt_long
+HAVE_GETOPT_LONG:INTERNAL=1
+//Have include immintrin.h
+HAVE_IMMINTRIN_H:INTERNAL=1
+//Have include inttypes.h
+HAVE_INTTYPES_H:INTERNAL=1
+//Have include linux/auxvec.h
+HAVE_LINUX_AUXVEC_H:INTERNAL=
+//Test HAVE_LINUX_LANDLOCK
+HAVE_LINUX_LANDLOCK:INTERNAL=
+//Test HAVE_LOONGARCH_CRC32
+HAVE_LOONGARCH_CRC32:INTERNAL=
+//Have symbol mbrtowc
+HAVE_MBRTOWC:INTERNAL=1
+//Test HAVE_NO_INTERPOSITION
+HAVE_NO_INTERPOSITION:INTERNAL=1
+//Test HAVE_NO_PEDANTIC_MS_FORMAT
+HAVE_NO_PEDANTIC_MS_FORMAT:INTERNAL=1
+//Result of TRY_COMPILE
+HAVE_OFF64_T:INTERNAL=TRUE
+//Have symbol optreset
+HAVE_OPTRESET:INTERNAL=
+//Test HAVE_PCLMULQDQ_INTRIN
+HAVE_PCLMULQDQ_INTRIN:INTERNAL=1
+//Have symbol pledge
+HAVE_PLEDGE:INTERNAL=
+//Have symbol posix_fadvise
+HAVE_POSIX_FADVISE:INTERNAL=
+//Have symbol posix_memalign
+HAVE_POSIX_MEMALIGN:INTERNAL=
+//Have symbol program_invocation_name
+HAVE_PROGRAM_INVOCATION_NAME:INTERNAL=
+//Test HAVE_PTRDIFF_T
+HAVE_PTRDIFF_T:INTERNAL=1
+//Test HAVE_SSE2_INTRIN
+HAVE_SSE2_INTRIN:INTERNAL=1
+//Test HAVE_SSE42_INTRIN
+HAVE_SSE42_INTRIN:INTERNAL=1
+//Test HAVE_SSSE3_INTRIN
+HAVE_SSSE3_INTRIN:INTERNAL=1
 //Test HAVE_STDATOMIC
 HAVE_STDATOMIC:INTERNAL=1
+//Have include stddef.h
+HAVE_STDDEF_H:INTERNAL=1
+//Have include stdint.h
+HAVE_STDINT_H:INTERNAL=1
+//Have function strerror
+HAVE_STRERROR:INTERNAL=1
+//Test HAVE_STRUCT_STAT_ST_ATIMENSEC
+HAVE_STRUCT_STAT_ST_ATIMENSEC:INTERNAL=
+//Test HAVE_STRUCT_STAT_ST_ATIMESPEC_TV_NSEC
+HAVE_STRUCT_STAT_ST_ATIMESPEC_TV_NSEC:INTERNAL=
+//Test HAVE_STRUCT_STAT_ST_ATIM_TV_NSEC
+HAVE_STRUCT_STAT_ST_ATIM_TV_NSEC:INTERNAL=
+//Have include sys/auxv.h
+HAVE_SYS_AUXV_H:INTERNAL=
+//Have include sys/sdt.h
+HAVE_SYS_SDT_H:INTERNAL=
+//Have include sys/types.h
+HAVE_SYS_TYPES_H:INTERNAL=1
+//Have include unistd.h
+HAVE_UNISTD_H:INTERNAL=1
+//Test HAVE_USABLE_CLMUL
+HAVE_USABLE_CLMUL:INTERNAL=1
+//Have symbol utimes
+HAVE_UTIMES:INTERNAL=
+//Test HAVE_VPCLMULQDQ_INTRIN
+HAVE_VPCLMULQDQ_INTRIN:INTERNAL=1
+//Have symbol wcwidth
+HAVE_WCWIDTH:INTERNAL=
+//Test HAVE_XSAVE_INTRIN
+HAVE_XSAVE_INTRIN:INTERNAL=1
+//Have symbol _futime
+HAVE__FUTIME:INTERNAL=1
+//Test HAVE__MM_MOVEMASK_EPI8
+HAVE__MM_MOVEMASK_EPI8:INTERNAL=1
+//Test HAVE___BUILTIN_ASSUME_ALIGNED
+HAVE___BUILTIN_ASSUME_ALIGNED:INTERNAL=1
+//Test HAVE___BUILTIN_BSWAPXX
+HAVE___BUILTIN_BSWAPXX:INTERNAL=1
+//ADVANCED property for variable: INSTALL_UTILS
+INSTALL_UTILS-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Intl_INCLUDE_DIR
+Intl_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//Test Intl_IS_BUILT_IN
+Intl_IS_BUILT_IN:INTERNAL=
+//ADVANCED property for variable: Intl_LIBRARY
+Intl_LIBRARY-ADVANCED:INTERNAL=1
+//Test LD_FLAG_Z_NOEXECSTACK
+LD_FLAG_Z_NOEXECSTACK:INTERNAL=
+//ADVANCED property for variable: LIBLZMA_INCLUDE_DIR
+LIBLZMA_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: LIBLZMA_LIBRARY_DEBUG
+LIBLZMA_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: LIBLZMA_LIBRARY_RELEASE
+LIBLZMA_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: MZ_FILE32_API
+MZ_FILE32_API-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: MZ_LIB_SUFFIX
+MZ_LIB_SUFFIX-ADVANCED:INTERNAL=1
+//STRINGS property for variable: MZ_SANITIZER
+MZ_SANITIZER-STRINGS:INTERNAL=Memory;Address;Undefined;Thread
+//CHECK_TYPE_SIZE: sizeof(off64_t)
+OFF64_T:INTERNAL=8
+//ADVANCED property for variable: PKG_CONFIG_ARGN
+PKG_CONFIG_ARGN-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: PKG_CONFIG_EXECUTABLE
+PKG_CONFIG_EXECUTABLE-ADVANCED:INTERNAL=1
 //Qt feature: abstractbutton (from target Qt6::Widgets)
 QT_FEATURE_abstractbutton:INTERNAL=ON
 //Qt feature: abstractslider (from target Qt6::Widgets)
@@ -1268,6 +2051,14 @@ QT_FEATURE_xmlstreamwriter:INTERNAL=ON
 QT_FEATURE_xrender:INTERNAL=OFF
 //Qt feature: zstd (from target Qt6::Core)
 QT_FEATURE_zstd:INTERNAL=OFF
+TUKLIB_CPUCORES_DEFINITIONS:INTERNAL=
+TUKLIB_CPUCORES_FOUND:INTERNAL=1
+//Test TUKLIB_LARGE_FILE_SUPPORT_BY_DEFAULT
+TUKLIB_LARGE_FILE_SUPPORT_BY_DEFAULT:INTERNAL=
+//Test TUKLIB_LARGE_FILE_SUPPORT_WITH_FOB64
+TUKLIB_LARGE_FILE_SUPPORT_WITH_FOB64:INTERNAL=1
+TUKLIB_PHYSMEM_DEFINITIONS:INTERNAL=
+TUKLIB_PHYSMEM_FOUND:INTERNAL=1
 //ADVANCED property for variable: Vulkan_GLSLANG_VALIDATOR_EXECUTABLE
 Vulkan_GLSLANG_VALIDATOR_EXECUTABLE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Vulkan_GLSLC_EXECUTABLE
@@ -1276,8 +2067,52 @@ Vulkan_GLSLC_EXECUTABLE-ADVANCED:INTERNAL=1
 Vulkan_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Vulkan_LIBRARY
 Vulkan_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: WITH_AVX2
+WITH_AVX2-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: WITH_INFLATE_ALLOW_INVALID_DIST
+WITH_INFLATE_ALLOW_INVALID_DIST-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: WITH_INFLATE_STRICT
+WITH_INFLATE_STRICT-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: WITH_PCLMULQDQ
+WITH_PCLMULQDQ-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: WITH_REDUCED_MEM
+WITH_REDUCED_MEM-ADVANCED:INTERNAL=1
+//STRINGS property for variable: WITH_SANITIZER
+WITH_SANITIZER-STRINGS:INTERNAL=Memory;Address;Undefined;Thread
+//ADVANCED property for variable: WITH_SSE2
+WITH_SSE2-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: WITH_SSE42
+WITH_SSE42-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: WITH_SSSE3
+WITH_SSSE3-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: WITH_UNALIGNED
+WITH_UNALIGNED-ADVANCED:INTERNAL=1
+//STRINGS property for variable: XZ_SANDBOX
+XZ_SANDBOX-STRINGS:INTERNAL=auto;no;capsicum;pledge;landlock
+//STRINGS property for variable: XZ_THREADS
+XZ_THREADS-STRINGS:INTERNAL=yes;no;posix;win95;vista
+//STRINGS property for variable: ZDICTLIB_STATIC_API
+ZDICTLIB_STATIC_API-STRINGS:INTERNAL=;hidden;default;protected;internal
+//STRINGS property for variable: ZDICTLIB_VISIBLE
+ZDICTLIB_VISIBLE-STRINGS:INTERNAL=;hidden;default;protected;internal
+//ADVANCED property for variable: ZLIB_INCLUDE_DIR
+ZLIB_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: ZLIB_LIBRARY_DEBUG
+ZLIB_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: ZLIB_LIBRARY_RELEASE
+ZLIB_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: ZLIB_SYMBOL_PREFIX
+ZLIB_SYMBOL_PREFIX-ADVANCED:INTERNAL=1
+//STRINGS property for variable: ZSTDERRORLIB_VISIBLE
+ZSTDERRORLIB_VISIBLE-STRINGS:INTERNAL=;hidden;default;protected;internal
+//STRINGS property for variable: ZSTDLIB_STATIC_API
+ZSTDLIB_STATIC_API-STRINGS:INTERNAL=;hidden;default;protected;internal
+//STRINGS property for variable: ZSTDLIB_VISIBLE
+ZSTDLIB_VISIBLE-STRINGS:INTERNAL=;hidden;default;protected;internal
 //linker supports push/pop state
 _CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED:INTERNAL=TRUE
 //CMAKE_INSTALL_PREFIX during last run
 _GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=C:/Program Files (x86)/ViewerZIP
+//Result of TRY_COMPILE
+compile_result_unused:INTERNAL=FALSE
 

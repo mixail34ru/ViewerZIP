@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/liblzma-subbuild/CMakeFiles/liblzma-populate"
+		},
+		{
+			"file" : "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/liblzma-subbuild/CMakeFiles/liblzma-populate.rule"
+		},
+		{
+			"file" : "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/liblzma-subbuild/CMakeFiles/liblzma-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/liblzma-subbuild/liblzma-populate-prefix/src/liblzma-populate-stamp/liblzma-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/liblzma-subbuild/liblzma-populate-prefix/src/liblzma-populate-stamp/liblzma-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/liblzma-subbuild/liblzma-populate-prefix/src/liblzma-populate-stamp/liblzma-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/liblzma-subbuild/liblzma-populate-prefix/src/liblzma-populate-stamp/liblzma-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/liblzma-subbuild/liblzma-populate-prefix/src/liblzma-populate-stamp/liblzma-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/liblzma-subbuild/liblzma-populate-prefix/src/liblzma-populate-stamp/liblzma-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/liblzma-subbuild/liblzma-populate-prefix/src/liblzma-populate-stamp/liblzma-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/liblzma-subbuild/liblzma-populate-prefix/src/liblzma-populate-stamp/liblzma-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"liblzma-populate"
+		],
+		"name" : "liblzma-populate"
+	}
+}

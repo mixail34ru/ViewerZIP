@@ -1,0 +1,204 @@
+{
+	"AUTOGEN_COMMAND_LINE_LENGTH_MAX" : 32000,
+	"BUILD_DIR" : "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/minizip-ng/bzip2_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/minizip-ng",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng",
+	"CMAKE_EXECUTABLE" : "C:/Qt/Tools/CMake_64/bin/cmake.exe",
+	"CMAKE_LIST_FILES" : 
+	[
+		"C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/CMakeLists.txt",
+		"C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc/package-manager/auto-setup.cmake",
+		"C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/3.29.3/CMakeCCompiler.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeCInformation.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/GNU.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeDependentOption.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CheckLibraryExists.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CheckSymbolExists.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CheckFunctionExists.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CheckIncludeFile.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CheckIncludeFiles.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CheckTypeSize.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CheckIncludeFile.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CheckIncludeFileCXX.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/GNUInstallDirs.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FeatureSummary.cmake",
+		"C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/cmake/detect-sanitizer.cmake",
+		"C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/cmake/clone-repo.cmake",
+		"C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/cmake/FindZLIBNG.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindPackageMessage.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindZLIB.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/SelectLibraryConfigurations.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindPackageMessage.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FetchContent.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/ExternalProject/shared_internal_commands.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindGit.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindPackageMessage.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FetchContent/CMakeLists.cmake.in",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindBZip2.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/SelectLibraryConfigurations.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindPackageMessage.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FetchContent.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/ExternalProject/shared_internal_commands.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindGit.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindPackageMessage.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FetchContent/CMakeLists.cmake.in",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindPkgConfig.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindPackageMessage.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindLibLZMA.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/SelectLibraryConfigurations.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindPackageMessage.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FetchContent.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/ExternalProject/shared_internal_commands.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindGit.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindPackageMessage.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FetchContent/CMakeLists.cmake.in",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindPkgConfig.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindPackageMessage.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FetchContent.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/ExternalProject/shared_internal_commands.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindGit.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindPackageMessage.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FetchContent/CMakeLists.cmake.in",
+		"C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/mz_compat_shim.h.in",
+		"C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/mz_compat_shim.h.in",
+		"C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/mz_compat_shim.h.in",
+		"C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/minizip.pc.cmakein",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakePackageConfigHelpers.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/WriteBasicConfigVersionFile.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/BasicConfigVersion-SameMajorVersion.cmake.in",
+		"C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/minizip-ng/minizip-config.cmake.in"
+	],
+	"CMAKE_SOURCE_DIR" : "C:/Users/Michael/Documents/QtProjects/ViewerZIP",
+	"CROSS_CONFIG" : false,
+	"DEP_FILE" : "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/minizip-ng/bzip2_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "bzip2_autogen/timestamp",
+	"HEADERS" : 
+	[
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/third_party/bzip2/bzlib.h",
+			"MU",
+			"QR3S22ODXT/moc_bzlib.cpp",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/third_party/bzip2/bzlib_private.h",
+			"MU",
+			"QR3S22ODXT/moc_bzlib_private.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/minizip-ng/bzip2_autogen/include",
+	"MOC_COMPILATION_FILE" : "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/minizip-ng/bzip2_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : [ "BZ_NO_STDIO" ],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++",
+		"C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32",
+		"C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward",
+		"C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include",
+		"C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed",
+		"C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include"
+	],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_NAMESPACE",
+		"Q_NAMESPACE_EXPORT",
+		"Q_GADGET_EXPORT",
+		"Q_ENUM_NS"
+	],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"C:/Qt/Tools/mingw1120_64/bin/g++.exe",
+		"-std=gnu++17",
+		"-dM",
+		"-E",
+		"-c",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/minizip-ng/bzip2_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/minizip-ng/CMakeFiles/bzip2_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "C:/Qt/6.7.2/mingw_64/./bin/moc.exe",
+	"QT_UIC_EXECUTABLE" : "C:/Qt/6.7.2/mingw_64/./bin/uic.exe",
+	"QT_VERSION_MAJOR" : 6,
+	"QT_VERSION_MINOR" : 7,
+	"SETTINGS_FILE" : "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/minizip-ng/CMakeFiles/bzip2_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/third_party/bzip2/blocksort.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/third_party/bzip2/bzlib.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/third_party/bzip2/compress.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/third_party/bzip2/crctable.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/third_party/bzip2/decompress.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/third_party/bzip2/huffman.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/third_party/bzip2/randtable.c",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"USE_BETTER_GRAPH" : false,
+	"VERBOSITY" : 0
+}

@@ -1,0 +1,14 @@
+# Target labels
+ liblzma-populate
+# Source files and their labels
+C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/liblzma-subbuild/CMakeFiles/liblzma-populate
+C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/liblzma-subbuild/CMakeFiles/liblzma-populate.rule
+C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/liblzma-subbuild/CMakeFiles/liblzma-populate-complete.rule
+C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/liblzma-subbuild/liblzma-populate-prefix/src/liblzma-populate-stamp/liblzma-populate-build.rule
+C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/liblzma-subbuild/liblzma-populate-prefix/src/liblzma-populate-stamp/liblzma-populate-configure.rule
+C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/liblzma-subbuild/liblzma-populate-prefix/src/liblzma-populate-stamp/liblzma-populate-download.rule
+C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/liblzma-subbuild/liblzma-populate-prefix/src/liblzma-populate-stamp/liblzma-populate-install.rule
+C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/liblzma-subbuild/liblzma-populate-prefix/src/liblzma-populate-stamp/liblzma-populate-mkdir.rule
+C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/liblzma-subbuild/liblzma-populate-prefix/src/liblzma-populate-stamp/liblzma-populate-patch.rule
+C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/liblzma-subbuild/liblzma-populate-prefix/src/liblzma-populate-stamp/liblzma-populate-test.rule
+C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/liblzma-subbuild/liblzma-populate-prefix/src/liblzma-populate-stamp/liblzma-populate-update.rule

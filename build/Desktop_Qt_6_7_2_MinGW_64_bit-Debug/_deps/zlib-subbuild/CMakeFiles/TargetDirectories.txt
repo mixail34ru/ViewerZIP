@@ -1,0 +1,3 @@
+C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/zlib-subbuild/CMakeFiles/zlib-populate.dir
+C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/zlib-subbuild/CMakeFiles/edit_cache.dir
+C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/zlib-subbuild/CMakeFiles/rebuild_cache.dir

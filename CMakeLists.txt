@@ -12,6 +12,11 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
 
+add_subdirectory(minizip-ng)
+#add_dependencies(${PROJECT_NAME} minizip)
+target_link_libraries(minizip PRIVATE /minizip-ng)
+
+
 ##$<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/libs/minizip-ng>
 ##$<INSTALL_INTERFACE:/libs/minizip-ng>
 
@@ -40,7 +45,7 @@ find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
 #    /libs/minizip-ng/mz_zip.c
 #    /libs/minizip-ng/mz_zip_rw.c)
 
-set(MINIZIP_SRC "${CMAKE_CURRENT_SOURCE_DIR}/libs/minizip-ng")
+#set(MINIZIP_SRC "${CMAKE_CURRENT_SOURCE_DIR}/libs/minizip-ng")
 
 ## Initial header files
 #set(MINIZIP_HDR
@@ -55,14 +60,15 @@ set(MINIZIP_SRC "${CMAKE_CURRENT_SOURCE_DIR}/libs/minizip-ng")
 #    /libs/minizip-ng/mz_zip.h
 #    /libs/minizip-ng/mz_zip_rw.h)
 
-set(MINIZIP_HDR "${CMAKE_CURRENT_SOURCE_DIR}/libs/minizip-ng")
+#set(MINIZIP_HDR "${CMAKE_CURRENT_SOURCE_DIR}/libs/minizip-ng")
 
-set(MINIZIP_TARGET minizip-ng)
-add_library(${MINIZIP_TARGET} ${MINIZIP_SRC} ${MINIZIP_HDR})
+#set(MINIZIP_TARGET minizip-ng)
+#add_library(${MINIZIP_TARGET} ${MINIZIP_SRC} ${MINIZIP_HDR})
 
-target_include_directories(${MINIZIP_TARGET} PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}/libs/minizip-ng")
-target_link_directories(${MINIZIP_TARGET} PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}/libs/minizip-ng")
-target_link_libraries(${MINIZIP_TARGET} PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}/libs/minizip-ng/third_party")
+#target_include_directories(${MINIZIP_TARGET} PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}/libs/minizip-ng")
+#target_link_directories(${MINIZIP_TARGET} PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}/libs/minizip-ng")
+#target_link_libraries(${MINIZIP_TARGET} PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}/libs/minizip-ng/third_party")
+
 
 set(PROJECT_SOURCES "${CMAKE_CURRENT_SOURCE_DIR}/resources/resources.rc")
 
@@ -97,6 +103,8 @@ else()
         )
     endif()
 endif()
+
+#target_link_libraries(ViewerZIP PRIVATE Qt${QT_VERSION_MAJOR}::Widgets minizip-ng)
 
 target_link_libraries(ViewerZIP PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
 

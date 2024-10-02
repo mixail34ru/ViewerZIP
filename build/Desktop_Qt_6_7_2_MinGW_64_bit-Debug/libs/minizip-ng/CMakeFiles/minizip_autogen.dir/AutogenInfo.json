@@ -1,0 +1,402 @@
+{
+	"AUTOGEN_COMMAND_LINE_LENGTH_MAX" : 32000,
+	"BUILD_DIR" : "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/libs/minizip-ng/minizip_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/libs/minizip-ng",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng",
+	"CMAKE_EXECUTABLE" : "C:/Qt/Tools/CMake_64/bin/cmake.exe",
+	"CMAKE_LIST_FILES" : 
+	[
+		"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/CMakeLists.txt",
+		"C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc/package-manager/auto-setup.cmake",
+		"C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/3.29.3/CMakeCCompiler.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeCInformation.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/GNU.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeDependentOption.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CheckLibraryExists.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CheckSymbolExists.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CheckFunctionExists.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CheckIncludeFile.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CheckIncludeFiles.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CheckTypeSize.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CheckIncludeFile.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CheckIncludeFileCXX.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/GNUInstallDirs.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FeatureSummary.cmake",
+		"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/cmake/detect-sanitizer.cmake",
+		"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/cmake/clone-repo.cmake",
+		"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/cmake/FindZLIBNG.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindPackageMessage.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindZLIB.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/SelectLibraryConfigurations.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindPackageMessage.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FetchContent.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/ExternalProject/shared_internal_commands.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindGit.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindPackageMessage.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FetchContent/CMakeLists.cmake.in",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindBZip2.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/SelectLibraryConfigurations.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindPackageMessage.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FetchContent.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/ExternalProject/shared_internal_commands.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindGit.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindPackageMessage.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FetchContent/CMakeLists.cmake.in",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindPkgConfig.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindPackageMessage.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindLibLZMA.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/SelectLibraryConfigurations.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindPackageMessage.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FetchContent.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/ExternalProject/shared_internal_commands.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindGit.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindPackageMessage.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FetchContent/CMakeLists.cmake.in",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindPkgConfig.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindPackageMessage.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FetchContent.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/ExternalProject/shared_internal_commands.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindGit.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindPackageMessage.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FetchContent/CMakeLists.cmake.in",
+		"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_compat_shim.h.in",
+		"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_compat_shim.h.in",
+		"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_compat_shim.h.in",
+		"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/minizip.pc.cmakein",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakePackageConfigHelpers.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/WriteBasicConfigVersionFile.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/BasicConfigVersion-SameMajorVersion.cmake.in",
+		"C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/libs/minizip-ng/minizip-config.cmake.in"
+	],
+	"CMAKE_SOURCE_DIR" : "C:/Users/Michael/Documents/QtProjects/ViewerZIP",
+	"CROSS_CONFIG" : false,
+	"DEP_FILE" : "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/libs/minizip-ng/minizip_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "minizip_autogen/timestamp",
+	"HEADERS" : 
+	[
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/libs/minizip-ng/ioapi.h",
+			"MU",
+			"EJRQKI7XPS/moc_ioapi.cpp",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/libs/minizip-ng/unzip.h",
+			"MU",
+			"EJRQKI7XPS/moc_unzip.cpp",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/libs/minizip-ng/zip.h",
+			"MU",
+			"EJRQKI7XPS/moc_zip.cpp",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz.h",
+			"MU",
+			"EWIEGA46WW/moc_mz.cpp",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_compat.h",
+			"MU",
+			"EWIEGA46WW/moc_mz_compat.cpp",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_crypt.h",
+			"MU",
+			"EWIEGA46WW/moc_mz_crypt.cpp",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_os.h",
+			"MU",
+			"EWIEGA46WW/moc_mz_os.cpp",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm.h",
+			"MU",
+			"EWIEGA46WW/moc_mz_strm.cpp",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm_buf.h",
+			"MU",
+			"EWIEGA46WW/moc_mz_strm_buf.cpp",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm_bzip.h",
+			"MU",
+			"EWIEGA46WW/moc_mz_strm_bzip.cpp",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm_lzma.h",
+			"MU",
+			"EWIEGA46WW/moc_mz_strm_lzma.cpp",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm_mem.h",
+			"MU",
+			"EWIEGA46WW/moc_mz_strm_mem.cpp",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm_os.h",
+			"MU",
+			"EWIEGA46WW/moc_mz_strm_os.cpp",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm_pkcrypt.h",
+			"MU",
+			"EWIEGA46WW/moc_mz_strm_pkcrypt.cpp",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm_split.h",
+			"MU",
+			"EWIEGA46WW/moc_mz_strm_split.cpp",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm_wzaes.h",
+			"MU",
+			"EWIEGA46WW/moc_mz_strm_wzaes.cpp",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm_zlib.h",
+			"MU",
+			"EWIEGA46WW/moc_mz_strm_zlib.cpp",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm_zstd.h",
+			"MU",
+			"EWIEGA46WW/moc_mz_strm_zstd.cpp",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_zip.h",
+			"MU",
+			"EWIEGA46WW/moc_mz_zip.cpp",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_zip_rw.h",
+			"MU",
+			"EWIEGA46WW/moc_mz_zip_rw.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/libs/minizip-ng/minizip_autogen/include",
+	"MOC_COMPILATION_FILE" : "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/libs/minizip-ng/minizip_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"HAVE_BZIP2",
+		"HAVE_INTTYPES_H",
+		"HAVE_LZMA",
+		"HAVE_PKCRYPT",
+		"HAVE_STDINT_H",
+		"HAVE_WZAES",
+		"HAVE_ZLIB",
+		"HAVE_ZSTD",
+		"LZMA_API_STATIC",
+		"ZLIBNG_NATIVE_API",
+		"_CRT_NONSTDC_NO_DEPRECATE",
+		"_CRT_SECURE_NO_DEPRECATE",
+		"_LARGEFILE64_SOURCE",
+		"__USE_LARGEFILE64"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/third_party/zlib",
+		"C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/zlib-build",
+		"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/third_party/bzip2",
+		"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/third_party/liblzma/src/liblzma/api",
+		"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/third_party/zstd/lib",
+		"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng",
+		"C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/libs/minizip-ng",
+		"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/third_party/zstd/lib",
+		"C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++",
+		"C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32",
+		"C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward",
+		"C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include",
+		"C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed",
+		"C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include"
+	],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_NAMESPACE",
+		"Q_NAMESPACE_EXPORT",
+		"Q_GADGET_EXPORT",
+		"Q_ENUM_NS"
+	],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"C:/Qt/Tools/mingw1120_64/bin/g++.exe",
+		"-std=gnu++17",
+		"-dM",
+		"-E",
+		"-c",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/libs/minizip-ng/minizip_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : 
+	[
+		"C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/libs/minizip-ng/bzip2_autogen/mocs_compilation.cpp"
+	],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/libs/minizip-ng/CMakeFiles/minizip_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "C:/Qt/6.7.2/mingw_64/./bin/moc.exe",
+	"QT_UIC_EXECUTABLE" : "C:/Qt/6.7.2/mingw_64/./bin/uic.exe",
+	"QT_VERSION_MAJOR" : 6,
+	"QT_VERSION_MINOR" : 7,
+	"SETTINGS_FILE" : "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/libs/minizip-ng/CMakeFiles/minizip_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_compat.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_crypt.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_crypt_winvista.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_crypt_winxp.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_os.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_os_win32.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm_buf.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm_bzip.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm_lzma.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm_mem.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm_os_win32.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm_pkcrypt.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm_split.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm_wzaes.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm_zlib.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_strm_zstd.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_zip.c",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_zip_rw.c",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : 
+	[
+		"C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/libs/minizip-ng/bzip2_autogen/mocs_compilation.cpp"
+	],
+	"UIC_UI_FILES" : [],
+	"USE_BETTER_GRAPH" : false,
+	"VERBOSITY" : 0
+}

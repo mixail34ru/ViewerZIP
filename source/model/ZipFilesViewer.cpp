@@ -3,8 +3,8 @@
 
 #include <QString>
 
-//#include "../../libs/minizip-ng/mz.h"
-//#include "../../libs/minizip-ng/mz_zip.h"
+#include "../../minizip-ng/mz.h"
+#include "../../minizip-ng/mz_zip.h"
 
 ZipFilesViewer::ZipFilesViewer(
     ZipInfoStorage* storage, QObject* parent)
@@ -41,8 +41,8 @@ ZIPInfo ZipFilesViewer::_read_zip_info(QString dir_path) {
     info.compressed_size = dir_path.length();
     info.decompress_size = dir_path.length();
 
-    //void* zip_handle = mz_zip_create();
-    //mz_zip_delete(&zip_handle);
+    void* zip_handle = mz_zip_create();
+    mz_zip_delete(&zip_handle);
 
     return info;
 }

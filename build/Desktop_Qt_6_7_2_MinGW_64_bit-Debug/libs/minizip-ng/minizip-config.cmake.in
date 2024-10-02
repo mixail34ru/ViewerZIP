@@ -1,0 +1,7 @@
+@PACKAGE_INIT@
+include(CMakeFindDependencyMacro)
+find_dependency(ZLIBNG REQUIRED)
+find_dependency(BZip2 REQUIRED)
+find_dependency(LibLZMA REQUIRED)
+find_dependency(zstd REQUIRED)
+include("${CMAKE_CURRENT_LIST_DIR}/minizip.cmake")

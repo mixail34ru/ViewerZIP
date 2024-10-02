@@ -1,0 +1,16 @@
+# ninja log v6
+36	3445	7495951970150049	ViewerZIP_autogen/timestamp	34cf2fd562e82126
+36	3445	7495951970150049	ViewerZIP_autogen/mocs_compilation.cpp	34cf2fd562e82126
+36	3445	7495951970150049	C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_llvm_mingw_64_bit-Debug/ViewerZIP_autogen/timestamp	34cf2fd562e82126
+36	3445	7495951970150049	C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_llvm_mingw_64_bit-Debug/ViewerZIP_autogen/mocs_compilation.cpp	34cf2fd562e82126
+3462	3711	7495951971649192	CMakeFiles/ViewerZIP.dir/resources/resources.rc.obj	910d6e0123d43891
+3553	8854	7495951972568662	CMakeFiles/ViewerZIP.dir/source/model/ZipFilesViewer.cpp.obj	11cad02a7aff038d
+3508	8861	7495951972118916	CMakeFiles/ViewerZIP.dir/source/model/ZipInfoStorageViewInterface.cpp.obj	16c8868c8e3d1a0d
+3504	8955	7495951972068947	CMakeFiles/ViewerZIP.dir/source/model/ZipInfoStorage.cpp.obj	25d8c4fd70c4884d
+3527	9398	7495951972308812	CMakeFiles/ViewerZIP.dir/source/view/TableModel.cpp.obj	284fa75394d42f7d
+3518	9474	7495951972208870	CMakeFiles/ViewerZIP.dir/source/view/MainWindow.cpp.obj	5458fdc71563faa
+3711	9571	7495951974147755	CMakeFiles/ViewerZIP.dir/source/view/MenuBar.cpp.obj	f2930fa1e780ae5b
+3533	9697	7495951972358785	CMakeFiles/ViewerZIP.dir/source/view/TableView.cpp.obj	995d26d6268caadd
+3499	9776	7495951972028966	CMakeFiles/ViewerZIP.dir/source/main.cpp.obj	d0fcde260d4f2c8b
+3513	9955	7495951972158902	CMakeFiles/ViewerZIP.dir/source/view/CentralWidget.cpp.obj	3f3153ee3ac02fa2
+3458	10143	7495951971619350	CMakeFiles/ViewerZIP.dir/ViewerZIP_autogen/mocs_compilation.cpp.obj	e0da74674678eec6
