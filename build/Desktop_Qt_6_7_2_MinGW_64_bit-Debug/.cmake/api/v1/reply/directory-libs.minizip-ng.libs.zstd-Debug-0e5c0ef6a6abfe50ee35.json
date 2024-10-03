@@ -1,0 +1,76 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"libs/minizip-ng/libs/zstd/build/cmake/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 202,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 212,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/zstd",
+			"exportName" : "zstdExports",
+			"exportTargets" : 
+			[
+				{
+					"id" : "libzstd_shared::@699128fe8266a060b8c1",
+					"index" : 13
+				},
+				{
+					"id" : "libzstd_static::@699128fe8266a060b8c1",
+					"index" : 16
+				},
+				{
+					"id" : "libzstd::@699128fe8266a060b8c1",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"libs/minizip-ng/libs/zstd/CMakeFiles/Export/24b5c28278294f635c8f75e4f2508fe8/zstdTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/zstd",
+			"paths" : 
+			[
+				"build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/libs/minizip-ng/libs/zstd/zstdConfig.cmake",
+				"build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/libs/minizip-ng/libs/zstd/zstdConfigVersion.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "libs/minizip-ng/libs/zstd",
+		"source" : "libs/minizip-ng/libs/zstd/build/cmake"
+	}
+}

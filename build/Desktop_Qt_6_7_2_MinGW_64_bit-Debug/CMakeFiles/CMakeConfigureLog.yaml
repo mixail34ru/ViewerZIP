@@ -10829,3 +10829,759 @@ events:
       variable: "run_result_unused"
       cached: true
 ...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "minizip-ng/third_party/zlib/cmake/detect-arch.cmake:26 (try_run)"
+      - "minizip-ng/third_party/zlib/CMakeLists.txt:48 (include)"
+    directories:
+      source: "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/zlib-build/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/zlib-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/kwin;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/kwin;C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/zlib-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/Qt/Tools/Ninja/ninja.exe -v cmTC_2935f
+        [1/2 29,4/sec] C:\\Qt\\Tools\\mingw1120_64\\bin\\gcc.exe   -std=c11 -o CMakeFiles/cmTC_2935f.dir/detect-arch.c.obj -c C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/third_party/zlib/cmake/detect-arch.c
+        \x1b[31mFAILED: \x1b[0mCMakeFiles/cmTC_2935f.dir/detect-arch.c.obj 
+        C:\\Qt\\Tools\\mingw1120_64\\bin\\gcc.exe   -std=c11 -o CMakeFiles/cmTC_2935f.dir/detect-arch.c.obj -c C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/third_party/zlib/cmake/detect-arch.c
+        C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/third_party/zlib/cmake/detect-arch.c:8:6: error: #error archfound x86_64
+            8 |     #error archfound x86_64
+              |      ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "minizip-ng/third_party/zlib/cmake/detect-arch.cmake:26 (try_run)"
+      - "minizip-ng/third_party/zlib/CMakeLists.txt:48 (include)"
+    directories:
+      source: "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/zlib-build/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/zlib-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/kwin;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/kwin;C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/zlib-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/Qt/Tools/Ninja/ninja.exe -v cmTC_52b87
+        [1/2] C:\\Qt\\Tools\\mingw1120_64\\bin\\gcc.exe   -std=c11 -fdiagnostics-color=always -o CMakeFiles/cmTC_52b87.dir/detect-arch.c.obj -c C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/third_party/zlib/cmake/detect-arch.c
+        \x1b[31mFAILED: \x1b[0mCMakeFiles/cmTC_52b87.dir/detect-arch.c.obj 
+        C:\\Qt\\Tools\\mingw1120_64\\bin\\gcc.exe   -std=c11 -fdiagnostics-color=always -o CMakeFiles/cmTC_52b87.dir/detect-arch.c.obj -c C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/third_party/zlib/cmake/detect-arch.c
+        \x1b[01m\x1b[KC:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/third_party/zlib/cmake/detect-arch.c:8:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K#error archfound x86_64
+            8 |     #\x1b[01;31m\x1b[Kerror\x1b[m\x1b[K archfound x86_64
+              |      \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "minizip-ng/third_party/zlib/cmake/detect-arch.cmake:26 (try_run)"
+      - "minizip-ng/third_party/zlib/CMakeLists.txt:48 (include)"
+    directories:
+      source: "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/zlib-build/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/zlib-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/kwin;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/kwin;C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/zlib-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/Qt/Tools/Ninja/ninja.exe -v cmTC_69c18
+        [1/2 32,3/sec] C:\\Qt\\Tools\\mingw1120_64\\bin\\gcc.exe   -std=c11 -o CMakeFiles/cmTC_69c18.dir/detect-arch.c.obj -c C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/third_party/zlib/cmake/detect-arch.c
+        \x1b[31mFAILED: \x1b[0mCMakeFiles/cmTC_69c18.dir/detect-arch.c.obj 
+        C:\\Qt\\Tools\\mingw1120_64\\bin\\gcc.exe   -std=c11 -o CMakeFiles/cmTC_69c18.dir/detect-arch.c.obj -c C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/third_party/zlib/cmake/detect-arch.c
+        C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/third_party/zlib/cmake/detect-arch.c:8:6: error: #error archfound x86_64
+            8 |     #error archfound x86_64
+              |      ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "minizip-ng/third_party/zlib/cmake/detect-arch.cmake:26 (try_run)"
+      - "minizip-ng/third_party/zlib/CMakeLists.txt:48 (include)"
+    directories:
+      source: "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/zlib-build/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/zlib-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/kwin;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/kwin;C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/zlib-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/Qt/Tools/Ninja/ninja.exe -v cmTC_7ce39
+        [1/2 31,2/sec] C:\\Qt\\Tools\\mingw1120_64\\bin\\gcc.exe   -std=c11 -o CMakeFiles/cmTC_7ce39.dir/detect-arch.c.obj -c C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/third_party/zlib/cmake/detect-arch.c
+        \x1b[31mFAILED: \x1b[0mCMakeFiles/cmTC_7ce39.dir/detect-arch.c.obj 
+        C:\\Qt\\Tools\\mingw1120_64\\bin\\gcc.exe   -std=c11 -o CMakeFiles/cmTC_7ce39.dir/detect-arch.c.obj -c C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/third_party/zlib/cmake/detect-arch.c
+        C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/third_party/zlib/cmake/detect-arch.c:8:6: error: #error archfound x86_64
+            8 |     #error archfound x86_64
+              |      ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "minizip-ng/third_party/zlib/cmake/detect-arch.cmake:26 (try_run)"
+      - "minizip-ng/third_party/zlib/CMakeLists.txt:48 (include)"
+    directories:
+      source: "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/zlib-build/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/zlib-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/kwin;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/kwin;C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/zlib-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/Qt/Tools/Ninja/ninja.exe -v cmTC_576e4
+        [1/2 32,3/sec] C:\\Qt\\Tools\\mingw1120_64\\bin\\gcc.exe   -std=c11 -o CMakeFiles/cmTC_576e4.dir/detect-arch.c.obj -c C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/third_party/zlib/cmake/detect-arch.c
+        \x1b[31mFAILED: \x1b[0mCMakeFiles/cmTC_576e4.dir/detect-arch.c.obj 
+        C:\\Qt\\Tools\\mingw1120_64\\bin\\gcc.exe   -std=c11 -o CMakeFiles/cmTC_576e4.dir/detect-arch.c.obj -c C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/third_party/zlib/cmake/detect-arch.c
+        C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/third_party/zlib/cmake/detect-arch.c:8:6: error: #error archfound x86_64
+            8 |     #error archfound x86_64
+              |      ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "minizip-ng/third_party/zlib/cmake/detect-arch.cmake:26 (try_run)"
+      - "minizip-ng/third_party/zlib/CMakeLists.txt:48 (include)"
+    directories:
+      source: "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/zlib-build/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/zlib-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/kwin;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/kwin;C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/zlib-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/Qt/Tools/Ninja/ninja.exe -v cmTC_d40d8
+        [1/2] C:\\Qt\\Tools\\mingw1120_64\\bin\\gcc.exe   -std=c11 -fdiagnostics-color=always -o CMakeFiles/cmTC_d40d8.dir/detect-arch.c.obj -c C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/third_party/zlib/cmake/detect-arch.c
+        \x1b[31mFAILED: \x1b[0mCMakeFiles/cmTC_d40d8.dir/detect-arch.c.obj 
+        C:\\Qt\\Tools\\mingw1120_64\\bin\\gcc.exe   -std=c11 -fdiagnostics-color=always -o CMakeFiles/cmTC_d40d8.dir/detect-arch.c.obj -c C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/third_party/zlib/cmake/detect-arch.c
+        \x1b[01m\x1b[KC:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/third_party/zlib/cmake/detect-arch.c:8:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K#error archfound x86_64
+            8 |     #\x1b[01;31m\x1b[Kerror\x1b[m\x1b[K archfound x86_64
+              |      \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "minizip-ng/third_party/zlib/cmake/detect-arch.cmake:26 (try_run)"
+      - "minizip-ng/third_party/zlib/CMakeLists.txt:48 (include)"
+    directories:
+      source: "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/zlib-build/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/zlib-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/kwin;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/kwin;C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/zlib-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/Qt/Tools/Ninja/ninja.exe -v cmTC_c14ff
+        [1/2 32,3/sec] C:\\Qt\\Tools\\mingw1120_64\\bin\\gcc.exe   -std=c11 -o CMakeFiles/cmTC_c14ff.dir/detect-arch.c.obj -c C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/third_party/zlib/cmake/detect-arch.c
+        \x1b[31mFAILED: \x1b[0mCMakeFiles/cmTC_c14ff.dir/detect-arch.c.obj 
+        C:\\Qt\\Tools\\mingw1120_64\\bin\\gcc.exe   -std=c11 -o CMakeFiles/cmTC_c14ff.dir/detect-arch.c.obj -c C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/third_party/zlib/cmake/detect-arch.c
+        C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/third_party/zlib/cmake/detect-arch.c:8:6: error: #error archfound x86_64
+            8 |     #error archfound x86_64
+              |      ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "minizip-ng/third_party/zlib/cmake/detect-arch.cmake:26 (try_run)"
+      - "minizip-ng/third_party/zlib/CMakeLists.txt:48 (include)"
+    directories:
+      source: "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/zlib-build/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/zlib-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/kwin;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/kwin;C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/zlib-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/Qt/Tools/Ninja/ninja.exe -v cmTC_66550
+        [1/2 32,3/sec] C:\\Qt\\Tools\\mingw1120_64\\bin\\gcc.exe   -std=c11 -o CMakeFiles/cmTC_66550.dir/detect-arch.c.obj -c C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/third_party/zlib/cmake/detect-arch.c
+        \x1b[31mFAILED: \x1b[0mCMakeFiles/cmTC_66550.dir/detect-arch.c.obj 
+        C:\\Qt\\Tools\\mingw1120_64\\bin\\gcc.exe   -std=c11 -o CMakeFiles/cmTC_66550.dir/detect-arch.c.obj -c C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/third_party/zlib/cmake/detect-arch.c
+        C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/third_party/zlib/cmake/detect-arch.c:8:6: error: #error archfound x86_64
+            8 |     #error archfound x86_64
+              |      ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "minizip-ng/third_party/zlib/cmake/detect-arch.cmake:26 (try_run)"
+      - "minizip-ng/third_party/zlib/CMakeLists.txt:48 (include)"
+    directories:
+      source: "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/zlib-build/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/zlib-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/kwin;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/kwin;C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/zlib-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/Qt/Tools/Ninja/ninja.exe -v cmTC_75bad
+        [1/2] C:\\Qt\\Tools\\mingw1120_64\\bin\\gcc.exe   -std=c11 -fdiagnostics-color=always -o CMakeFiles/cmTC_75bad.dir/detect-arch.c.obj -c C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/third_party/zlib/cmake/detect-arch.c
+        \x1b[31mFAILED: \x1b[0mCMakeFiles/cmTC_75bad.dir/detect-arch.c.obj 
+        C:\\Qt\\Tools\\mingw1120_64\\bin\\gcc.exe   -std=c11 -fdiagnostics-color=always -o CMakeFiles/cmTC_75bad.dir/detect-arch.c.obj -c C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/third_party/zlib/cmake/detect-arch.c
+        \x1b[01m\x1b[KC:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/third_party/zlib/cmake/detect-arch.c:8:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K#error archfound x86_64
+            8 |     #\x1b[01;31m\x1b[Kerror\x1b[m\x1b[K archfound x86_64
+              |      \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "minizip-ng/third_party/zlib/cmake/detect-arch.cmake:26 (try_run)"
+      - "minizip-ng/third_party/zlib/CMakeLists.txt:48 (include)"
+    directories:
+      source: "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/zlib-build/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/zlib-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/kwin;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/kwin;C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/zlib-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/Qt/Tools/Ninja/ninja.exe -v cmTC_9a172
+        [1/2] C:\\Qt\\Tools\\mingw1120_64\\bin\\gcc.exe   -std=c11 -fdiagnostics-color=always -o CMakeFiles/cmTC_9a172.dir/detect-arch.c.obj -c C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/third_party/zlib/cmake/detect-arch.c
+        \x1b[31mFAILED: \x1b[0mCMakeFiles/cmTC_9a172.dir/detect-arch.c.obj 
+        C:\\Qt\\Tools\\mingw1120_64\\bin\\gcc.exe   -std=c11 -fdiagnostics-color=always -o CMakeFiles/cmTC_9a172.dir/detect-arch.c.obj -c C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/third_party/zlib/cmake/detect-arch.c
+        \x1b[01m\x1b[KC:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/third_party/zlib/cmake/detect-arch.c:8:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K#error archfound x86_64
+            8 |     #\x1b[01;31m\x1b[Kerror\x1b[m\x1b[K archfound x86_64
+              |      \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "minizip-ng/third_party/zlib/cmake/detect-arch.cmake:26 (try_run)"
+      - "minizip-ng/third_party/zlib/CMakeLists.txt:48 (include)"
+    directories:
+      source: "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/zlib-build/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/zlib-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/kwin;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/kwin;C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/zlib-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/Qt/Tools/Ninja/ninja.exe -v cmTC_b205e
+        [1/2] C:\\Qt\\Tools\\mingw1120_64\\bin\\gcc.exe   -std=c11 -fdiagnostics-color=always -o CMakeFiles/cmTC_b205e.dir/detect-arch.c.obj -c C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/third_party/zlib/cmake/detect-arch.c
+        \x1b[31mFAILED: \x1b[0mCMakeFiles/cmTC_b205e.dir/detect-arch.c.obj 
+        C:\\Qt\\Tools\\mingw1120_64\\bin\\gcc.exe   -std=c11 -fdiagnostics-color=always -o CMakeFiles/cmTC_b205e.dir/detect-arch.c.obj -c C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/third_party/zlib/cmake/detect-arch.c
+        \x1b[01m\x1b[KC:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/third_party/zlib/cmake/detect-arch.c:8:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K#error archfound x86_64
+            8 |     #\x1b[01;31m\x1b[Kerror\x1b[m\x1b[K archfound x86_64
+              |      \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "minizip-ng/third_party/zlib/cmake/detect-arch.cmake:26 (try_run)"
+      - "minizip-ng/third_party/zlib/CMakeLists.txt:48 (include)"
+    directories:
+      source: "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/zlib-build/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/zlib-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/kwin;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/kwin;C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/zlib-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/Qt/Tools/Ninja/ninja.exe -v cmTC_64d3c
+        [1/2] C:\\Qt\\Tools\\mingw1120_64\\bin\\gcc.exe   -std=c11 -fdiagnostics-color=always -o CMakeFiles/cmTC_64d3c.dir/detect-arch.c.obj -c C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/third_party/zlib/cmake/detect-arch.c
+        \x1b[31mFAILED: \x1b[0mCMakeFiles/cmTC_64d3c.dir/detect-arch.c.obj 
+        C:\\Qt\\Tools\\mingw1120_64\\bin\\gcc.exe   -std=c11 -fdiagnostics-color=always -o CMakeFiles/cmTC_64d3c.dir/detect-arch.c.obj -c C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/third_party/zlib/cmake/detect-arch.c
+        \x1b[01m\x1b[KC:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/third_party/zlib/cmake/detect-arch.c:8:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K#error archfound x86_64
+            8 |     #\x1b[01;31m\x1b[Kerror\x1b[m\x1b[K archfound x86_64
+              |      \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "minizip-ng/third_party/zlib/cmake/detect-arch.cmake:26 (try_run)"
+      - "minizip-ng/third_party/zlib/CMakeLists.txt:48 (include)"
+    directories:
+      source: "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/zlib-build/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/zlib-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/kwin;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/kwin;C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/zlib-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/Qt/Tools/Ninja/ninja.exe -v cmTC_706a2
+        [1/2 27,8/sec] C:\\Qt\\Tools\\mingw1120_64\\bin\\gcc.exe   -std=c11 -o CMakeFiles/cmTC_706a2.dir/detect-arch.c.obj -c C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/third_party/zlib/cmake/detect-arch.c
+        \x1b[31mFAILED: \x1b[0mCMakeFiles/cmTC_706a2.dir/detect-arch.c.obj 
+        C:\\Qt\\Tools\\mingw1120_64\\bin\\gcc.exe   -std=c11 -o CMakeFiles/cmTC_706a2.dir/detect-arch.c.obj -c C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/third_party/zlib/cmake/detect-arch.c
+        C:/Users/Michael/Documents/QtProjects/ViewerZIP/minizip-ng/third_party/zlib/cmake/detect-arch.c:8:6: error: #error archfound x86_64
+            8 |     #error archfound x86_64
+              |      ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "libs/minizip-ng/libs/zlib-ng/cmake/detect-arch.cmake:26 (try_run)"
+      - "libs/minizip-ng/libs/zlib-ng/CMakeLists.txt:48 (include)"
+    directories:
+      source: "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/libs/minizip-ng/libs/zlib-ng/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/libs/minizip-ng/libs/zlib-ng/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/kwin;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/kwin;C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/libs/minizip-ng/libs/zlib-ng/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/Qt/Tools/Ninja/ninja.exe -v cmTC_b0949
+        [1/2] C:\\Qt\\Tools\\mingw1120_64\\bin\\gcc.exe   -std=c11 -fdiagnostics-color=always -o CMakeFiles/cmTC_b0949.dir/detect-arch.c.obj -c C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/libs/zlib-ng/cmake/detect-arch.c
+        \x1b[31mFAILED: \x1b[0mCMakeFiles/cmTC_b0949.dir/detect-arch.c.obj 
+        C:\\Qt\\Tools\\mingw1120_64\\bin\\gcc.exe   -std=c11 -fdiagnostics-color=always -o CMakeFiles/cmTC_b0949.dir/detect-arch.c.obj -c C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/libs/zlib-ng/cmake/detect-arch.c
+        \x1b[01m\x1b[KC:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/libs/zlib-ng/cmake/detect-arch.c:8:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K#error archfound x86_64
+            8 |     #\x1b[01;31m\x1b[Kerror\x1b[m\x1b[K archfound x86_64
+              |      \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "libs/minizip-ng/libs/zlib-ng/cmake/detect-arch.cmake:26 (try_run)"
+      - "libs/minizip-ng/libs/zlib-ng/CMakeLists.txt:48 (include)"
+    directories:
+      source: "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/libs/minizip-ng/libs/zlib-ng/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/libs/minizip-ng/libs/zlib-ng/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/kwin;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/kwin;C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/libs/minizip-ng/libs/zlib-ng/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/Qt/Tools/Ninja/ninja.exe -v cmTC_12d6f
+        [1/2] C:\\Qt\\Tools\\mingw1120_64\\bin\\gcc.exe   -std=c11 -fdiagnostics-color=always -o CMakeFiles/cmTC_12d6f.dir/detect-arch.c.obj -c C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/libs/zlib-ng/cmake/detect-arch.c
+        \x1b[31mFAILED: \x1b[0mCMakeFiles/cmTC_12d6f.dir/detect-arch.c.obj 
+        C:\\Qt\\Tools\\mingw1120_64\\bin\\gcc.exe   -std=c11 -fdiagnostics-color=always -o CMakeFiles/cmTC_12d6f.dir/detect-arch.c.obj -c C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/libs/zlib-ng/cmake/detect-arch.c
+        \x1b[01m\x1b[KC:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/libs/zlib-ng/cmake/detect-arch.c:8:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K#error archfound x86_64
+            8 |     #\x1b[01;31m\x1b[Kerror\x1b[m\x1b[K archfound x86_64
+              |      \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "libs/minizip-ng/libs/zlib-ng/cmake/detect-arch.cmake:26 (try_run)"
+      - "libs/minizip-ng/libs/zlib-ng/CMakeLists.txt:48 (include)"
+    directories:
+      source: "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/libs/minizip-ng/libs/zlib-ng/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/libs/minizip-ng/libs/zlib-ng/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/kwin;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/kwin;C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/libs/minizip-ng/libs/zlib-ng/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/Qt/Tools/Ninja/ninja.exe -v cmTC_27bd2
+        [1/2 31,2/sec] C:\\Qt\\Tools\\mingw1120_64\\bin\\gcc.exe   -std=c11 -o CMakeFiles/cmTC_27bd2.dir/detect-arch.c.obj -c C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/libs/zlib-ng/cmake/detect-arch.c
+        \x1b[31mFAILED: \x1b[0mCMakeFiles/cmTC_27bd2.dir/detect-arch.c.obj 
+        C:\\Qt\\Tools\\mingw1120_64\\bin\\gcc.exe   -std=c11 -o CMakeFiles/cmTC_27bd2.dir/detect-arch.c.obj -c C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/libs/zlib-ng/cmake/detect-arch.c
+        C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/libs/zlib-ng/cmake/detect-arch.c:8:6: error: #error archfound x86_64
+            8 |     #error archfound x86_64
+              |      ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "libs/minizip-ng/libs/zlib-ng/cmake/detect-arch.cmake:26 (try_run)"
+      - "libs/minizip-ng/libs/zlib-ng/CMakeLists.txt:48 (include)"
+    directories:
+      source: "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/libs/minizip-ng/libs/zlib-ng/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/libs/minizip-ng/libs/zlib-ng/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/kwin;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/kwin;C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/libs/minizip-ng/libs/zlib-ng/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/Qt/Tools/Ninja/ninja.exe -v cmTC_514aa
+        [1/2] C:\\Qt\\Tools\\mingw1120_64\\bin\\gcc.exe   -std=c11 -fdiagnostics-color=always -o CMakeFiles/cmTC_514aa.dir/detect-arch.c.obj -c C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/libs/zlib-ng/cmake/detect-arch.c
+        \x1b[31mFAILED: \x1b[0mCMakeFiles/cmTC_514aa.dir/detect-arch.c.obj 
+        C:\\Qt\\Tools\\mingw1120_64\\bin\\gcc.exe   -std=c11 -fdiagnostics-color=always -o CMakeFiles/cmTC_514aa.dir/detect-arch.c.obj -c C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/libs/zlib-ng/cmake/detect-arch.c
+        \x1b[01m\x1b[KC:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/libs/zlib-ng/cmake/detect-arch.c:8:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K#error archfound x86_64
+            8 |     #\x1b[01;31m\x1b[Kerror\x1b[m\x1b[K archfound x86_64
+              |      \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "libs/minizip-ng/libs/zlib-ng/cmake/detect-arch.cmake:26 (try_run)"
+      - "libs/minizip-ng/libs/zlib-ng/CMakeLists.txt:48 (include)"
+    directories:
+      source: "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/libs/minizip-ng/libs/zlib-ng/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/libs/minizip-ng/libs/zlib-ng/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/kwin;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/kwin;C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/libs/minizip-ng/libs/zlib-ng/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/Qt/Tools/Ninja/ninja.exe -v cmTC_6317f
+        [1/2] C:\\Qt\\Tools\\mingw1120_64\\bin\\gcc.exe   -std=c11 -fdiagnostics-color=always -o CMakeFiles/cmTC_6317f.dir/detect-arch.c.obj -c C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/libs/zlib-ng/cmake/detect-arch.c
+        \x1b[31mFAILED: \x1b[0mCMakeFiles/cmTC_6317f.dir/detect-arch.c.obj 
+        C:\\Qt\\Tools\\mingw1120_64\\bin\\gcc.exe   -std=c11 -fdiagnostics-color=always -o CMakeFiles/cmTC_6317f.dir/detect-arch.c.obj -c C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/libs/zlib-ng/cmake/detect-arch.c
+        \x1b[01m\x1b[KC:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/libs/zlib-ng/cmake/detect-arch.c:8:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K#error archfound x86_64
+            8 |     #\x1b[01;31m\x1b[Kerror\x1b[m\x1b[K archfound x86_64
+              |      \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "libs/minizip-ng/libs/zlib-ng/cmake/detect-arch.cmake:26 (try_run)"
+      - "libs/minizip-ng/libs/zlib-ng/CMakeLists.txt:48 (include)"
+    directories:
+      source: "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/libs/minizip-ng/libs/zlib-ng/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/libs/minizip-ng/libs/zlib-ng/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/kwin;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/kwin;C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/libs/minizip-ng/libs/zlib-ng/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/Qt/Tools/Ninja/ninja.exe -v cmTC_6251d
+        [1/2] C:\\Qt\\Tools\\mingw1120_64\\bin\\gcc.exe   -std=c11 -fdiagnostics-color=always -o CMakeFiles/cmTC_6251d.dir/detect-arch.c.obj -c C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/libs/zlib-ng/cmake/detect-arch.c
+        \x1b[31mFAILED: \x1b[0mCMakeFiles/cmTC_6251d.dir/detect-arch.c.obj 
+        C:\\Qt\\Tools\\mingw1120_64\\bin\\gcc.exe   -std=c11 -fdiagnostics-color=always -o CMakeFiles/cmTC_6251d.dir/detect-arch.c.obj -c C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/libs/zlib-ng/cmake/detect-arch.c
+        \x1b[01m\x1b[KC:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/libs/zlib-ng/cmake/detect-arch.c:8:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K#error archfound x86_64
+            8 |     #\x1b[01;31m\x1b[Kerror\x1b[m\x1b[K archfound x86_64
+              |      \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "libs/minizip-ng/libs/zlib-ng/cmake/detect-arch.cmake:26 (try_run)"
+      - "libs/minizip-ng/libs/zlib-ng/CMakeLists.txt:48 (include)"
+    directories:
+      source: "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/libs/minizip-ng/libs/zlib-ng/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/libs/minizip-ng/libs/zlib-ng/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/kwin;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/kwin;C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/libs/minizip-ng/libs/zlib-ng/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/Qt/Tools/Ninja/ninja.exe -v cmTC_afdcf
+        [1/2] C:\\Qt\\Tools\\mingw1120_64\\bin\\gcc.exe   -std=c11 -fdiagnostics-color=always -o CMakeFiles/cmTC_afdcf.dir/detect-arch.c.obj -c C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/libs/zlib-ng/cmake/detect-arch.c
+        \x1b[31mFAILED: \x1b[0mCMakeFiles/cmTC_afdcf.dir/detect-arch.c.obj 
+        C:\\Qt\\Tools\\mingw1120_64\\bin\\gcc.exe   -std=c11 -fdiagnostics-color=always -o CMakeFiles/cmTC_afdcf.dir/detect-arch.c.obj -c C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/libs/zlib-ng/cmake/detect-arch.c
+        \x1b[01m\x1b[KC:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/libs/zlib-ng/cmake/detect-arch.c:8:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K#error archfound x86_64
+            8 |     #\x1b[01;31m\x1b[Kerror\x1b[m\x1b[K archfound x86_64
+              |      \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "libs/minizip-ng/libs/zlib-ng/cmake/detect-arch.cmake:26 (try_run)"
+      - "libs/minizip-ng/libs/zlib-ng/CMakeLists.txt:48 (include)"
+    directories:
+      source: "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/libs/minizip-ng/libs/zlib-ng/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/libs/minizip-ng/libs/zlib-ng/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/kwin;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/kwin;C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/libs/minizip-ng/libs/zlib-ng/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/Qt/Tools/Ninja/ninja.exe -v cmTC_079c5
+        [1/2] C:\\Qt\\Tools\\mingw1120_64\\bin\\gcc.exe   -std=c11 -fdiagnostics-color=always -o CMakeFiles/cmTC_079c5.dir/detect-arch.c.obj -c C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/libs/zlib-ng/cmake/detect-arch.c
+        \x1b[31mFAILED: \x1b[0mCMakeFiles/cmTC_079c5.dir/detect-arch.c.obj 
+        C:\\Qt\\Tools\\mingw1120_64\\bin\\gcc.exe   -std=c11 -fdiagnostics-color=always -o CMakeFiles/cmTC_079c5.dir/detect-arch.c.obj -c C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/libs/zlib-ng/cmake/detect-arch.c
+        \x1b[01m\x1b[KC:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/libs/zlib-ng/cmake/detect-arch.c:8:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K#error archfound x86_64
+            8 |     #\x1b[01;31m\x1b[Kerror\x1b[m\x1b[K archfound x86_64
+              |      \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+...

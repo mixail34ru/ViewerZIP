@@ -1,0 +1,2760 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "libs/minizip-ng/libs/xz/liblzma.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"add_compile_options",
+			"add_compile_definitions",
+			"tuklib_add_definitions",
+			"tuklib_add_definition_if",
+			"target_compile_definitions",
+			"tuklib_integer",
+			"tuklib_large_file_support",
+			"include_directories",
+			"target_include_directories",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"libs/minizip-ng/libs/xz/CMakeLists.txt",
+			"libs/minizip-ng/CMakeLists.txt",
+			"libs/minizip-ng/libs/xz/cmake/tuklib_common.cmake",
+			"libs/minizip-ng/libs/xz/cmake/tuklib_integer.cmake",
+			"libs/minizip-ng/libs/xz/cmake/tuklib_large_file_support.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 542,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 1565,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 727,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 426,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 426,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 426,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 426,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 426,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 426,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 426,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 426,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 426,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 426,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 426,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 426,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 426,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 426,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 426,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 426,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 426,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 426,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 426,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 426,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 426,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 426,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 426,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 426,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 426,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 426,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 231,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 730,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 771,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 324,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 328,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 23,
+				"parent" : 35
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 15,
+				"parent" : 36
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 1250,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 23,
+				"parent" : 38
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 17,
+				"parent" : 39
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 1048,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 1041,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 1041,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 1041,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 1041,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 1041,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 1041,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 1041,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 1041,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 1041,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 1041,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 1041,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 946,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 939,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 939,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 939,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 939,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 939,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 939,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 939,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 939,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 939,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 939,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 939,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 1233,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 23,
+				"parent" : 65
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 17,
+				"parent" : 66
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 1255,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 1188,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 881,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 881,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 881,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 881,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 881,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 1292,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 23,
+				"parent" : 75
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 17,
+				"parent" : 76
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 1394,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 1268,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 23,
+				"parent" : 79
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 17,
+				"parent" : 80
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 291,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 140,
+				"parent" : 82
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 23,
+				"parent" : 83
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 15,
+				"parent" : 84
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 40,
+				"parent" : 82
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 15,
+				"parent" : 86
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 645,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 125,
+				"parent" : 82
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 23,
+				"parent" : 89
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 15,
+				"parent" : 90
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 1199,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 288,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 51,
+				"parent" : 93
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 15,
+				"parent" : 94
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 9,
+				"file" : 5,
+				"line" : 18,
+				"parent" : 96
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 574,
+				"parent" : 0
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 677,
+				"parent" : 0
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 717,
+				"parent" : 0
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 735,
+				"parent" : 0
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 864,
+				"parent" : 0
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 948,
+				"parent" : 0
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 971,
+				"parent" : 0
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 977,
+				"parent" : 0
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 984,
+				"parent" : 0
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 1002,
+				"parent" : 0
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 1007,
+				"parent" : 0
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 1015,
+				"parent" : 0
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 1050,
+				"parent" : 0
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 1075,
+				"parent" : 0
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 1081,
+				"parent" : 0
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 1088,
+				"parent" : 0
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 1098,
+				"parent" : 0
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 1106,
+				"parent" : 0
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 1116,
+				"parent" : 0
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 1124,
+				"parent" : 0
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 1132,
+				"parent" : 0
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 1141,
+				"parent" : 0
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 1141,
+				"parent" : 0
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 1141,
+				"parent" : 0
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 1141,
+				"parent" : 0
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 1141,
+				"parent" : 0
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 1141,
+				"parent" : 0
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 1141,
+				"parent" : 0
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 1141,
+				"parent" : 0
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 1162,
+				"parent" : 0
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 1171,
+				"parent" : 0
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 1190,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wvla"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wformat=2"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Winit-self"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-Wmissing-include-dirs"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-Wshift-overflow=2"
+				},
+				{
+					"backtrace" : 12,
+					"fragment" : "-Wstrict-overflow=3"
+				},
+				{
+					"backtrace" : 13,
+					"fragment" : "-Walloc-zero"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wduplicated-cond"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-Wfloat-equal"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-Wundef"
+				},
+				{
+					"backtrace" : 17,
+					"fragment" : "-Wshadow"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-Wpointer-arith"
+				},
+				{
+					"backtrace" : 19,
+					"fragment" : "-Wbad-function-cast"
+				},
+				{
+					"backtrace" : 20,
+					"fragment" : "-Wwrite-strings"
+				},
+				{
+					"backtrace" : 21,
+					"fragment" : "-Wdate-time"
+				},
+				{
+					"backtrace" : 22,
+					"fragment" : "-Wsign-conversion"
+				},
+				{
+					"backtrace" : 23,
+					"fragment" : "-Wfloat-conversion"
+				},
+				{
+					"backtrace" : 24,
+					"fragment" : "-Wlogical-op"
+				},
+				{
+					"backtrace" : 25,
+					"fragment" : "-Waggregate-return"
+				},
+				{
+					"backtrace" : 26,
+					"fragment" : "-Wstrict-prototypes"
+				},
+				{
+					"backtrace" : 27,
+					"fragment" : "-Wold-style-definition"
+				},
+				{
+					"backtrace" : 28,
+					"fragment" : "-Wmissing-prototypes"
+				},
+				{
+					"backtrace" : 29,
+					"fragment" : "-Wmissing-declarations"
+				},
+				{
+					"backtrace" : 30,
+					"fragment" : "-Wredundant-decls"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 31,
+					"define" : "HAVE_CHECK_CRC32"
+				},
+				{
+					"backtrace" : 32,
+					"define" : "HAVE_CHECK_CRC64"
+				},
+				{
+					"backtrace" : 33,
+					"define" : "HAVE_CHECK_SHA256"
+				},
+				{
+					"backtrace" : 34,
+					"define" : "HAVE_CLOCK_GETTIME"
+				},
+				{
+					"backtrace" : 37,
+					"define" : "HAVE_CLOCK_MONOTONIC"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "HAVE_CPUID_H"
+				},
+				{
+					"backtrace" : 41,
+					"define" : "HAVE_DECODERS"
+				},
+				{
+					"backtrace" : 42,
+					"define" : "HAVE_DECODER_ARM"
+				},
+				{
+					"backtrace" : 43,
+					"define" : "HAVE_DECODER_ARM64"
+				},
+				{
+					"backtrace" : 44,
+					"define" : "HAVE_DECODER_ARMTHUMB"
+				},
+				{
+					"backtrace" : 45,
+					"define" : "HAVE_DECODER_DELTA"
+				},
+				{
+					"backtrace" : 46,
+					"define" : "HAVE_DECODER_IA64"
+				},
+				{
+					"backtrace" : 47,
+					"define" : "HAVE_DECODER_LZMA1"
+				},
+				{
+					"backtrace" : 48,
+					"define" : "HAVE_DECODER_LZMA2"
+				},
+				{
+					"backtrace" : 49,
+					"define" : "HAVE_DECODER_POWERPC"
+				},
+				{
+					"backtrace" : 50,
+					"define" : "HAVE_DECODER_RISCV"
+				},
+				{
+					"backtrace" : 51,
+					"define" : "HAVE_DECODER_SPARC"
+				},
+				{
+					"backtrace" : 52,
+					"define" : "HAVE_DECODER_X86"
+				},
+				{
+					"backtrace" : 53,
+					"define" : "HAVE_ENCODERS"
+				},
+				{
+					"backtrace" : 54,
+					"define" : "HAVE_ENCODER_ARM"
+				},
+				{
+					"backtrace" : 55,
+					"define" : "HAVE_ENCODER_ARM64"
+				},
+				{
+					"backtrace" : 56,
+					"define" : "HAVE_ENCODER_ARMTHUMB"
+				},
+				{
+					"backtrace" : 57,
+					"define" : "HAVE_ENCODER_DELTA"
+				},
+				{
+					"backtrace" : 58,
+					"define" : "HAVE_ENCODER_IA64"
+				},
+				{
+					"backtrace" : 59,
+					"define" : "HAVE_ENCODER_LZMA1"
+				},
+				{
+					"backtrace" : 60,
+					"define" : "HAVE_ENCODER_LZMA2"
+				},
+				{
+					"backtrace" : 61,
+					"define" : "HAVE_ENCODER_POWERPC"
+				},
+				{
+					"backtrace" : 62,
+					"define" : "HAVE_ENCODER_RISCV"
+				},
+				{
+					"backtrace" : 63,
+					"define" : "HAVE_ENCODER_SPARC"
+				},
+				{
+					"backtrace" : 64,
+					"define" : "HAVE_ENCODER_X86"
+				},
+				{
+					"backtrace" : 67,
+					"define" : "HAVE_FUNC_ATTRIBUTE_CONSTRUCTOR"
+				},
+				{
+					"backtrace" : 68,
+					"define" : "HAVE_IMMINTRIN_H"
+				},
+				{
+					"backtrace" : 31,
+					"define" : "HAVE_INTTYPES_H"
+				},
+				{
+					"backtrace" : 69,
+					"define" : "HAVE_LZIP_DECODER"
+				},
+				{
+					"backtrace" : 70,
+					"define" : "HAVE_MF_BT2"
+				},
+				{
+					"backtrace" : 71,
+					"define" : "HAVE_MF_BT3"
+				},
+				{
+					"backtrace" : 72,
+					"define" : "HAVE_MF_BT4"
+				},
+				{
+					"backtrace" : 73,
+					"define" : "HAVE_MF_HC3"
+				},
+				{
+					"backtrace" : 74,
+					"define" : "HAVE_MF_HC4"
+				},
+				{
+					"backtrace" : 31,
+					"define" : "HAVE_STDBOOL_H"
+				},
+				{
+					"backtrace" : 31,
+					"define" : "HAVE_STDINT_H"
+				},
+				{
+					"backtrace" : 77,
+					"define" : "HAVE_USABLE_CLMUL"
+				},
+				{
+					"backtrace" : 78,
+					"define" : "HAVE_VISIBILITY=0"
+				},
+				{
+					"backtrace" : 31,
+					"define" : "HAVE__BOOL"
+				},
+				{
+					"backtrace" : 81,
+					"define" : "HAVE__MM_MOVEMASK_EPI8"
+				},
+				{
+					"backtrace" : 85,
+					"define" : "HAVE___BUILTIN_ASSUME_ALIGNED"
+				},
+				{
+					"backtrace" : 87,
+					"define" : "HAVE___BUILTIN_BSWAPXX"
+				},
+				{
+					"backtrace" : 88,
+					"define" : "MYTHREAD_VISTA"
+				},
+				{
+					"backtrace" : 31,
+					"define" : "PACKAGE_BUGREPORT=\"xz@tukaani.org\""
+				},
+				{
+					"backtrace" : 31,
+					"define" : "PACKAGE_NAME=\"XZ\\040Utils\""
+				},
+				{
+					"backtrace" : 31,
+					"define" : "PACKAGE_URL=\"https://tukaani.org/xz/\""
+				},
+				{
+					"backtrace" : 91,
+					"define" : "TUKLIB_FAST_UNALIGNED_ACCESS"
+				},
+				{
+					"backtrace" : 92,
+					"define" : "TUKLIB_SYMBOL_PREFIX=lzma_"
+				},
+				{
+					"backtrace" : 95,
+					"define" : "_FILE_OFFSET_BITS=64"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 97,
+					"path" : "C:/Users/Michael/Documents/QtProjects/ViewerZIP/include"
+				},
+				{
+					"backtrace" : 97,
+					"path" : "C:/Users/Michael/Documents/QtProjects/ViewerZIP/include/view"
+				},
+				{
+					"backtrace" : 97,
+					"path" : "C:/Users/Michael/Documents/QtProjects/ViewerZIP/include/model"
+				},
+				{
+					"backtrace" : 98,
+					"path" : "C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/libs/xz/src/liblzma/api"
+				},
+				{
+					"backtrace" : 98,
+					"path" : "C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/libs/xz/src/liblzma/common"
+				},
+				{
+					"backtrace" : 98,
+					"path" : "C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/libs/xz/src/liblzma/check"
+				},
+				{
+					"backtrace" : 98,
+					"path" : "C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/libs/xz/src/liblzma/lz"
+				},
+				{
+					"backtrace" : 98,
+					"path" : "C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/libs/xz/src/liblzma/rangecoder"
+				},
+				{
+					"backtrace" : 98,
+					"path" : "C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/libs/xz/src/liblzma/lzma"
+				},
+				{
+					"backtrace" : 98,
+					"path" : "C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/libs/xz/src/liblzma/delta"
+				},
+				{
+					"backtrace" : 98,
+					"path" : "C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/libs/xz/src/liblzma/simple"
+				},
+				{
+					"backtrace" : 98,
+					"path" : "C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/libs/xz/src/common"
+				},
+				{
+					"backtrace" : 0,
+					"isSystem" : true,
+					"path" : "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/libs/minizip-ng/libs/xz/liblzma_autogen/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu11 -fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wvla"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wformat=2"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Winit-self"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-Wmissing-include-dirs"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-Wshift-overflow=2"
+				},
+				{
+					"backtrace" : 12,
+					"fragment" : "-Wstrict-overflow=3"
+				},
+				{
+					"backtrace" : 13,
+					"fragment" : "-Walloc-zero"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wduplicated-cond"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-Wfloat-equal"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-Wundef"
+				},
+				{
+					"backtrace" : 17,
+					"fragment" : "-Wshadow"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-Wpointer-arith"
+				},
+				{
+					"backtrace" : 19,
+					"fragment" : "-Wbad-function-cast"
+				},
+				{
+					"backtrace" : 20,
+					"fragment" : "-Wwrite-strings"
+				},
+				{
+					"backtrace" : 21,
+					"fragment" : "-Wdate-time"
+				},
+				{
+					"backtrace" : 22,
+					"fragment" : "-Wsign-conversion"
+				},
+				{
+					"backtrace" : 23,
+					"fragment" : "-Wfloat-conversion"
+				},
+				{
+					"backtrace" : 24,
+					"fragment" : "-Wlogical-op"
+				},
+				{
+					"backtrace" : 25,
+					"fragment" : "-Waggregate-return"
+				},
+				{
+					"backtrace" : 26,
+					"fragment" : "-Wstrict-prototypes"
+				},
+				{
+					"backtrace" : 27,
+					"fragment" : "-Wold-style-definition"
+				},
+				{
+					"backtrace" : 28,
+					"fragment" : "-Wmissing-prototypes"
+				},
+				{
+					"backtrace" : 29,
+					"fragment" : "-Wmissing-declarations"
+				},
+				{
+					"backtrace" : 30,
+					"fragment" : "-Wredundant-decls"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 31,
+					"define" : "HAVE_CHECK_CRC32"
+				},
+				{
+					"backtrace" : 32,
+					"define" : "HAVE_CHECK_CRC64"
+				},
+				{
+					"backtrace" : 33,
+					"define" : "HAVE_CHECK_SHA256"
+				},
+				{
+					"backtrace" : 34,
+					"define" : "HAVE_CLOCK_GETTIME"
+				},
+				{
+					"backtrace" : 37,
+					"define" : "HAVE_CLOCK_MONOTONIC"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "HAVE_CPUID_H"
+				},
+				{
+					"backtrace" : 41,
+					"define" : "HAVE_DECODERS"
+				},
+				{
+					"backtrace" : 42,
+					"define" : "HAVE_DECODER_ARM"
+				},
+				{
+					"backtrace" : 43,
+					"define" : "HAVE_DECODER_ARM64"
+				},
+				{
+					"backtrace" : 44,
+					"define" : "HAVE_DECODER_ARMTHUMB"
+				},
+				{
+					"backtrace" : 45,
+					"define" : "HAVE_DECODER_DELTA"
+				},
+				{
+					"backtrace" : 46,
+					"define" : "HAVE_DECODER_IA64"
+				},
+				{
+					"backtrace" : 47,
+					"define" : "HAVE_DECODER_LZMA1"
+				},
+				{
+					"backtrace" : 48,
+					"define" : "HAVE_DECODER_LZMA2"
+				},
+				{
+					"backtrace" : 49,
+					"define" : "HAVE_DECODER_POWERPC"
+				},
+				{
+					"backtrace" : 50,
+					"define" : "HAVE_DECODER_RISCV"
+				},
+				{
+					"backtrace" : 51,
+					"define" : "HAVE_DECODER_SPARC"
+				},
+				{
+					"backtrace" : 52,
+					"define" : "HAVE_DECODER_X86"
+				},
+				{
+					"backtrace" : 53,
+					"define" : "HAVE_ENCODERS"
+				},
+				{
+					"backtrace" : 54,
+					"define" : "HAVE_ENCODER_ARM"
+				},
+				{
+					"backtrace" : 55,
+					"define" : "HAVE_ENCODER_ARM64"
+				},
+				{
+					"backtrace" : 56,
+					"define" : "HAVE_ENCODER_ARMTHUMB"
+				},
+				{
+					"backtrace" : 57,
+					"define" : "HAVE_ENCODER_DELTA"
+				},
+				{
+					"backtrace" : 58,
+					"define" : "HAVE_ENCODER_IA64"
+				},
+				{
+					"backtrace" : 59,
+					"define" : "HAVE_ENCODER_LZMA1"
+				},
+				{
+					"backtrace" : 60,
+					"define" : "HAVE_ENCODER_LZMA2"
+				},
+				{
+					"backtrace" : 61,
+					"define" : "HAVE_ENCODER_POWERPC"
+				},
+				{
+					"backtrace" : 62,
+					"define" : "HAVE_ENCODER_RISCV"
+				},
+				{
+					"backtrace" : 63,
+					"define" : "HAVE_ENCODER_SPARC"
+				},
+				{
+					"backtrace" : 64,
+					"define" : "HAVE_ENCODER_X86"
+				},
+				{
+					"backtrace" : 67,
+					"define" : "HAVE_FUNC_ATTRIBUTE_CONSTRUCTOR"
+				},
+				{
+					"backtrace" : 68,
+					"define" : "HAVE_IMMINTRIN_H"
+				},
+				{
+					"backtrace" : 31,
+					"define" : "HAVE_INTTYPES_H"
+				},
+				{
+					"backtrace" : 69,
+					"define" : "HAVE_LZIP_DECODER"
+				},
+				{
+					"backtrace" : 70,
+					"define" : "HAVE_MF_BT2"
+				},
+				{
+					"backtrace" : 71,
+					"define" : "HAVE_MF_BT3"
+				},
+				{
+					"backtrace" : 72,
+					"define" : "HAVE_MF_BT4"
+				},
+				{
+					"backtrace" : 73,
+					"define" : "HAVE_MF_HC3"
+				},
+				{
+					"backtrace" : 74,
+					"define" : "HAVE_MF_HC4"
+				},
+				{
+					"backtrace" : 31,
+					"define" : "HAVE_STDBOOL_H"
+				},
+				{
+					"backtrace" : 31,
+					"define" : "HAVE_STDINT_H"
+				},
+				{
+					"backtrace" : 77,
+					"define" : "HAVE_USABLE_CLMUL"
+				},
+				{
+					"backtrace" : 78,
+					"define" : "HAVE_VISIBILITY=0"
+				},
+				{
+					"backtrace" : 31,
+					"define" : "HAVE__BOOL"
+				},
+				{
+					"backtrace" : 81,
+					"define" : "HAVE__MM_MOVEMASK_EPI8"
+				},
+				{
+					"backtrace" : 85,
+					"define" : "HAVE___BUILTIN_ASSUME_ALIGNED"
+				},
+				{
+					"backtrace" : 87,
+					"define" : "HAVE___BUILTIN_BSWAPXX"
+				},
+				{
+					"backtrace" : 88,
+					"define" : "MYTHREAD_VISTA"
+				},
+				{
+					"backtrace" : 31,
+					"define" : "PACKAGE_BUGREPORT=\"xz@tukaani.org\""
+				},
+				{
+					"backtrace" : 31,
+					"define" : "PACKAGE_NAME=\"XZ\\040Utils\""
+				},
+				{
+					"backtrace" : 31,
+					"define" : "PACKAGE_URL=\"https://tukaani.org/xz/\""
+				},
+				{
+					"backtrace" : 91,
+					"define" : "TUKLIB_FAST_UNALIGNED_ACCESS"
+				},
+				{
+					"backtrace" : 92,
+					"define" : "TUKLIB_SYMBOL_PREFIX=lzma_"
+				},
+				{
+					"backtrace" : 95,
+					"define" : "_FILE_OFFSET_BITS=64"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 97,
+					"path" : "C:/Users/Michael/Documents/QtProjects/ViewerZIP/include"
+				},
+				{
+					"backtrace" : 97,
+					"path" : "C:/Users/Michael/Documents/QtProjects/ViewerZIP/include/view"
+				},
+				{
+					"backtrace" : 97,
+					"path" : "C:/Users/Michael/Documents/QtProjects/ViewerZIP/include/model"
+				},
+				{
+					"backtrace" : 98,
+					"path" : "C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/libs/xz/src/liblzma/api"
+				},
+				{
+					"backtrace" : 98,
+					"path" : "C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/libs/xz/src/liblzma/common"
+				},
+				{
+					"backtrace" : 98,
+					"path" : "C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/libs/xz/src/liblzma/check"
+				},
+				{
+					"backtrace" : 98,
+					"path" : "C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/libs/xz/src/liblzma/lz"
+				},
+				{
+					"backtrace" : 98,
+					"path" : "C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/libs/xz/src/liblzma/rangecoder"
+				},
+				{
+					"backtrace" : 98,
+					"path" : "C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/libs/xz/src/liblzma/lzma"
+				},
+				{
+					"backtrace" : 98,
+					"path" : "C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/libs/xz/src/liblzma/delta"
+				},
+				{
+					"backtrace" : 98,
+					"path" : "C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/libs/xz/src/liblzma/simple"
+				},
+				{
+					"backtrace" : 98,
+					"path" : "C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/libs/xz/src/common"
+				},
+				{
+					"backtrace" : 0,
+					"isSystem" : true,
+					"path" : "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/libs/minizip-ng/libs/xz/liblzma_autogen/include"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				6,
+				23,
+				29,
+				30,
+				32,
+				34,
+				36,
+				37,
+				40,
+				42,
+				43,
+				44,
+				46,
+				47,
+				49,
+				52,
+				55,
+				56,
+				57,
+				59,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				68,
+				69,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				78,
+				80,
+				81,
+				84,
+				88,
+				90,
+				92,
+				93,
+				95,
+				97,
+				99,
+				100,
+				101,
+				103,
+				104,
+				105,
+				106,
+				107,
+				109,
+				110,
+				112,
+				113,
+				114,
+				115,
+				117,
+				118,
+				119,
+				121,
+				124,
+				126,
+				128,
+				131,
+				133,
+				136,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "liblzma_autogen::@1d01cea48bdc9fde0ef2"
+		},
+		{
+			"id" : "liblzma_autogen_timestamp_deps::@1d01cea48bdc9fde0ef2"
+		}
+	],
+	"id" : "liblzma::@1d01cea48bdc9fde0ef2",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 4,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "C:/Program Files (x86)/ViewerZIP"
+		}
+	},
+	"name" : "liblzma",
+	"nameOnDisk" : "liblzma.a",
+	"paths" : 
+	{
+		"build" : "libs/minizip-ng/libs/xz",
+		"source" : "libs/minizip-ng/libs/xz"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				6,
+				23,
+				29,
+				30,
+				32,
+				34,
+				36,
+				37,
+				40,
+				42,
+				43,
+				44,
+				46,
+				47,
+				49,
+				52,
+				55,
+				56,
+				57,
+				59,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				68,
+				69,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				78,
+				80,
+				81,
+				84,
+				88,
+				90,
+				92,
+				93,
+				95,
+				97,
+				99,
+				100,
+				101,
+				103,
+				104,
+				105,
+				106,
+				107,
+				109,
+				110,
+				112,
+				113,
+				114,
+				115,
+				117,
+				118,
+				119,
+				121,
+				124,
+				126,
+				128,
+				131,
+				133,
+				136,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				24,
+				25,
+				26,
+				27,
+				28,
+				31,
+				33,
+				35,
+				38,
+				39,
+				41,
+				45,
+				48,
+				50,
+				51,
+				53,
+				54,
+				58,
+				60,
+				67,
+				70,
+				77,
+				79,
+				82,
+				83,
+				85,
+				86,
+				87,
+				89,
+				91,
+				94,
+				96,
+				98,
+				102,
+				108,
+				111,
+				116,
+				120,
+				122,
+				123,
+				125,
+				127,
+				129,
+				130,
+				132,
+				134,
+				135,
+				137,
+				138,
+				150
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				151
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				152
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/libs/minizip-ng/libs/xz/liblzma_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/common/mythread.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/common/sysdefs.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/common/tuklib_common.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/common/tuklib_config.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/common/tuklib_integer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/common/tuklib_physmem.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/common/tuklib_physmem.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/api/lzma.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/api/lzma/base.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/api/lzma/bcj.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/api/lzma/block.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/api/lzma/check.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/api/lzma/container.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/api/lzma/delta.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/api/lzma/filter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/api/lzma/hardware.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/api/lzma/index.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/api/lzma/index_hash.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/api/lzma/lzma12.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/api/lzma/stream_flags.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/api/lzma/version.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/api/lzma/vli.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/check/check.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/check/check.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/check/crc_common.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/check/crc_x86_clmul.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/check/crc32_arm64.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/check/crc32_loongarch.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/common/block_util.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/common/common.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/common/common.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/common/easy_preset.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/common/easy_preset.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/common/filter_common.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/common/filter_common.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/common/hardware_physmem.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/common/index.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/common/index.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/common/memcmplen.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/common/stream_flags_common.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/common/stream_flags_common.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/common/string_conversion.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/common/vli_size.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 99,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/common/tuklib_cpucores.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 99,
+			"path" : "libs/minizip-ng/libs/xz/src/common/tuklib_cpucores.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 99,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/common/hardware_cputhreads.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 99,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/common/outqueue.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 99,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/common/outqueue.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 100,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/check/crc32_fast.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 100,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/check/crc32_table_be.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 100,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/check/crc32_table_le.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 101,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/check/crc64_fast.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 101,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/check/crc64_table_be.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 101,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/check/crc64_table_le.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 102,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/check/sha256.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 103,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/common/alone_encoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 103,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/common/block_buffer_encoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 103,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/common/block_buffer_encoder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 103,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/common/block_encoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 103,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/common/block_encoder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 103,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/common/block_header_encoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 103,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/common/easy_buffer_encoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 103,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/common/easy_encoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 103,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/common/easy_encoder_memusage.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 103,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/common/filter_buffer_encoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 103,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/common/filter_encoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 103,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/common/filter_encoder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 103,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/common/filter_flags_encoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 103,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/common/index_encoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 103,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/common/index_encoder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 103,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/common/stream_buffer_encoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 103,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/common/stream_encoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 103,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/common/stream_flags_encoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 103,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/common/vli_encoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 104,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/common/stream_encoder_mt.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 105,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/simple/simple_encoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 105,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/simple/simple_encoder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 106,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/lzma/lzma_encoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 106,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/lzma/lzma_encoder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 106,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/lzma/lzma_encoder_optimum_fast.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 106,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/lzma/lzma_encoder_optimum_normal.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 106,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/lzma/lzma_encoder_private.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 106,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/lzma/fastpos.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 106,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/lz/lz_encoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 106,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/lz/lz_encoder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 106,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/lz/lz_encoder_hash.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 106,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/lz/lz_encoder_hash_table.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 106,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/lz/lz_encoder_mf.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 106,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/rangecoder/price.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 106,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/rangecoder/price_table.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 106,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/rangecoder/range_encoder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/lzma/fastpos_table.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 108,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/lzma/lzma2_encoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 108,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/lzma/lzma2_encoder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 109,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/delta/delta_encoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 109,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/delta/delta_encoder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 110,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/common/alone_decoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 110,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/common/alone_decoder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 110,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/common/auto_decoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 110,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/common/block_buffer_decoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 110,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/common/block_decoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 110,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/common/block_decoder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 110,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/common/block_header_decoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 110,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/common/easy_decoder_memusage.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 110,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/common/file_info.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 110,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/common/filter_buffer_decoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 110,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/common/filter_decoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 110,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/common/filter_decoder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 110,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/common/filter_flags_decoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 110,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/common/index_decoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 110,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/common/index_decoder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 110,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/common/index_hash.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 110,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/common/stream_buffer_decoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 110,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/common/stream_decoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 110,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/common/stream_flags_decoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 110,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/common/stream_decoder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 110,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/common/vli_decoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 111,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/common/stream_decoder_mt.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 112,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/simple/simple_decoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 112,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/simple/simple_decoder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 113,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/lzma/lzma_decoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 113,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/lzma/lzma_decoder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 113,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/rangecoder/range_decoder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 113,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/lz/lz_decoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 113,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/lz/lz_decoder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 114,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/lzma/lzma2_decoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 114,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/lzma/lzma2_decoder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 115,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/delta/delta_decoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 115,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/delta/delta_decoder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 116,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/rangecoder/range_common.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 116,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/lzma/lzma_encoder_presets.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 116,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/lzma/lzma_common.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 117,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/delta/delta_common.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 117,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/delta/delta_common.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 117,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/delta/delta_private.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 118,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/simple/simple_coder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 118,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/simple/simple_coder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 118,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/simple/simple_private.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 119,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/simple/x86.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 120,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/simple/arm.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 121,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/simple/armthumb.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 122,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/simple/arm64.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 123,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/simple/powerpc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 124,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/simple/ia64.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 125,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/simple/sparc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 126,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/simple/riscv.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 127,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/common/microlzma_encoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 128,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/common/microlzma_decoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 129,
+			"compileGroupIndex" : 1,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/common/lzip_decoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 129,
+			"path" : "libs/minizip-ng/libs/xz/src/liblzma/common/lzip_decoder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/libs/minizip-ng/libs/xz/liblzma_autogen/timestamp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/libs/minizip-ng/libs/xz/liblzma_autogen/timestamp.rule",
+			"sourceGroupIndex" : 3
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

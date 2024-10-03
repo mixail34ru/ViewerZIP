@@ -1,0 +1,27 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"libs/minizip-ng/libs/zlib-ng/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"id" : "zlib_autogen_timestamp_deps::@788dd141b413ce336ddc",
+	"isGeneratorProvided" : true,
+	"name" : "zlib_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "libs/minizip-ng/libs/zlib-ng",
+		"source" : "libs/minizip-ng/libs/zlib-ng"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

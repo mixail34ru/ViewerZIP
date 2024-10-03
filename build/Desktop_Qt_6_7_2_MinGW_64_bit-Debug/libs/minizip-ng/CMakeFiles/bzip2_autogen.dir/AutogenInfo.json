@@ -40,22 +40,10 @@
 		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/SelectLibraryConfigurations.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindPackageMessage.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FetchContent.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/ExternalProject/shared_internal_commands.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindGit.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindPackageMessage.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FetchContent/CMakeLists.cmake.in",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindBZip2.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/SelectLibraryConfigurations.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindPackageMessage.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FetchContent.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/ExternalProject/shared_internal_commands.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindGit.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindPackageMessage.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FetchContent/CMakeLists.cmake.in",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindPkgConfig.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindPackageMessage.cmake",
@@ -63,21 +51,9 @@
 		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/SelectLibraryConfigurations.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindPackageMessage.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FetchContent.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/ExternalProject/shared_internal_commands.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindGit.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindPackageMessage.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FetchContent/CMakeLists.cmake.in",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindPkgConfig.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindPackageMessage.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FetchContent.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/ExternalProject/shared_internal_commands.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindGit.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindPackageMessage.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FetchContent/CMakeLists.cmake.in",
 		"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_compat_shim.h.in",
 		"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_compat_shim.h.in",
 		"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/mz_compat_shim.h.in",
@@ -94,15 +70,15 @@
 	"HEADERS" : 
 	[
 		[
-			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/third_party/bzip2/bzlib.h",
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/libs/bzip2/bzlib.h",
 			"MU",
-			"QR3S22ODXT/moc_bzlib.cpp",
+			"CS7HDTD74X/moc_bzlib.cpp",
 			null
 		],
 		[
-			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/third_party/bzip2/bzlib_private.h",
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/libs/bzip2/bzlib_private.h",
 			"MU",
-			"QR3S22ODXT/moc_bzlib_private.cpp",
+			"CS7HDTD74X/moc_bzlib_private.cpp",
 			null
 		]
 	],
@@ -119,6 +95,9 @@
 	],
 	"MOC_INCLUDES" : 
 	[
+		"C:/Users/Michael/Documents/QtProjects/ViewerZIP/include",
+		"C:/Users/Michael/Documents/QtProjects/ViewerZIP/include/view",
+		"C:/Users/Michael/Documents/QtProjects/ViewerZIP/include/model",
 		"C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++",
 		"C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32",
 		"C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward",
@@ -160,37 +139,37 @@
 	"SOURCES" : 
 	[
 		[
-			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/third_party/bzip2/blocksort.c",
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/libs/bzip2/blocksort.c",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/third_party/bzip2/bzlib.c",
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/libs/bzip2/bzlib.c",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/third_party/bzip2/compress.c",
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/libs/bzip2/compress.c",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/third_party/bzip2/crctable.c",
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/libs/bzip2/crctable.c",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/third_party/bzip2/decompress.c",
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/libs/bzip2/decompress.c",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/third_party/bzip2/huffman.c",
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/libs/bzip2/huffman.c",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/third_party/bzip2/randtable.c",
+			"C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/libs/bzip2/randtable.c",
 			"MU",
 			null
 		]

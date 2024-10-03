@@ -199,7 +199,9 @@ if(MZ_ZLIB)
     elseif(MZ_FETCH_LIBS)
         set(ZLIB_ENABLE_TESTS OFF CACHE BOOL "Build zlib-ng tests" FORCE)
 
-        clone_repo(zlib https://github.com/zlib-ng/zlib-ng stable)
+        #clone_repo(zlib https://github.com/zlib-ng/zlib-ng stable)
+        set(ZLIB_SOURCE_DIR libs/zlib-ng/${ZLIB_SOURCE_DIR})
+        set(ZLIB_BINARY_DIR libs/zlib-ng/${ZLIB_BINARY_DIR})
 
         # Don't automatically add all targets to the solution
         add_subdirectory(${ZLIB_SOURCE_DIR} ${ZLIB_BINARY_DIR} EXCLUDE_FROM_ALL)
@@ -256,7 +258,8 @@ if(MZ_BZIP2)
 
         set(PC_PRIVATE_LIBS "${PC_PRIVATE_LIBS} -lbz2")
     elseif(MZ_FETCH_LIBS)
-        clone_repo(bzip2 https://sourceware.org/git/bzip2.git master)
+        #clone_repo(bzip2 https://sourceware.org/git/bzip2.git master)
+        set(BZIP2_SOURCE_DIR libs/bzip2/${BZIP2_SOURCE_DIR})
 
         # BZip2 repository does not support cmake so we have to create
         # the bzip2 library ourselves
@@ -317,7 +320,9 @@ if(MZ_LZMA)
     elseif(MZ_FETCH_LIBS)
         set(BUILD_TESTING OFF CACHE BOOL "Build lzma tests" FORCE)
 
-        clone_repo(liblzma https://github.com/tukaani-project/xz master)
+        #clone_repo(liblzma https://github.com/tukaani-project/xz master)
+        set(LIBLZMA_SOURCE_DIR libs/xz/${LIBLZMA_SOURCE_DIR})
+        set(LIBLZMA_BINARY_DIR libs/xz/${LIBLZMA_BINARY_DIR})
 
         # Don't automatically add all targets to the solution
         add_subdirectory(${LIBLZMA_SOURCE_DIR} ${LIBLZMA_BINARY_DIR} EXCLUDE_FROM_ALL)
@@ -369,7 +374,9 @@ if(MZ_ZSTD)
     elseif(MZ_FETCH_LIBS)
         set(ZSTD_BUILD_PROGRAMS OFF CACHE BOOL "Build zstd programs")
 
-        clone_repo(zstd https://github.com/facebook/zstd release)
+        #clone_repo(zstd https://github.com/facebook/zstd release)
+        set(ZSTD_SOURCE_DIR libs/zstd/${ZSTD_SOURCE_DIR})
+        set(ZSTD_BINARY_DIR libs/zstd/${ZSTD_BINARY_DIR})
 
         # Don't automatically add all targets to the solution
         add_subdirectory(${ZSTD_SOURCE_DIR}/build/cmake ${ZSTD_BINARY_DIR} EXCLUDE_FROM_ALL)

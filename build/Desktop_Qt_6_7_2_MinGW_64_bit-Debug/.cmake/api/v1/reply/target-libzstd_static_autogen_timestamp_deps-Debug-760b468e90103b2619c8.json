@@ -1,0 +1,27 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"libs/minizip-ng/libs/zstd/build/cmake/lib/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"id" : "libzstd_static_autogen_timestamp_deps::@699128fe8266a060b8c1",
+	"isGeneratorProvided" : true,
+	"name" : "libzstd_static_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "libs/minizip-ng/libs/zstd/lib",
+		"source" : "libs/minizip-ng/libs/zstd/build/cmake/lib"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

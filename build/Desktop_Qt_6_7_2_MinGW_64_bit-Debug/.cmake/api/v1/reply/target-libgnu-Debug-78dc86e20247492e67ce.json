@@ -1,0 +1,951 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "libs/minizip-ng/libs/xz/CMakeFiles/libgnu.dir/./libgnu_autogen/mocs_compilation.cpp.obj"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"add_compile_options",
+			"add_compile_definitions",
+			"tuklib_add_definitions",
+			"tuklib_add_definition_if",
+			"tuklib_integer",
+			"tuklib_large_file_support",
+			"include_directories",
+			"target_include_directories",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"libs/minizip-ng/libs/xz/CMakeLists.txt",
+			"libs/minizip-ng/libs/xz/cmake/tuklib_common.cmake",
+			"libs/minizip-ng/libs/xz/cmake/tuklib_integer.cmake",
+			"libs/minizip-ng/libs/xz/cmake/tuklib_large_file_support.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1677,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 426,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 426,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 426,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 426,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 426,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 426,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 426,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 426,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 426,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 426,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 426,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 426,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 426,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 426,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 426,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 426,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 426,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 426,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 426,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 426,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 426,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 426,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 426,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 426,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 426,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 426,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 231,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 730,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 771,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 324,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 328,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 23,
+				"parent" : 32
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 15,
+				"parent" : 33
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 1048,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 1041,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 1041,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 1041,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 1041,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 1041,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 1041,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 1041,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 1041,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 1041,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 1041,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 1041,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 946,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 939,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 939,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 939,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 939,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 939,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 939,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 939,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 939,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 939,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 939,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 939,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 1188,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 881,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 881,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 881,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 881,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 881,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 291,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 140,
+				"parent" : 65
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 23,
+				"parent" : 66
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 15,
+				"parent" : 67
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 40,
+				"parent" : 65
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 15,
+				"parent" : 69
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 645,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 125,
+				"parent" : 65
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 23,
+				"parent" : 72
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 15,
+				"parent" : 73
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 288,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 51,
+				"parent" : 75
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 15,
+				"parent" : 76
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 18,
+				"parent" : 78
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 1696,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 1700,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 1686,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wvla"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wformat=2"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Winit-self"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wmissing-include-dirs"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wshift-overflow=2"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Wstrict-overflow=3"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-Walloc-zero"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-Wduplicated-cond"
+				},
+				{
+					"backtrace" : 12,
+					"fragment" : "-Wfloat-equal"
+				},
+				{
+					"backtrace" : 13,
+					"fragment" : "-Wundef"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wshadow"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-Wpointer-arith"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-Wbad-function-cast"
+				},
+				{
+					"backtrace" : 17,
+					"fragment" : "-Wwrite-strings"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-Wdate-time"
+				},
+				{
+					"backtrace" : 19,
+					"fragment" : "-Wsign-conversion"
+				},
+				{
+					"backtrace" : 20,
+					"fragment" : "-Wfloat-conversion"
+				},
+				{
+					"backtrace" : 21,
+					"fragment" : "-Wlogical-op"
+				},
+				{
+					"backtrace" : 22,
+					"fragment" : "-Waggregate-return"
+				},
+				{
+					"backtrace" : 23,
+					"fragment" : "-Wstrict-prototypes"
+				},
+				{
+					"backtrace" : 24,
+					"fragment" : "-Wold-style-definition"
+				},
+				{
+					"backtrace" : 25,
+					"fragment" : "-Wmissing-prototypes"
+				},
+				{
+					"backtrace" : 26,
+					"fragment" : "-Wmissing-declarations"
+				},
+				{
+					"backtrace" : 27,
+					"fragment" : "-Wredundant-decls"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 28,
+					"define" : "HAVE_CHECK_CRC32"
+				},
+				{
+					"backtrace" : 29,
+					"define" : "HAVE_CHECK_CRC64"
+				},
+				{
+					"backtrace" : 30,
+					"define" : "HAVE_CHECK_SHA256"
+				},
+				{
+					"backtrace" : 31,
+					"define" : "HAVE_CLOCK_GETTIME"
+				},
+				{
+					"backtrace" : 34,
+					"define" : "HAVE_CLOCK_MONOTONIC"
+				},
+				{
+					"backtrace" : 35,
+					"define" : "HAVE_DECODERS"
+				},
+				{
+					"backtrace" : 36,
+					"define" : "HAVE_DECODER_ARM"
+				},
+				{
+					"backtrace" : 37,
+					"define" : "HAVE_DECODER_ARM64"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "HAVE_DECODER_ARMTHUMB"
+				},
+				{
+					"backtrace" : 39,
+					"define" : "HAVE_DECODER_DELTA"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "HAVE_DECODER_IA64"
+				},
+				{
+					"backtrace" : 41,
+					"define" : "HAVE_DECODER_LZMA1"
+				},
+				{
+					"backtrace" : 42,
+					"define" : "HAVE_DECODER_LZMA2"
+				},
+				{
+					"backtrace" : 43,
+					"define" : "HAVE_DECODER_POWERPC"
+				},
+				{
+					"backtrace" : 44,
+					"define" : "HAVE_DECODER_RISCV"
+				},
+				{
+					"backtrace" : 45,
+					"define" : "HAVE_DECODER_SPARC"
+				},
+				{
+					"backtrace" : 46,
+					"define" : "HAVE_DECODER_X86"
+				},
+				{
+					"backtrace" : 47,
+					"define" : "HAVE_ENCODERS"
+				},
+				{
+					"backtrace" : 48,
+					"define" : "HAVE_ENCODER_ARM"
+				},
+				{
+					"backtrace" : 49,
+					"define" : "HAVE_ENCODER_ARM64"
+				},
+				{
+					"backtrace" : 50,
+					"define" : "HAVE_ENCODER_ARMTHUMB"
+				},
+				{
+					"backtrace" : 51,
+					"define" : "HAVE_ENCODER_DELTA"
+				},
+				{
+					"backtrace" : 52,
+					"define" : "HAVE_ENCODER_IA64"
+				},
+				{
+					"backtrace" : 53,
+					"define" : "HAVE_ENCODER_LZMA1"
+				},
+				{
+					"backtrace" : 54,
+					"define" : "HAVE_ENCODER_LZMA2"
+				},
+				{
+					"backtrace" : 55,
+					"define" : "HAVE_ENCODER_POWERPC"
+				},
+				{
+					"backtrace" : 56,
+					"define" : "HAVE_ENCODER_RISCV"
+				},
+				{
+					"backtrace" : 57,
+					"define" : "HAVE_ENCODER_SPARC"
+				},
+				{
+					"backtrace" : 58,
+					"define" : "HAVE_ENCODER_X86"
+				},
+				{
+					"backtrace" : 28,
+					"define" : "HAVE_INTTYPES_H"
+				},
+				{
+					"backtrace" : 59,
+					"define" : "HAVE_LZIP_DECODER"
+				},
+				{
+					"backtrace" : 60,
+					"define" : "HAVE_MF_BT2"
+				},
+				{
+					"backtrace" : 61,
+					"define" : "HAVE_MF_BT3"
+				},
+				{
+					"backtrace" : 62,
+					"define" : "HAVE_MF_BT4"
+				},
+				{
+					"backtrace" : 63,
+					"define" : "HAVE_MF_HC3"
+				},
+				{
+					"backtrace" : 64,
+					"define" : "HAVE_MF_HC4"
+				},
+				{
+					"backtrace" : 28,
+					"define" : "HAVE_STDBOOL_H"
+				},
+				{
+					"backtrace" : 28,
+					"define" : "HAVE_STDINT_H"
+				},
+				{
+					"backtrace" : 28,
+					"define" : "HAVE__BOOL"
+				},
+				{
+					"backtrace" : 68,
+					"define" : "HAVE___BUILTIN_ASSUME_ALIGNED"
+				},
+				{
+					"backtrace" : 70,
+					"define" : "HAVE___BUILTIN_BSWAPXX"
+				},
+				{
+					"backtrace" : 71,
+					"define" : "MYTHREAD_VISTA"
+				},
+				{
+					"backtrace" : 28,
+					"define" : "PACKAGE_BUGREPORT=\"xz@tukaani.org\""
+				},
+				{
+					"backtrace" : 28,
+					"define" : "PACKAGE_NAME=\"XZ\\040Utils\""
+				},
+				{
+					"backtrace" : 28,
+					"define" : "PACKAGE_URL=\"https://tukaani.org/xz/\""
+				},
+				{
+					"backtrace" : 74,
+					"define" : "TUKLIB_FAST_UNALIGNED_ACCESS"
+				},
+				{
+					"backtrace" : 77,
+					"define" : "_FILE_OFFSET_BITS=64"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 79,
+					"path" : "C:/Users/Michael/Documents/QtProjects/ViewerZIP/include"
+				},
+				{
+					"backtrace" : 79,
+					"path" : "C:/Users/Michael/Documents/QtProjects/ViewerZIP/include/view"
+				},
+				{
+					"backtrace" : 79,
+					"path" : "C:/Users/Michael/Documents/QtProjects/ViewerZIP/include/model"
+				},
+				{
+					"backtrace" : 80,
+					"path" : "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/libs/minizip-ng/libs/xz/lib"
+				},
+				{
+					"backtrace" : 81,
+					"path" : "C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/libs/xz/lib"
+				},
+				{
+					"backtrace" : 0,
+					"isSystem" : true,
+					"path" : "C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/libs/minizip-ng/libs/xz/libgnu_autogen/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "libgnu_autogen::@1d01cea48bdc9fde0ef2"
+		},
+		{
+			"id" : "libgnu_autogen_timestamp_deps::@1d01cea48bdc9fde0ef2"
+		}
+	],
+	"id" : "libgnu::@1d01cea48bdc9fde0ef2",
+	"name" : "libgnu",
+	"paths" : 
+	{
+		"build" : "libs/minizip-ng/libs/xz",
+		"source" : "libs/minizip-ng/libs/xz"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				2
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				3
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/libs/minizip-ng/libs/xz/libgnu_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 82,
+			"path" : "libs/minizip-ng/libs/xz/src/common/sysdefs.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/libs/minizip-ng/libs/xz/libgnu_autogen/timestamp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/libs/minizip-ng/libs/xz/libgnu_autogen/timestamp.rule",
+			"sourceGroupIndex" : 3
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

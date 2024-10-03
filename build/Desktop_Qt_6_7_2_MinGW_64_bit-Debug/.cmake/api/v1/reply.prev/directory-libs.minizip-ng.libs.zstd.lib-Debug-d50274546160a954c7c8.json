@@ -1,0 +1,104 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"libs/minizip-ng/libs/zstd/build/cmake/lib/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 230,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 233,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 235,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/libs/minizip-ng/libs/zstd/lib/libzstd.pc"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"libs/minizip-ng/libs/zstd/build/cmake/../../lib/zdict.h",
+				"libs/minizip-ng/libs/zstd/build/cmake/../../lib/zstd.h",
+				"libs/minizip-ng/libs/zstd/build/cmake/../../lib/zstd_errors.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"libs/minizip-ng/libs/zstd/lib/libzstd.dll.a"
+			],
+			"targetId" : "libzstd_shared::@699128fe8266a060b8c1",
+			"targetIndex" : 13,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"libs/minizip-ng/libs/zstd/lib/libzstd.dll"
+			],
+			"targetId" : "libzstd_shared::@699128fe8266a060b8c1",
+			"targetIndex" : 13,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"libs/minizip-ng/libs/zstd/lib/libzstd.a"
+			],
+			"targetId" : "libzstd_static::@699128fe8266a060b8c1",
+			"targetIndex" : 16,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "libs/minizip-ng/libs/zstd/lib",
+		"source" : "libs/minizip-ng/libs/zstd/build/cmake/lib"
+	}
+}

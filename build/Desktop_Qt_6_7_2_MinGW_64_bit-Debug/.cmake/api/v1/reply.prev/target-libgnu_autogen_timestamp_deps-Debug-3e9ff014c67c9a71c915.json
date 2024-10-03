@@ -1,0 +1,27 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"libs/minizip-ng/libs/xz/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"id" : "libgnu_autogen_timestamp_deps::@1d01cea48bdc9fde0ef2",
+	"isGeneratorProvided" : true,
+	"name" : "libgnu_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "libs/minizip-ng/libs/xz",
+		"source" : "libs/minizip-ng/libs/xz"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

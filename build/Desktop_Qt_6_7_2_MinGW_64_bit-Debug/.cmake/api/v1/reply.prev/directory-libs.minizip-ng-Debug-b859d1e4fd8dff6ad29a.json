@@ -1,0 +1,201 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"libs/minizip-ng/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 727,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 733,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 757,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 762,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 765,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"libs/minizip-ng/libminizip.a"
+			],
+			"targetId" : "minizip::@d6cbc894b6374a4baa05",
+			"targetIndex" : 25,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"libs/minizip-ng/libs/zlib-ng/libz-ng.a"
+			],
+			"targetId" : "zlib::@788dd141b413ce336ddc",
+			"targetIndex" : 35,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"libs/minizip-ng/libbzip2.a"
+			],
+			"targetId" : "bzip2::@d6cbc894b6374a4baa05",
+			"targetIndex" : 3,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"libs/minizip-ng/libs/xz/liblzma.a"
+			],
+			"targetId" : "liblzma::@1d01cea48bdc9fde0ef2",
+			"targetIndex" : 10,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"libs/minizip-ng/libs/zstd/lib/libzstd.a"
+			],
+			"targetId" : "libzstd_static::@699128fe8266a060b8c1",
+			"targetIndex" : 16,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/minizip",
+			"exportName" : "minizip",
+			"exportTargets" : 
+			[
+				{
+					"id" : "minizip::@d6cbc894b6374a4baa05",
+					"index" : 25
+				},
+				{
+					"id" : "zlib::@788dd141b413ce336ddc",
+					"index" : 35
+				},
+				{
+					"id" : "bzip2::@d6cbc894b6374a4baa05",
+					"index" : 3
+				},
+				{
+					"id" : "liblzma::@1d01cea48bdc9fde0ef2",
+					"index" : 10
+				},
+				{
+					"id" : "libzstd_static::@699128fe8266a060b8c1",
+					"index" : 16
+				}
+			],
+			"paths" : 
+			[
+				"libs/minizip-ng/CMakeFiles/Export/4fe77da0f4d2c94dd906efce3aa1c0aa/minizip.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/minizip",
+			"paths" : 
+			[
+				"build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/libs/minizip-ng/minizip-config-version.cmake",
+				"build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/libs/minizip-ng/minizip-config.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "include/minizip",
+			"paths" : 
+			[
+				"libs/minizip-ng/mz.h",
+				"libs/minizip-ng/mz_os.h",
+				"libs/minizip-ng/mz_crypt.h",
+				"libs/minizip-ng/mz_strm.h",
+				"libs/minizip-ng/mz_strm_buf.h",
+				"libs/minizip-ng/mz_strm_mem.h",
+				"libs/minizip-ng/mz_strm_split.h",
+				"libs/minizip-ng/mz_strm_os.h",
+				"libs/minizip-ng/mz_zip.h",
+				"libs/minizip-ng/mz_zip_rw.h",
+				"libs/minizip-ng/mz_strm_zlib.h",
+				"libs/minizip-ng/mz_strm_bzip.h",
+				"libs/minizip-ng/mz_strm_lzma.h",
+				"libs/minizip-ng/mz_strm_zstd.h",
+				"libs/minizip-ng/mz_strm_pkcrypt.h",
+				"libs/minizip-ng/mz_strm_wzaes.h",
+				"libs/minizip-ng/mz_compat.h",
+				"build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/libs/minizip-ng/ioapi.h",
+				"build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/libs/minizip-ng/zip.h",
+				"build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/libs/minizip-ng/unzip.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/libs/minizip-ng/minizip.pc"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "libs/minizip-ng",
+		"source" : "libs/minizip-ng"
+	}
+}

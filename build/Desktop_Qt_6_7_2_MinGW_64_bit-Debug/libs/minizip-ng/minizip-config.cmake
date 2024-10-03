@@ -24,7 +24,6 @@ endmacro()
 
 ####################################################################################
 include(CMakeFindDependencyMacro)
-find_dependency(ZLIBNG REQUIRED)
 find_dependency(BZip2 REQUIRED)
 find_dependency(LibLZMA REQUIRED)
 find_dependency(zstd REQUIRED)

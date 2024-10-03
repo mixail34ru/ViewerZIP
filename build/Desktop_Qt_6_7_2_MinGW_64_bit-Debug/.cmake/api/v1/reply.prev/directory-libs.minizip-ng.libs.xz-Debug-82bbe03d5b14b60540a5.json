@@ -1,0 +1,235 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"libs/minizip-ng/libs/xz/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1565,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1577,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1587,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1593,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1598,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1895,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1895,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1970,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2186,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2357,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2365,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "liblzma_Development",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"libs/minizip-ng/libs/xz/liblzma.a"
+			],
+			"targetId" : "liblzma::@1d01cea48bdc9fde0ef2",
+			"targetIndex" : 10,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "liblzma_Development",
+			"destination" : "include",
+			"paths" : 
+			[
+				{
+					"from" : "libs/minizip-ng/libs/xz/src/liblzma/api",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "liblzma_Development",
+			"destination" : "lib/cmake/liblzma",
+			"exportName" : "liblzmaTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "liblzma::@1d01cea48bdc9fde0ef2",
+					"index" : 10
+				}
+			],
+			"paths" : 
+			[
+				"libs/minizip-ng/libs/xz/CMakeFiles/Export/6194817f435e7429e84a3ab7f926109c/liblzma-targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "liblzma_Development",
+			"destination" : "lib/cmake/liblzma",
+			"paths" : 
+			[
+				"build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/libs/minizip-ng/libs/xz/liblzma-config.cmake",
+				"build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/libs/minizip-ng/libs/xz/liblzma-config-version.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "liblzma_Development",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/libs/minizip-ng/libs/xz/liblzma.pc"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "xzdec_Runtime",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"libs/minizip-ng/libs/xz/xzdec.exe"
+			],
+			"targetId" : "xzdec::@1d01cea48bdc9fde0ef2",
+			"targetIndex" : 32,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "lzmadec_Runtime",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"libs/minizip-ng/libs/xz/lzmadec.exe"
+			],
+			"targetId" : "lzmadec::@1d01cea48bdc9fde0ef2",
+			"targetIndex" : 19,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "lzmainfo_Runtime",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"libs/minizip-ng/libs/xz/lzmainfo.exe"
+			],
+			"targetId" : "lzmainfo::@1d01cea48bdc9fde0ef2",
+			"targetIndex" : 22,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "xz_Runtime",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"libs/minizip-ng/libs/xz/xz.exe"
+			],
+			"targetId" : "xz::@1d01cea48bdc9fde0ef2",
+			"targetIndex" : 29,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "liblzma_Documentation",
+			"destination" : "share/doc/minizip-ng",
+			"paths" : 
+			[
+				"libs/minizip-ng/libs/xz/doc/examples"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "Documentation",
+			"destination" : "share/doc/minizip-ng",
+			"paths" : 
+			[
+				"libs/minizip-ng/libs/xz/AUTHORS",
+				"libs/minizip-ng/libs/xz/COPYING",
+				"libs/minizip-ng/libs/xz/COPYING.0BSD",
+				"libs/minizip-ng/libs/xz/COPYING.GPLv2",
+				"libs/minizip-ng/libs/xz/NEWS",
+				"libs/minizip-ng/libs/xz/README",
+				"libs/minizip-ng/libs/xz/THANKS",
+				"libs/minizip-ng/libs/xz/doc/faq.txt",
+				"libs/minizip-ng/libs/xz/doc/history.txt",
+				"libs/minizip-ng/libs/xz/doc/lzma-file-format.txt",
+				"libs/minizip-ng/libs/xz/doc/xz-file-format.txt"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "libs/minizip-ng/libs/xz",
+		"source" : "libs/minizip-ng/libs/xz"
+	}
+}

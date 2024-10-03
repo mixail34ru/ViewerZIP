@@ -1,0 +1,46 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"libs/minizip-ng/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "zlib::@788dd141b413ce336ddc"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "bzip2::@d6cbc894b6374a4baa05"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "liblzma::@1d01cea48bdc9fde0ef2"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "libzstd_static::@699128fe8266a060b8c1"
+		}
+	],
+	"id" : "minizip_autogen_timestamp_deps::@d6cbc894b6374a4baa05",
+	"isGeneratorProvided" : true,
+	"name" : "minizip_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "libs/minizip-ng",
+		"source" : "libs/minizip-ng"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

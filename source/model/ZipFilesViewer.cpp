@@ -3,8 +3,24 @@
 
 #include <QString>
 
-#include "../../minizip-ng/mz.h"
-#include "../../minizip-ng/mz_zip.h"
+#include <mz.h>
+#include <mz_os.h>
+#include <mz_strm_os.h>
+#include <mz_zip.h>
+
+ZIPInfo ZipFilesViewer::_read_zip_info(QString dir_path) {
+    ZIPInfo info;
+    info.absolute_path = dir_path;
+    info.compressed_size = dir_path.length();
+    info.decompress_size = dir_path.length();
+
+
+
+    void* zip_handle = mz_zip_create();
+    mz_zip_delete(&zip_handle);
+
+    return info;
+}
 
 ZipFilesViewer::ZipFilesViewer(
     ZipInfoStorage* storage, QObject* parent)
@@ -33,16 +49,4 @@ void ZipFilesViewer::_create_data() {
     _storage->push_back(_read_zip_info("absolute_path_2"));
     _storage->push_back(_read_zip_info("absolute_path_3"));
     _storage->push_back(_read_zip_info("absolute_path_4"));
-}
-
-ZIPInfo ZipFilesViewer::_read_zip_info(QString dir_path) {
-    ZIPInfo info;
-    info.absolute_path = dir_path;
-    info.compressed_size = dir_path.length();
-    info.decompress_size = dir_path.length();
-
-    void* zip_handle = mz_zip_create();
-    mz_zip_delete(&zip_handle);
-
-    return info;
 }

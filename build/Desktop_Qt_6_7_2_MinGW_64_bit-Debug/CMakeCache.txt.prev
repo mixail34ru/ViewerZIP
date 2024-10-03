@@ -724,7 +724,7 @@ ZLIBNG_LIBRARY:FILEPATH=ZLIBNG_LIBRARY-NOTFOUND
 //Compile with zlib compatible API
 ZLIB_COMPAT:BOOL=OFF
 
-//Build zlib-ng tests
+//Build test binaries
 ZLIB_ENABLE_TESTS:BOOL=OFF
 
 //Path to a file.
@@ -792,13 +792,13 @@ ZSTD_MULTITHREAD_SUPPORT:BOOL=ON
 ZSTD_PROGRAMS_LINK_SHARED:BOOL=OFF
 
 //Value Computed by CMake
-libzstd_BINARY_DIR:STATIC=C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/zstd-build/lib
+libzstd_BINARY_DIR:STATIC=C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/libs/minizip-ng/libs/zstd/lib
 
 //Value Computed by CMake
 libzstd_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-libzstd_SOURCE_DIR:STATIC=C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/third_party/zstd/build/cmake/lib
+libzstd_SOURCE_DIR:STATIC=C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/libs/zstd/build/cmake/lib
 
 //Value Computed by CMake
 minizip-ng_BINARY_DIR:STATIC=C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/libs/minizip-ng
@@ -810,31 +810,31 @@ minizip-ng_IS_TOP_LEVEL:STATIC=OFF
 minizip-ng_SOURCE_DIR:STATIC=C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng
 
 //Value Computed by CMake
-xz_BINARY_DIR:STATIC=C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/liblzma-build
+xz_BINARY_DIR:STATIC=C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/libs/minizip-ng/libs/xz
 
 //Value Computed by CMake
 xz_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-xz_SOURCE_DIR:STATIC=C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/third_party/liblzma
+xz_SOURCE_DIR:STATIC=C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/libs/xz
 
 //Value Computed by CMake
-zlib_BINARY_DIR:STATIC=C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/zlib-build
+zlib_BINARY_DIR:STATIC=C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/libs/minizip-ng/libs/zlib-ng
 
 //Value Computed by CMake
 zlib_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-zlib_SOURCE_DIR:STATIC=C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/third_party/zlib
+zlib_SOURCE_DIR:STATIC=C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/libs/zlib-ng
 
 //Value Computed by CMake
-zstd_BINARY_DIR:STATIC=C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/_deps/zstd-build
+zstd_BINARY_DIR:STATIC=C:/Users/Michael/Documents/QtProjects/ViewerZIP/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/libs/minizip-ng/libs/zstd
 
 //Value Computed by CMake
 zstd_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-zstd_SOURCE_DIR:STATIC=C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/third_party/zstd/build/cmake
+zstd_SOURCE_DIR:STATIC=C:/Users/Michael/Documents/QtProjects/ViewerZIP/libs/minizip-ng/libs/zstd/build/cmake
 
 
 ########################
@@ -985,7 +985,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
